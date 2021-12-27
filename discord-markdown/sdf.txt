@@ -1,0 +1,5 @@
+Information on the __[S]__oft __[D]__rop __[F]__actor handling value (also refer to entry `sonicdrop`)
+
+(this is the third in a series of handling related FAQ entries: `ARR`,`DAS`,`DCD`, and **`SDF`**)
+
+**SDF:** __[S]__oft __[D]__rop __[F]__actor(higher is faster: ♾️ is instantaneous): This slider controls how quickly your piece will soft drop, given you are holding the soft drop key. It doesn't necessarily multiply current gravity, as you can still soft drop in zero gravity.(0 times anything, even infinity, equals 0) An optimal value for this would be ♾️, as stacks that require partial soft drops to tuck pieces in is *not a good stack.* If this functionality is a dealbreaker for you, limiting yourself to 20X or lower, then you have bigger issues to worry about.

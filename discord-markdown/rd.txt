@@ -1,0 +1,7 @@
+Detailed synapse of the __R__ating __D__eviation value in Glicko
+
+RD is the number *after* the **±** symbol in your Glicko rating value. "RD" stands for **R**ating **D**eviation. It is a measurement of "How uncertain the Glicko-2 system is of your rating. Lower is better." (according to ingame hover text)
+
+RD *generally* goes down after playing a match. It is possible to *gain* RD after a match, however. RD limits itself to a value of "60", according to osk, however, many players have attained 59 RD as well, possibly before rounding. The upper limit of RD is 350, after which, RD will be unable to go any further.
+
+RD accumulates at a static rate of "1 RD per day, after a week of inactivity." You can tell whether or not your RD is currently decaying by navigating to your TETRA CHANNEL Userpage, found at <https://ch.tetr.io/u/(yournamehere)> and viewing the Glicko number, looking for an arrow which points in this direction: ↗️

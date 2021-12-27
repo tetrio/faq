@@ -1,0 +1,5 @@
+Information on the __[A]__uto __[R]__epeat __[R]__ate handling value
+
+(this is the first in a series of handling related FAQ entries: **`ARR`**,`DAS`,`DCD`, and `SDF`)
+
+**ARR:** __[A]__uto __[R]__epeat __[R]__ate(lower is faster: 0 is instantaneous): This slider controls how quickly pieces slide around while holding the left or right movement keys. It's well known that an "optimal" ARR is 0: when ARR is this value, pieces teleport instantly upon DAS charge, allowing for extremely fast play. Good finesse is a must-have if using this handling, however!

@@ -1,0 +1,262 @@
+"__» FAQ entry **zspins** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1636214024:R>||
+Full guide on how-to execute successful <:piece_z:731324144700096655> and <:piece_s:731324117382594570> spins
+
+<:piece_z:731324144700096655> and <:piece_s:731324117382594570> tucks can be confusing to new players, since they rely on impulsively developed rotation systems which carry somewhat unconventional definitions of symmetry; this system, known as SRS, is likely why you're failing to execute successful <:piece_z:731324144700096655> or <:piece_s:731324117382594570> spins.
+
+**To execute a wall-less <:piece_z:731324144700096655> spin**, starting from the spawn position, press the __counter clockwise__ rotation key, then soft drop and press the __counter clockwise__ rotation key once more: (here's an easy way to remember this, assuming you have the default guideline controls: press the **\"z\"** key twice to **z** spin) https://files.catbox.moe/yau2oj.gif
+If there is any walls spanning across both sides, as shown in the second half of this gif, simply reverse the rotations and *press the neutral __clockwise__ rotation key twice*, instead.
+
+**To execute a wall-less <:piece_s:731324117382594570> spin**, starting from the spawn position, press the __clockwise__ rotation key, soft drop, and press the __clockwise__ rotation key once again: (many new players default to *only* rotating clockwise, as the only feasible key to rotate is the up arrow key, next to all other movement keys. This is why <:piece_s:731324117382594570> spins may appear \"easier\" to a new user.) https://files.catbox.moe/cvoofj.gif
+Assuming two walls exists, such as the one shown in the second half of this gif, simply reverse the rotations and *press the opposite __counter clockwise__ rotation key twice*, instead."
+
+"__» FAQ entry **ttr** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1634013734:R>||
+Revised text from entry `import`, simplified to only include information detailing replay files
+
+In order to view a `.ttr` or `.ttrm` file, simply drag it into TETR.IO from your file manager of choice. When viewing a `.ttrm` file, click individual rounds to view them. https://cdn.discordapp.com/attachments/674421736162197515/890790418143395910/howto_import_a_tetrio_file.mp4"
+
+"__» FAQ entry **sonicdrop** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1634362223:R>||
+How-to choose a higher SDF value, allowing you to soft drop like the pros!
+
+To execute a \"hard drop without placing the piece\", such as those extremely fast T-Spins, turn this slider in the CONFIG to ♾️! Then, use your soft drop key as normal: the piece will rocket down to the bottom instantly now! If you're interested in the other handling values, please refer to FAQ entries `ARR`,`DAS`,`DCD`, and `SDF`
+https://cdn.discordapp.com/attachments/673303546564968566/897711015981113404/unknown.png"
+
+"__» FAQ entry **simplezspins** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1636214473:R>||
+*much* shorter version of faq entry `zspins`, just *really* plain instructions (cw= clockwise/ccw=counter clockwise)
+
+<:piece_z:731324144700096655> spin: ccw, soft drop, ccw (which is z twice w/ default controls)
+<:piece_z:731324144700096655> spin w/ wall: cw, soft drop, cw https://files.catbox.moe/yau2oj.gif
+
+<:piece_s:731324117382594570> spin: cw, soft drop, cw
+<:piece_s:731324117382594570> spin w/ wall: ccw, soft drop, cw https://files.catbox.moe/cvoofj.gif"
+
+"__» FAQ entry **sfx** «__ — ||maintained by <@772828966343540746> — last modified by <@772828966343540746> <t:1634497105:R>||
+All sound effects used in TETR.IO
+
+All of TETR.IO's sound effects are stored in a single \"sound effect atlas\" found here: <https://tetr.io/sfx/tetrio.ogg>. Issue is, all sound effects are split only by time and not by file names, so it's likely this file isn't the one you want. If you would like a copy of all of the TETR.IO sounds split up, albeit with an ever so slightly lower quality, please download this `.zip` file: <https://cdn.discordapp.com/attachments/673303546564968566/919778936475508776/tetrio-sound-effects.zip>."
+
+"__» FAQ entry **setgenmanual** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1638863628:R>||
+Advice for creating one of TETR.IO's `/set` preset commands
+
+(cont. from entry `setgen`)
+Interested in building or attaining your own `/set` presets without the use of third-party tools? Here's some pointers:
+ - <@616498515106988073>'s list of `/set` attributes: as pinned in <#674421736162197515>, here's a direct link: https://discord.com/channels/673303546107658242/674421736162197515/719274456706449489
+ - <@452708598653517825>'s `.txt` file of complete `/set` presets: it's always nice to learn by example, so here's a five for one deal! Download it from https://cdn.discordapp.com/attachments/763146093655359488/917684858099232798/tetrio_multiplayer_rule_presets.txt (if you have suggestions for new presets, feel free to dm <@452708598653517825> about them!)
+As well as these resources, here's some more specific advice: note that `/set` presets **are bound by TETR.IO's 513 character chat limit**. If a `/set` preset calls for more than this limit, either split it up into two halves or try to truncate defaults settings out."
+
+"__» FAQ entry **setgen** «__ — ||maintained by <@452708598653517825> — last modified by <@127415620793794560> <t:1638929289:R>||
+Automated tools for TETR.IO's `/set` command
+
+If you're interested in harnessing the power of the ingame `/set` command for your own preset-related purposes, here's some resources to help you with that. First, we'll go over automated solutions, from least intrusive to most:
+ - <@127415620793794560>'s Autohost project includes several commands for room presets, please refer to this ingame bot's documentation @ <https://gitlab.com/Zudo/autohost/-/wikis/Get-Started>. Once you have your room configured the way you like, use the command `!savepreset <name>`  to save it as a preset. You can then load the settings in the future with `!preset <name>`, or delete them with `!delpreset <name>`. There are a handful of built-in presets that you can view by simply running `!preset`.
+ - Zutatensuppe's custom JavaScript bookmarklet: a quick how-to guide is included in <https://github.com/Zutatensuppe/tetrio-preset> and <https://www.reddit.com/r/Tetris/comments/r3o5w3/preset_tool_for_custom_multiplayer_room_settings/>
+ - <@616498515106988073>'s console solution: paste the following code into your browser's devtools, accessible by using `F12` in most scenarios(incl TETR.IO desktop), to dump your current room's properties into the console. This is a bit of a blunt solution, and it will include lots of extra definitions that would otherwise be assumed(as default settings), so only use this as an inbetween while creating `/set` presets from scratch!
+```js
+var configs = document.getElementsByClassName(\"room_config_item\")
+var cmd = '/set '
+
+for(let i = 0; i<configs.length; i++) {
+    var v = configs[i]
+    var datIdx = v.getAttribute('data-index')
+    if(datIdx&&datIdx.match(/.{4}./)) {
+        cmd+=${datIdx}=${v.value=='on'?v.checked+0:v.value};\
+
+    }
+}
+console.log(cmd)```
+(cont. in entry `setgenmanual`)"
+
+"__» FAQ entry **secretgrade** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1634013670:R>||
+Link to a more detailed wiki on TETR.IO badges as a whole, starting with the most beginner friendly badge
+
+If you're looking for your first badge, go for the \"Secret Grade\" badge! https://tetris.wiki/TETR.IO_Badges#Secret_Grade
+You can attain this badge with the solo custom game mode, with gravity disabled. If you take your time, you'll likely get it first try!"
+
+"__» FAQ entry **sdf** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1634327785:R>||
+Information on the __[S]__oft __[D]__rop __[F]__actor handling value (also refer to entry `sonicdrop`)
+
+(this is the third in a series of handling related FAQ entries: `ARR`,`DAS`,`DCD`, and **`SDF`**)
+
+**SDF:** __[S]__oft __[D]__rop __[F]__actor(higher is faster: ♾️ is instantaneous): This slider controls how quickly your piece will soft drop, given you are holding the soft drop key. It doesn't necessarily multiply current gravity, as you can still soft drop in zero gravity.(0 times anything, even infinity, equals 0) An optimal value for this would be ♾️, as stacks that require partial soft drops to tuck pieces in is *not a good stack.* If this functionality is a dealbreaker for you, limiting yourself to 20X or lower, then you have bigger issues to worry about."
+
+"__» FAQ entry **report** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1638060160:R>||
+How-to report specific users for violating the TETR.IO community rules or terms of service
+
+If you would like to report a TETR.IO user, please use the ingame reporting systems instead of public Discord channels! As a registered user, simply click on a suspicious, rude, or otherwise problematic user's username, or, type said user's username into the ingame TETRA CHANNEL's search bar, accessible by clicking the *third* menu option, to access their profile card. Once this card is open, simply click this arrow, which points to the left, and then click this report icon to begin the guided process of including details. If you report while in a room, chat logs will be automatically included. https://cdn.discordapp.com/attachments/813901028394795078/894379053367304222/unknown.png
+
+If you would like to report an urgent TETR.IO Discord incident, such as Discord Nitro spambots, or sudden offensive raids, proceed to immediately ping the <@&728007233043955883> role. If you would like to report a specific user for more subtle reasons, consider direct messaging a member who dons the <@&674420220261040148> role!"
+
+"__» FAQ entry **registeranon** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1634013604:R>||
+How-to create an __anonymous__ TETR.IO account, as well as an explanation on what one is
+
+While impeded by several limitations, \"anonymous\" accounts are integral to TETR.IO's original concept of being \"about as easy to join as a standard .IO game\". They're also normally exempt from the alt policy found at <https://tetr.io/about/rules/>, so you could have an secondary anonymous account as a registered user for controller play, for instance. All you need to make one is a *single* click on the JOIN button, if you don't mind having a non-descriptive username. Anonymous accounts *can* have customized usernames however, provided the username isn't already used by a registered account:
+https://cdn.discordapp.com/attachments/673303546564968566/897051673556582420/registeranon.png
+Simply enter a username(1.1) into the prompt you see while not logged into <https://tetr.io/>(1), then click JOIN(1.2).
+**If the username you chose is already in use,** you'll be prompted for whoever owns that account's password(2). Please proceed to back out of this login attempt(2.1).
+If the chosen username is free, simply click STAY ANONYMOUS to keep the username in an anonymous state(3)!"
+
+"__» FAQ entry **register** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1634013572:R>||
+How-to create a registered TETR.IO account, starting from nothing
+
+Welcome to TETR.IO! While you can play with a far less involved \"anonymous\" account,(see .faq registeranon for details) a fully registered account is your only ticket into the TETRA LEAGUE, saved 40 LINES and BLITZ records, access to a customizable profile card and userpage(such as profile pictures: refer to .faq pfp), and more!
+https://cdn.discordapp.com/attachments/673303546564968566/897041837213224980/register.png
+**__To create a TETR.IO account__**, first, navigate to <https://tetr.io/>. You will be greeted with the registration dialog immediately, provided you aren't already logged in(1). From here, enter your chosen username(1.1) and click the JOIN button(1.2). 
+**If the username is taken, you will be prompted for its password(2)**: in this case, back out and choose another username(2.1). 
+If the username is unoccupied, you will be prompted to either \"STAY ANONYMOUS\" or \"REGISTER\"(3). 
+After selecting REGISTER, you will be asked to supply an optional email, as well as the password you will lock your account with(4).
+
+Please note that you are only allowed one registered account as per the alt policy found at <https://tetr.io/about/rules/>! Choose your name wisely: future name changes are only available with the purchase of TETR.IO supporter."
+
+"__» FAQ entry **rd** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1634013553:R>||
+Detailed synapse of the __R__ating __D__eviation value in Glicko
+
+RD is the number *after* the **±** symbol in your Glicko rating value. \"RD\" stands for **R**ating **D**eviation. It is a measurement of \"How uncertain the Glicko-2 system is of your rating. Lower is better.\" (according to ingame hover text)
+
+RD *generally* goes down after playing a match. It is possible to *gain* RD after a match, however. RD limits itself to a value of \"60\", according to osk, however, many players have attained 59 RD as well, possibly before rounding. The upper limit of RD is 350, after which, RD will be unable to go any further.
+
+RD accumulates at a static rate of \"1 RD per day, after a week of inactivity.\" You can tell whether or not your RD is currently decaying by navigating to your TETRA CHANNEL Userpage, found at <https://ch.tetr.io/u/(yournamehere)> and viewing the Glicko number, looking for an arrow which points in this direction: ↗️"
+
+"__» FAQ entry **rankcutoff** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1634013504:R>||
+Where to find detailed information on TETRA LEAGUE rank requirements
+
+Interested in seeing the TETR.IO rank requirements? You may attain this information from <https://tetrio.team2xh.net/?t=ranks>, however, do note rank cutoffs are very volatile, and that this site only updates at a rate of once per every 6 hours, so this site does **__not__** host up-to-date or official information!
+
+For that, feel free to visit your TETRA CHANNEL userpage found at <https://ch.tetr.io/u/your-username-here> and inspect the TETRA LEAGUE section. While only vaguely stated, and only shown if ranked, a \"progress bar\" will be shown below your stats, indicating your global placement, the placement required to reach the next rank, and the placement required to *keep your current rank.*"
+
+"__» FAQ entry **pfp** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1634013471:R>||
+How-to set your TETR.IO account __p__ro__f__ile __p__icture
+
+TETR.IO user accounts may set their profile pictures for free from the relevant account settings category. The attached video shows you how to access this category, available from the ingame CONFIG option: https://cdn.discordapp.com/attachments/673303546564968566/894360081632727061/howtoprofile_pic.mp4"
+
+"__» FAQ entry **music** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1637205322:R>||
+Various information for TETR.IO's built-in soundtrack
+
+*TETR.IO's* soundtrack is currently entirely provided by various musicians under the royalty free *HURT RECORD* label(<https://www.hurtrecord.com/>) -- that is to say, each soundtrack *should* be stream-safe, provided you show the onscreen watermark centered near the bottom, displaying the currently playing 
+song during the very start of gameplay. *Refer to <https://www.hurtrecord.com/about/terms.html> for specific terms of use.*
+
+Interested in listening to or downloading the soundtrack for personal use? There's a YouTube mirror @ https://www.youtube.com/playlist?list=PLaFmyK0hSlVD_a98eL1BcGMOTblz8kQ0h as well as an updated Google Sheets list @ <https://docs.google.com/spreadsheets/d/1R_tpfLo_qUfNG2vQG3uqQ5fbjT01VefZVgB7RH2lOzM/edit>, *both provided by <@577211052513558691>.*"
+
+"__» FAQ entry **mobile** «__ — ||maintained by <@452708598653517825> — last modified by <@772828966343540746> <t:1639073258:R>||
+Can you play TETR.IO on mobile devices?
+
+TETR.IO will never officially support mobile devices:
+https://discord.com/channels/673303546107658242/673305735811170305/901428890025738280
+
+That being said, there are ways to **play TETR.IO on your phone**! Here's one quick rule, though: it **cannot be any iOS-based Apple device.** This is __absolute__, TETR.IO simply will not load under WebKit(<https://github.com/tetrio/issues/issues/425>). Otherwise, you're welcome to try with any android device, but compatibility is *not* guaranteed as these are unsupported platforms!
+
+To load TETR.IO on mobile, just visit <https://tetr.io/> on your mobile browser of choice. *That's it!* The real problem arises when you attempt to *control the game,* so there's a couple of different attacks you can use. The first would be simply connecting any conventional controller through bluetooth or usb, and binding that controller in TETR.IO's config natively(see FAQ `controller`). 
+The second workaround involves using what's known as a \"bookmarklet\", which is basically JavaScript code you run from a bookmark, to create __onscreen touch controls__. A specialized site to generate these bookmarklets may be found **here: https://you.have.fail/ed/at/tetrio/touchcontrols/**. There's included instructions in this site once you've defined your controls."
+
+"__» FAQ entry **login** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1634013449:R>||
+How-to log into your registered TETR.IO account
+
+Logging into your registered account is easy, if not slightly obscure. The registration form doubles as a login questionnaire, so, if you know your username and password, just follow these steps!
+https://cdn.discordapp.com/attachments/673303546564968566/897061029782102026/register.png
+When prompted to \"ENTER A USERNAME TO JOIN\"(1), enter in your registered account's username(1.1) and choose JOIN(1.2).
+You'll see a section(2) asking for your password at this stage(2.1), enter that in and click LOGIN(2.2). That's it!
+----
+If you've forgotten your password, click I FORGOT(2.3). You'll be brought to an extra question asking you for the email tied to this account(3). Ensure you enter your email **exactly as you entered it while registering!** Capitalization matters, so try a couple different case-types before throwing in the \"i musta not entered an email\" hat! (`Mixed@Case.Com`, `ALL@CAPS.ORG`, etc. `lower@case.io` and `LoWeR@CaSe.Io` are parsed as different emails, *even if* they lead to the same inbox)"
+
+"__» FAQ entry **link** «__ — ||maintained by <@452708598653517825> — last modified by <@127415620793794560> <t:1637283076:R>||
+How-to link your Discord account to your TETR.IO account, primarily for TETR.IO Supporters
+
+If you're interested in linking your Discord account to your TETR.IO account, navigate to CONFIG > ACCOUNT > CONNECTIONS, as detailed in this video: https://cdn.discordapp.com/attachments/673303546564968566/865065775760408597/supporterlink.mp4
+
+This link is currently used to grant the <@&691017651203473490> role to TETR.IO supporters, and to provide account verification for the Character System playtester application form. If you have recently purchased or been gifted supporter, you shouldn't have to wait too long before the role is automatically given to you, so long as the <@688741895307788290> bot is online. If you're having trouble linking your account, and are using TETR.IO Desktop, try linking from the website version instead, as this is less prone to error."
+
+"__» FAQ entry **installstuck** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1636473260:R>||
+Is TETR.IO Desktop installation getting stuck? Here's a workaround!
+
+You can use a *good* archiving program, such as 7zip(<https://www.7-zip.org/download.html>), to manually extract the game's contents for a much more manual installation for now. Here's a quick video guide(really, just open the `.exe` as a compressed folder and drag stuff out!): https://cdn.discordapp.com/attachments/673305614318960671/904141134752784434/use_7zip.mp4"
+
+"__» FAQ entry **installpaths** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1634013371:R>||
+Information on where TETR.IO Desktop installs its files, and small descriptions of what these folders contain
+
+If you use TETR.IO Desktop, then you will find all installed files in the following folders: Use `Windows+R` and paste the following paths into the __r__un dialog that opens
+> `%localappdata%\\Programs\\tetrio-desktop` (The `.exe`cutable and `Resources` folder is found here)
+> `%localappdata%\\tetrio-desktop-updater` (Contains a single `.exe`cutable, which is a copy of the original TETR.IO Desktop installer you installed your current version of TETR.IO Desktop with. Run this file to clear any modifications you may have on the game)
+> `%appdata%\\TETR.IO` (Contains one empty folder: \"logs\")
+> `%appdata%\\tetrio-desktop` (Contains Electron related browser files. Two such examples: `Cache` and `Local Storage`)"
+
+"__» FAQ entry **import** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1634013320:R>||
+How-to import TETR.IO related files and their file extensions
+
+To view a locally saved replay, simply drag and drop the file from your file manager of choice into TETR.IO. If TETR.IO fails to load the replay, please ensure the replay is correctly named, specifically: for solo replays of any sort, use the `.ttr` file extension; for multiplayer replays of any sort, use the `.ttrm` file extension; for solo custom game setting presets, use the `.ttp` file extension; and for TETR.IO config exports, use the `.ttc` file extension. https://cdn.discordapp.com/attachments/674421736162197515/890790418143395910/howto_import_a_tetrio_file.mp4"
+
+"__» FAQ entry **fonts** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1638029747:R>||
+What fonts does TETR.IO use?
+
+
+HUN-din: https://tetr.io/res/font/hun2.ttf?v=9
+ProFontWindows: https://tetr.io/res/font/pfw.ttf
+Config: https://tetr.io/res/font/cr.ttf: 
+Franklin Gothic comes with Windows, though you're specifically looking for Franklin Gothic Medium
+https://cdn.discordapp.com/attachments/674421736162197515/914184675071770664/unknown.png"
+
+"__» FAQ entry **fire** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1635201551:R>||
+Information on the \"fire bar\"; __the reason usernames in quick play invert__
+
+The \"fire bar\" effect triggers when you build up enough \"fire points\" to cause it. You can accumulate fire points by clearing a large spike, keeping a large back to back chain up, or, by koing people (koing people is the most effective way to build fire points.). You also steal fire points from the people you've ko'd; you can see how filled your ko'd user's fire bar was by looking at the little percentage sign next to their name. This whole system is entirely cosmetic, and can be disabled from the settings."
+
+"__» FAQ entry **dgpu** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1634013402:R>||
+Performance related how-to guide: make TETR.IO use your __d__edicated __g__raphics __p__rocessor __u__nit
+
+Are you using a laptop and getting poor performance with TETR.IO Desktop or browsers? If so, you'll want to ensure Windows is using your \"dedicated\" graphics card, as opposed to the less performant, yet more power efficient \"integrated\" graphics card Windows is likely selecting for you. You can override this autoselection by following this lengthy image guide: https://cdn.discordapp.com/attachments/673305614318960671/851893786707230720/unknown.png
+If you use TETR.IO Desktop, ||then you will find the executable in `%localappdata%\\Programs\\tetrio-desktop\\resources`||
+If you use Chrome, ||you may find it in `%programfiles%\\Google\\Chrome\\Application\\chrome.exe`, `%programfiles(x86)%\\Google\\Chrome\\Application\\chrome.exe`, or `%localappdata%\\Google\\Chrome\\Application\\chrome.exe`||
+And, if you're a Firefox kinda guy, ||then you will find Firefox's executable in `%programfiles(x86)%\\Mozilla Firefox\\` or `%programfiles%\\Mozilla Firefox\\`, depending on which architecture (32 or 64 bits respectively) your computer currently has installed||"
+
+"__» FAQ entry **dcd** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1634327779:R>||
+Information on the __[D]__AS __[C]__ut __[D]__elay handling value
+
+(this is the third in a series of handling related FAQ entries: `﻿ARR﻿`,`﻿DAS﻿`,**`﻿DCD﻿`**, and `﻿SDF﻿`)
+﻿
+**﻿DCD:﻿** __﻿[D]﻿__AS __﻿[C]﻿__ut __﻿[D]﻿__elay(higher is slower: 0 disables the system): An experimental and complicated handling setting, DAS Cut Delay hasn't seen much use in professional play. DAS Cut Delay introduces a set of pauses to active DAS, every time one of the two following actions occur:
+1. A piece is rotated: https://discord.com/channels/673303546107658242/673303546564968566/775479821358596116
+2. A piece is spawned: https://discord.com/channels/673303546107658242/673303546564968566/775480554027089920
+If either of these actions occur, **﻿DAS is \"paused\"﻿**, or \"cut\" for the amount of frames DCD is configured to. It primarily targets 0ARR play, and aims to make certain finesse moves possible while keeping DAS charged, as well as reducing possible misdrops. (<﻿https://tetr.io/about/patchnotes/#chlog_5_0_0﻿>)➔ A common value for it would be around 1 or 2 frames."
+
+"__» FAQ entry **das** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1636596851:R>||
+Information on the __[D]__elayed __[A]__uto __[S]__hift handling value
+
+(this is the second in a series of handling related FAQ entries: `ARR`,**`DAS`**,`DCD`, and `SDF`)
+
+**DAS:** __[D]__elayed __[A]__uto __[S]__hift(lower is faster): This slider controls how long you hold the left or right movement keys before engaging ARR. To put it simply: DAS is how long you hold L/R before the piece goes brrrr, and ARR is how *quickly* the piece goes brrrr. Optimal DAS values largely differ from player to player, so experiment around with different ones! (hint: you may test your current handling settings from the TEST button in the top right of the HANDLING section)"
+
+"__» FAQ entry **customskins** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1638425817:R>||
+**Q:** Where do you get custom skins from?
+
+**A:** Custom blockskins are generally discovered through https://you.have.fail/ed/at/tetrioplus/#, although, you'll want to load them with the third party TETR.IO PLUS addon, exclusive to the Desktop app(https://tetr.io/about/desktop/) or the Firefox web browser.
+
+TETR.IO PLUS's project page, as well as __downloads for the modification__, may be found here: https://gitlab.com/UniQMG/tetrio-plus/-/wikis/home"
+
+"__» FAQ entry **custombg** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1636970554:R>||
+**Q:** How do I set a custom background?
+
+**A:** Assuming you have a local file on your computer you'd like to use, just upload that file to **https://catbox.moe/**. As of writing, it's free for use and simply works with TETR.IO's CORS header-requirements. https://files.catbox.moe/65j4a2.png
+*__--Troubleshooting--__*
+If your image is already hosted on the net*(Catbox included)*, and you have a *(nonfunctional ingame)* link to use with TETR.IO's ingame background option, consider debugging that link with this interactive checker: __https://you.have.fail/ed/at/tetrio/backgrounds/__
+If this site is showing that the link *should work*, please proceed to hard-reload the game with **CTRL+F5** *(yes, even on the desktop client)*. After this point, navigate into a SOLO 40 LINES match to confirm the background loading."
+
+"__» FAQ entry **controller** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1638178331:R>||
+How do I use a controller?
+
+TETR.IO includes full controller support, even including vibrations for different actions, be it from your browser, or from the official TETR.IO Desktop client. Just connect your controller of choice and bind it manually in the ingame config: https://cdn.discordapp.com/attachments/673303546564968566/790555690317774868/21_122535.mp4
+If your controller isn't working, here's a couple of different pointers to direct your attention towards:
+     - First off, ensure any D/XInput redirection isn't active. **This includes software like Steam or JoyToKey.**
+     - Ensure the controller you're attempting to use is **the only controller connected.** TETR.IO only accepts input from so-called \"port one\", though, there are plans to remedy this issue. If you had other controllers plugged in, a __restart__ of the pc may be required.
+If neither of these troubleshooting steps work, here's some specialized software for specific controllers:
+**PS4/PS5's DualShock** lineup: use DS4Windows <https://github.com/Ryochan7/DS4Windows/releases/tag/v3.0.18>
+**Nintendo Switch's Joy-Con or Pro Controller** controllers: use BetterJoy's \"ShowAsXInput\" function <https://github.com/Davidobot/BetterJoy/releases>"
+
+"__» FAQ entry **characters** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1634013187:R>||
+Information on the pending Character System
+
+For Character System conversation, please check out the <#870369572107214868>!
+Otherwise, this supplementary FAQ may be of use: https://docs.google.com/document/d/1gRX1lorozF2NeJqgdkGyqrqkD-dD0wjYRimNQHGPj0w/edit"
+
+"__» FAQ entry **arr** «__ — ||maintained by <@452708598653517825> — last modified by <@452708598653517825> <t:1634327791:R>||
+Information on the __[A]__uto __[R]__epeat __[R]__ate handling value
+
+(this is the first in a series of handling related FAQ entries: **`ARR`**,`DAS`,`DCD`, and `SDF`)
+
+**ARR:** __[A]__uto __[R]__epeat __[R]__ate(lower is faster: 0 is instantaneous): This slider controls how quickly pieces slide around while holding the left or right movement keys. It's well known that an \"optimal\" ARR is 0: when ARR is this value, pieces teleport instantly upon DAS charge, allowing for extremely fast play. Good finesse is a must-have if using this handling, however!"
