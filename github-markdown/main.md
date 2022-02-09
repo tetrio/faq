@@ -9,7 +9,7 @@ Welcome to TETR.IO! While you can play with a far less involved "anonymous" acco
 
 ![](https://cdn.discordapp.com/attachments/673303546564968566/897041837213224980/register.png)
 
-**__To create a TETR.IO account__**, first, navigate to https://tetr.io/. You will be greeted with the registration dialog immediately, provided you aren't already logged in(1). From here, 
+**To create a TETR.IO account**, first, navigate to https://tetr.io/. You will be greeted with the registration dialog immediately, provided you aren't already logged in(1). From here, 
 1. enter your chosen username(1.1) and click the JOIN button(1.2). 
 2. **If the username is taken, you will be prompted for its password(2)**: in this case, back out and choose another username(2.1). 
 3. If the username is unoccupied, you will be prompted to either "STAY ANONYMOUS" or "REGISTER"(3). 
@@ -80,7 +80,7 @@ If this site is showing that the link *should work*, please proceed to hard-relo
 
 You'll want to load these with the third party TETR.IO PLUS addon, exclusive to [the TETR.IO Desktop app](https://tetr.io/about/desktop/) or the Firefox web browser.
 
-TETR.IO PLUS's project page, as well as __downloads for the modification__, may be found [here](https://gitlab.com/UniQMG/tetrio-plus/-/wikis/home "TETR.IO PLUS's GitLab repository's wiki").
+TETR.IO PLUS's project page, as well as **downloads for the modification**, may be found [here](https://gitlab.com/UniQMG/tetrio-plus/-/wikis/home "TETR.IO PLUS's GitLab repository's wiki").
 
 ## Stock Assets
 Interested in getting a copy of TETR.IO's default assets? Here's where you get that!
@@ -124,7 +124,7 @@ https://user-images.githubusercontent.com/64891705/153129098-18b408bd-3533-42c3-
 
 If your controller isn't working, here's a couple of different pointers to direct your attention towards:
 * First off, ensure any D/XInput redirection isn't active. **This includes software like Steam or JoyToKey.**
-* Ensure the controller you're attempting to use is **the only controller connected.** TETR.IO only accepts input from so-called "port one", though, there are plans to remedy this issue. If you had other controllers plugged in, a __restart__ of the pc may be required.
+* Ensure the controller you're attempting to use is **the only controller connected.** TETR.IO only accepts input from so-called "port one", though, there are plans to remedy this issue. If you had other controllers plugged in, a **restart** of the pc may be required.
 
 If neither of these troubleshooting steps work, here's some specialized software for specific controllers:
 * **PS4/PS5's DualShock** lineup: use [DS4Windows](https://github.com/Ryochan7/DS4Windows/releases/tag/v3.0.18)
@@ -151,7 +151,7 @@ You can use a *good* archiving program, such as 7zip(<https://www.7-zip.org/down
 https://user-images.githubusercontent.com/64891705/153129140-d0398a14-c584-4226-b125-92ff46dcb9b0.mp4
 
 #### Installation Locations
-If you use TETR.IO Desktop, then you will find all installed files in the following folders: Use `Windows+R` and paste the following paths into the __r__un dialog that opens
+If you use TETR.IO Desktop, then you will find all installed files in the following folders: Use `Windows+R` and paste the following paths into the **r**un dialog that opens
 * `%localappdata%\\Programs\\tetrio-desktop`
 (The `.exe`cutable and `Resources` folder is found here)
 * `%localappdata%\\tetrio-desktop-updater`
@@ -184,11 +184,11 @@ Replays taken in this context rely on some unconventional requirements, so don't
 ## Mobile Support
 First off, we have to break some news. [TETR.IO will never officially support mobile devices](https://discord.com/channels/673303546107658242/673305735811170305/901428890025738280)
 
-That being said, there are still some ways to **play TETR.IO on phone**! Here's one quick rule, though: it **cannot be any iOS-based Apple device.** This is __absolute__, TETR.IO simply [will not load under WebKit](https://github.com/tetrio/issues/issues/425). Otherwise, you're welcome to try with any android device, but compatibility is *not* guaranteed as these are unsupported platforms!
+That being said, there are still some ways to **play TETR.IO on phone**! Here's one quick rule, though: it **cannot be any iOS-based Apple device.** This is **absolute**, TETR.IO simply [will not load under WebKit](https://github.com/tetrio/issues/issues/425). Otherwise, you're welcome to try with any android device, but compatibility is *not* guaranteed as these are unsupported platforms!
 
 To load TETR.IO on mobile, just visit <https://tetr.io/> on your mobile browser of choice. *That's it!* The real problem arises when you attempt to *control the game,* so there's a couple of different attacks you can use. The first would be simply connecting any conventional controller through bluetooth or usb, and binding that controller in TETR.IO's config natively.
 
-The second workaround involves using what's known as a "bookmarklet", which is basically JavaScript code you run from a bookmark, to create __onscreen touch controls__. A specialized site to generate these bookmarklets may be found [here](https://you.have.fail/ed/at/tetrio/touchcontrols/). There's included instructions in this site once you've defined your controls.
+The second workaround involves using what's known as a "bookmarklet", which is basically JavaScript code you run from a bookmark, to create **onscreen touch controls**. A specialized site to generate these bookmarklets may be found [here](https://you.have.fail/ed/at/tetrio/touchcontrols/). There's included instructions in this site once you've defined your controls.
 
 # Mechanics
 This section goes over some of the less understood mechanics surrounding TETR.IO.
@@ -212,7 +212,7 @@ RD *generally* goes down after playing a match. It is possible to *gain* RD afte
 RD accumulates at a static rate of "1 RD per day, after a week of inactivity." You can tell whether or not your RD is currently "decaying" by navigating to your TETRA CHANNEL Userpage, found at `https://ch.tetr.io/u/your-username-here` and viewing the Glicko number, looking for an arrow which points in this direction: ↗️
 
 ### Rank Cutoffs
-Interested in seeing the TETR.IO rank requirements? You may attain this information from [Tenchi's dynamic "TETR.IO STATS" project](https://tetrio.team2xh.net/?t=ranks), however, do note rank cutoffs are very volatile, and that this site only updates at a rate of once per every 6 hours, so this site does **__not__** host up-to-date or official information!
+Interested in seeing the TETR.IO rank requirements? You may attain this information from [Tenchi's dynamic "TETR.IO STATS" project](https://tetrio.team2xh.net/?t=ranks), however, do note rank cutoffs are very volatile, and that this site only updates at a rate of once per every 6 hours, so this site does **not** host up-to-date or official information!
 
 For some aforementioned up-to-date official information, feel free to visit your TETRA CHANNEL userpage found at `https://ch.tetr.io/u/your-username-here` and inspect the TETRA LEAGUE section. While only vaguely stated, and only shown if ranked, a "progress bar" will be shown below your stats, indicating your global placement, the placement required to reach the next rank, and the placement required to *keep your current rank.*
 
@@ -223,17 +223,17 @@ Handling controls how your pieces interact with your sustained input to any of t
 * [This instinctual `.gif` file](https://cdn.discordapp.com/attachments/813901028394795078/871859207605985300/DAS_and_ARR.gif) everyone keeps sharing to which I cannot attribute to anyone at this point.
 
 ### Auto Repeat Rate
-__[A]__uto __[R]__epeat __[R]__ate(lower is faster: 0 is instantaneous): This slider controls how quickly pieces move around while holding the left or right movement keys. It's well known that an "optimal" ARR is 0: when ARR is this value, pieces teleport instantly upon DAS charge, allowing for extremely fast play. Good [finesse](https://tetrio.team2xh.net/?t=faq#finesse "Tenchi's FAQ on finesse") is a must-have if using this handling, however!
+**[A]**uto **[R]**epeat **[R]**ate(lower is faster: 0 is instantaneous): This slider controls how quickly pieces move around while holding the left or right movement keys. It's well known that an "optimal" ARR is 0: when ARR is this value, pieces teleport instantly upon DAS charge, allowing for extremely fast play. Good [finesse](https://tetrio.team2xh.net/?t=faq#finesse "Tenchi's FAQ on finesse") is a must-have if using this handling, however!
 
 ### Delayed Auto Shift
-__[D]__elayed __[A]__uto __[S]__hift(lower is faster): This slider controls how long you hold the left or right movement keys before engaging ARR. To put it simply: 
+**[D]**elayed **[A]**uto **[S]**hift(lower is faster): This slider controls how long you hold the left or right movement keys before engaging ARR. To put it simply: 
 * DAS is how long you hold L/R before the piece goes brrrr
 * ARR is how *quickly* the piece goes brrrr. 
 
 Optimal DAS values largely differ from player to player, so experiment around with different ones! *(hint: you may test your current handling settings from the TEST button in the top right of the HANDLING section)*
 
 ### ﻿DAS Cut Delay
-__﻿[D]﻿__AS __﻿[C]﻿__ut __﻿[D]﻿__elay(higher is slower: 0 disables the system): An experimental and complicated handling setting, DAS Cut Delay hasn't seen much use in professional play. DAS Cut Delay introduces a set of pauses to active DAS, every time one of the two following actions occur:
+**﻿[D]﻿**AS **﻿[C]﻿**ut **﻿[D]﻿**elay(higher is slower: 0 disables the system): An experimental and complicated handling setting, DAS Cut Delay hasn't seen much use in professional play. DAS Cut Delay introduces a set of pauses to active DAS, every time one of the two following actions occur:
 1. A piece is rotated: 
 
 https://user-images.githubusercontent.com/64891705/153129233-0d06d8c6-1965-4b86-981c-251031bad08c.mp4
@@ -246,7 +246,7 @@ If either of these actions occur, **﻿DAS is "paused"﻿**, or "cut" for the am
 [➔ A common value for it would be around 1 or 2 frames.](https://tetr.io/about/patchnotes/#chlog_5_0_0﻿)
 
 ### Soft Drop Factor
-__[S]__oft __[D]__rop __[F]__actor(higher is faster: ♾️ is instantaneous): This slider controlshow quickly your piece will soft drop, given you are holding the soft drop key. It doesn't necessarily multiply current gravity, as you can still soft drop in zero gravity.(0 times anything, even infinity, equals 0)
+**[S]**oft **[D]**rop **[F]**actor(higher is faster: ♾️ is instantaneous): This slider controlshow quickly your piece will soft drop, given you are holding the soft drop key. It doesn't necessarily multiply current gravity, as you can still soft drop in zero gravity.(0 times anything, even infinity, equals 0)
 An optimal value for this would be ♾️, as stacks that require partial soft drops to tuck pieces in is just *not a good stack.* If this functionality is a dealbreaker for you, limiting yourself to 20X or lower, then you have bigger issues to worry about.
 
 #### Sonic Drop
@@ -266,11 +266,11 @@ To execute a "hard drop without placing the piece", such as those extremely fast
 ## ZS Spins
 Z and S tucks can be confusing to new players, since they rely on impulsively developed rotation systems which carry somewhat unconventional definitions of symmetry; this system, known as SRS, is likely why you're failing to execute successful Z or S spins.
 
-**To execute a wall-less Z spin**, starting from the spawn position, press the __counter clockwise__ rotation key, then soft drop and press the __counter clockwise__ rotation key once more: (here's an easy way to remember this, assuming you have the default guideline controls: press the **"z"** key twice to **z** spin)
-If there is any walls spanning across both sides, as shown in the second half of this gif, simply reverse the rotations and *press the neutral __clockwise__ rotation key twice*, instead.
+**To execute a wall-less Z spin**, starting from the spawn position, press the **counter clockwise** rotation key, then soft drop and press the **counter clockwise** rotation key once more: (here's an easy way to remember this, assuming you have the default guideline controls: press the **"z"** key twice to **z** spin)
+If there is any walls spanning across both sides, as shown in the second half of this gif, simply reverse the rotations and *press the neutral **clockwise** rotation key twice*, instead.
 
-**To execute a wall-less S spin**, starting from the spawn position, press the __clockwise__ rotation key, soft drop, and press the __clockwise__ rotation key once again: (many new players default to *only* rotating clockwise, as the only feasible key to rotate is the up arrow key, next to all other movement keys. This is why S spins may appear "easier" to a new user.)
-Assuming two walls exists, such as the one shown in the second half of this gif, simply reverse the rotations and *press the opposite __counter clockwise__ rotation key twice*, instead.
+**To execute a wall-less S spin**, starting from the spawn position, press the **clockwise** rotation key, soft drop, and press the **clockwise** rotation key once again: (many new players default to *only* rotating clockwise, as the only feasible key to rotate is the up arrow key, next to all other movement keys. This is why S spins may appear "easier" to a new user.)
+Assuming two walls exists, such as the one shown in the second half of this gif, simply reverse the rotations and *press the opposite **counter clockwise** rotation key twice*, instead.
 
 ![](https://files.catbox.moe/yau2oj.gif)
 
