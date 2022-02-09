@@ -1,5 +1,5 @@
 # Personalization
-This section goes over some of the confusing aspects users run into while customizing their account or game visuals.
+This section largely goes over some of the confusing aspects users run into while customizing their account or game visuals.
 
 ## Profile Customization
 Registered users can customize their ingame appearance through a variety of ways, both paid and unpaid. Here's some common missteps people fall in:
@@ -40,6 +40,20 @@ While impeded by several limitations, "anonymous" accounts are integral to TETR.
 Registered TETR.IO user accounts may set their profile pictures for free from the relevant account settings category. The attached video shows you how to access this category, available from the ingame CONFIG option: 
 
 https://cdn.discordapp.com/attachments/673303546564968566/894360081632727061/howtoprofile_pic.mp4
+
+#### My Profile Picture Isn't NSFW!
+TETR.IO profile picture and banner uploads are automatically scrutinized, in accordance with [rule 8](https://tetr.io/about/rules/#r8/), by an open source library, which in turn is powered by machine learning. The specific names of these projects are [nsfwjs](https://github.com/infinitered/nsfwjs) and [tensorflow](https://github.com/tensorflow/tensorflow), both of which are listed at the very top of [TETR.IO's open source acknowledgements](https://tetr.io/about/acknowledgements/). This means, at times, the automated detection process can incur a false-positive and deny you your rights to upload your otherwise safe for work imagery. There are ways around this system, but to disclose them here would be to make that information more accessible to bad actors. **Just try another image.**
+Also see(from https://nsfwjs.com/):
+> Humans are amazing at visual identification. NSFW tries to error more on the side of things being dirty than clean. It's part of what makes failures on NSFW JS entertaining as well as practical.
+
+*(although do note if you decide to use the interactive checker included in this site, it may be several more revisions up-to-date compared to TETR.IO's checking)*
+
+### Reporting a TETR.IO User
+If you would like to report any TETR.IO user for breaking [the TETR.IO Community Rules](https://tetr.io/about/rules/), please use the ingame reporting systems instead of, say, public Discord channels!
+
+As a registered user, simply click on a suspicious, rude, or otherwise problematic user's username or usercard, or, type said user's username into the ingame TETRA CHANNEL's search bar, accessible by clicking the *third* menu option, to access their "profile card". Once this card is open, simply click this arrow, and then click this report icon to begin the guided process of including details. If you report while in a room, chat logs will be automatically included. 
+
+![](https://cdn.discordapp.com/attachments/813901028394795078/894379053367304222/unknown.png)
 
 ## Custom Assets
 Looking to add your own backgrounds/skins to the game? Here's how to do it!
@@ -90,19 +104,94 @@ Here's a list of all of TETR.IO's fonts, as well as where you can download them 
 ### Sound Effects
 All of TETR.IO's sound effects are stored in a single "sound effect atlas" found [here](https://tetr.io/sfx/tetrio.ogg). There's an issue with this file though; all sound effects are split only by time and not by file names, so it's likely this file isn't the one you want. If you would like a copy of all of the TETR.IO sounds split up, *albeit with an ever so slightly lower quality,* please download [this `.zip` file](https://cdn.discordapp.com/attachments/673303546564968566/919778936475508776/tetrio-sound-effects.zip).
 
+# Troubleshooting
+This section goes over some common technical help people need for TETR.IO.
+
+## Configuration
+Sometimes you're just trying to [squeeze some more optimization out of TETR.IO](https://tetr.io/about/performance/ "TETR.IO's own PERFORMANCE TIPS guide"), or you're trying to use specialized control settings and you're not sure how it all works. This section here aims to help you!
+
+### TETR.IO->Discord Account Linking
+If you're interested in linking your Discord account to your TETR.IO account, navigate to CONFIG > ACCOUNT > CONNECTIONS, as detailed in this video: 
+
+https://cdn.discordapp.com/attachments/673303546564968566/865065775760408597/supporterlink.mp4
+
+This link is currently used to grant the "Supporter" role to TETR.IO supporters, and to provide account verification for [the Character System playtester application form](https://insider-applications.osk.sh/). If you have recently purchased or been gifted supporter, you shouldn't have to wait too long before the role is automatically given to you, so long as the *@TETR.IO* bot is online. If you're having trouble linking your account, and are using TETR.IO Desktop, try linking from the website version instead, as this is less prone to error.
+
+### Controllers
+TETR.IO includes full controller support, *even commanding dynamic vibrations for different actions,* be it from your modern browser, or from [the official TETR.IO Desktop client](https://tetr.io/about/desktop/). Just connect your controller of choice and bind it manually in the ingame config:
+
+https://cdn.discordapp.com/attachments/673303546564968566/790555690317774868/21_122535.mp4
+
+If your controller isn't working, here's a couple of different pointers to direct your attention towards:
+* First off, ensure any D/XInput redirection isn't active. **This includes software like Steam or JoyToKey.**
+* Ensure the controller you're attempting to use is **the only controller connected.** TETR.IO only accepts input from so-called "port one", though, there are plans to remedy this issue. If you had other controllers plugged in, a __restart__ of the pc may be required.
+
+If neither of these troubleshooting steps work, here's some specialized software for specific controllers:
+* **PS4/PS5's DualShock** lineup: use [DS4Windows](https://github.com/Ryochan7/DS4Windows/releases/tag/v3.0.18)
+* **Nintendo Switch's Joy-Con or Pro Controller** controllers: use [BetterJoy's "ShowAsXInput" function](https://github.com/Davidobot/BetterJoy/releases)
+
+## TETR.IO Desktop Specific Troubleshooting
+*TETR.IO DESKTOP IS MULTIPLE ORDERS OF MAGNITUDE FASTER THAN THE BROWSER!*
+*enjoy uncapped framerates, faster startup, discord integration and more with [the **official** desktop client](https://tetr.io/about/desktop/)!*
+\- Ingame banner ad, 2021
+
+#### Dedicated Graphics
+Are you using a laptop and getting poor performance with TETR.IO Desktop or browsers? If so, you'll want to ensure Windows is using your "dedicated" graphics card, as opposed to the less performant, yet more power efficient "integrated" graphics card Windows is likely selecting for you. You can override this autoselection by following this lengthy image guide:
+
+![](https://cdn.discordapp.com/attachments/673305614318960671/851893786707230720/unknown.png)
+
+* If you use TETR.IO Desktop, then you will find the executable in `%localappdata%\\Programs\\tetrio-desktop\\resources`
+* If you use Chrome, you may find it in `%programfiles%\\Google\\Chrome\\Application\\chrome.exe`, `%programfiles(x86)%\\Google\\Chrome\\Application\\chrome.exe`, or `%localappdata%\\Google\\Chrome\\Application\\chrome.exe`
+* And, if you're a Firefox kinda guy, then you will find Firefox's executable in `%programfiles(x86)%\\Mozilla Firefox\\` or `%programfiles%\\Mozilla Firefox\\`, depending on which architecture (32 or 64 bits respectively) your computer currently has installed
+
+#### Broken Installer
+Is your TETR.IO Desktop installation getting stuck? Here's a workaround:
+You can use a *good* archiving program, such as 7zip(<https://www.7-zip.org/download.html>), to manually extract the game's contents for a much more manual installation for now. Here's a quick video guide(really, just open the `.exe` as a compressed folder and drag stuff out!): 
+
+https://cdn.discordapp.com/attachments/673305614318960671/904141134752784434/use_7zip.mp4
+
+#### Installation Locations
+If you use TETR.IO Desktop, then you will find all installed files in the following folders: Use `Windows+R` and paste the following paths into the __r__un dialog that opens
+* `%localappdata%\\Programs\\tetrio-desktop`
+(The `.exe`cutable and `Resources` folder is found here)
+* `%localappdata%\\tetrio-desktop-updater`
+(Contains a single `.exe`cutable, which is a copy of the original TETR.IO Desktop installer you installed your current version of TETR.IO Desktop with. Run this file to clear any modifications you may have on the game)
+* `%appdata%\\TETR.IO`
+(Contains one empty folder: "logs")
+* `%appdata%\\tetrio-desktop`
+(Contains Electron related browser files. Two such examples: `Cache` and `Local Storage`)
+
+## Replays
+Loading replays is super easy, if not slightly obscure. It's asked so often I made this dedicated section to it, so don't fret if you're about to go "that's so simple!"
+
+To view a locally saved replay, simply drag and drop the file from your file manager of choice into TETR.IO. If TETR.IO fails to load the replay, please ensure the replay is correctly named, specifically: 
+* for solo replays of any sort, use the `.ttr` file extension
+* for multiplayer replays of any sort, use the `.ttrm` file extension
+* for solo custom game setting presets, use the `.ttp` file extension
+* for TETR.IO config exports, use the `.ttc` file extension.
+
+https://cdn.discordapp.com/attachments/674421736162197515/890790418143395910/howto_import_a_tetrio_file.mp4
+
+If you load a `.ttrm` file, simply click on the individual rounds to watch that round's replay.
+### Online Custom Room Replays
+Replays taken in this context rely on some unconventional requirements, so don't blame yourself if that ever-so-required "DOWNLOAD REPLAY" button doesn't show up in here. Here's some requirements off the bat:
+* The room **must** be a two player match, one versus one.
+* Your client, not theirs, *should* be using LOW graphics or higher.
+* If using MINIMAL, [the "SHOW DUELS SIDE BY SIDE" option **must** be enabled.](https://tetr.io/about/patchnotes/#chlog_5_2_0)
+* You **must** persist from the start of the match, even in a FT5 (example) game, to the end of the match.
+* Of course, you **must** download the replay from the results screen. There'll be a small button to the right, under the 2nd player's spot in the list.
+
+## Mobile Support
+First off, we have to break some news. [TETR.IO will never officially support mobile devices](https://discord.com/channels/673303546107658242/673305735811170305/901428890025738280)
+
+That being said, there are still some ways to **play TETR.IO on phone**! Here's one quick rule, though: it **cannot be any iOS-based Apple device.** This is __absolute__, TETR.IO simply [will not load under WebKit](https://github.com/tetrio/issues/issues/425). Otherwise, you're welcome to try with any android device, but compatibility is *not* guaranteed as these are unsupported platforms!
+
+To load TETR.IO on mobile, just visit <https://tetr.io/> on your mobile browser of choice. *That's it!* The real problem arises when you attempt to *control the game,* so there's a couple of different attacks you can use. The first would be simply connecting any conventional controller through bluetooth or usb, and binding that controller in TETR.IO's config natively.
+
+The second workaround involves using what's known as a "bookmarklet", which is basically JavaScript code you run from a bookmark, to create __onscreen touch controls__. A specialized site to generate these bookmarklets may be found [here](https://you.have.fail/ed/at/tetrio/touchcontrols/). There's included instructions in this site once you've defined your controls.
+
 # Mechanics
 This section goes over some of the less understood mechanics surrounding TETR.IO.
-
-## In general
-### Fire
-The "fire bar" effect triggers when you build up enough "fire points" to cause it. You can accumulate fire points by clearing a large spike, keeping a large back to back chain up, or, by koing people (koing people is the most effective way to build fire points.). You also steal fire points from the people you've ko'd; you can see how filled your ko'd user's fire bar was by looking at the little percentage sign next to their name. This whole system is entirely cosmetic, and can be disabled from the settings.
-
-### Character System
-First revealed in mid-November 2020 and developed since, the prototyped "Character System" is planned to be TETR.IO's "Beta" feature.
-* For Character System conversation, please check out the *#Official Character System Thread* in [the TETR.IO Discord server](https://l.tetr.io/discord). It forks off from #lobby.
-* Otherwise, [this supplementary FAQ](https://docs.google.com/document/d/1gRX1lorozF2NeJqgdkGyqrqkD-dD0wjYRimNQHGPj0w/edit) created by [TwoQuantumBits](https://2qb.carrd.co/ "TwoQuantumBits's webpage") may be of use.
-* The above links to [this in-depth up-to-date documentation](https://docs.google.com/spreadsheets/d/1LjoLa3cXIp9vhmNoadk2PWRyFHFnYlOfnavs3Ga2gis/edit#gid=353436719) created by [SigmaZero](https://www.youtube.com/channel/UC9Qal7IJul-6iC3YvYZ4Q1A "SigmaZero's linked YouTube page") on the system.
-* If you're still skeptical to the validity of these pages, [here's documentation by osk himself](https://characters.osk.sh/). **Please note that this documentation is wildly out of date!**
 
 ## TETRA LEAGUE
 TETRA LEAGUE is TETR.IO's premier matchmaking system featured for free for all registered accounts above level 10. While gameplay is very straightforward, 1v1 against another player of similar skill, the exact mechanics behind what the various mechanical values are and how the system itself works are often pondered.
@@ -214,3 +303,41 @@ Here's some pointers if you'd like to avoid the automated solutions and instead 
 * [aznguy.mp4](http://aznguy.com/ "aznguy.mp4's homepage")'s list of `/set` attributes: as pinned in #tetrio on the official TETR.IO Discord server, it's also available [on Tenchi's FAQ](https://tetrio.team2xh.net/?t=faq#commands).
 * [ZaptorZap](https://github.com/ZaptorZap/tetriofaq "ZaptorZap's github profile")'s `.txt` file of complete `/set` presets: it's always nice to learn by example, so here's a five for one deal! Download it [here](https://cdn.discordapp.com/attachments/763146093655359488/917684858099232798/tetrio_multiplayer_rule_presets.txt) (if you have suggestions for new presets, feel free to direct message ZaptorZap#0405 about them!)
 As well as these resources, here's some more specific advice: note that `/set` presets **are bound by TETR.IO's 513 character chat limit**. If a `/set` preset calls for more than this limit, either split it up into two halves or try to truncate defaults settings out.
+
+## In general
+### Fire
+The "fire bar" effect triggers when you build up enough "fire points" to cause it. You can accumulate fire points by clearing a large spike, keeping a large back to back chain up, or, by koing people (koing people is the most effective way to build fire points.). You also steal fire points from the people you've ko'd; you can see how filled your ko'd user's fire bar was by looking at the little percentage sign next to their name. This whole system is entirely cosmetic, and can be disabled from the settings.
+
+### Character System
+First revealed in mid-November 2020 and developed since, the prototyped "Character System" is planned to be TETR.IO's "Beta" feature.
+* For Character System conversation, please check out the *#Official Character System Thread* in [the TETR.IO Discord server](https://l.tetr.io/discord). It forks off from #lobby.
+* Otherwise, [this supplementary FAQ](https://docs.google.com/document/d/1gRX1lorozF2NeJqgdkGyqrqkD-dD0wjYRimNQHGPj0w/edit) created by [TwoQuantumBits](https://2qb.carrd.co/ "TwoQuantumBits's webpage") may be of use.
+* The above links to [this in-depth up-to-date documentation](https://docs.google.com/spreadsheets/d/1LjoLa3cXIp9vhmNoadk2PWRyFHFnYlOfnavs3Ga2gis/edit#gid=353436719) created by [SigmaZero](https://www.youtube.com/channel/UC9Qal7IJul-6iC3YvYZ4Q1A "SigmaZero's linked YouTube page") on the system.
+* If you're still skeptical to the validity of these pages, [here's documentation by osk himself](https://characters.osk.sh/). **Please note that this documentation is wildly out of date!**
+
+### Badges
+Badges are simple graphics placed on a specific and registered user's userpage or player card signifying that user's achievements. If you're looking for your first badge, go for [the "Secret Grade" badge](https://tetris.wiki/TETR.IO_Badges#Secret_Grade)! You can attain this badge with the solo custom game mode, with gravity disabled. If you take your time, you'll likely get it first try!
+
+# Glossary of terms
+The TETR.IO community, like any community, has several "inside phrases" other new users may not be informed of. The list that follows is likely incomplete, but it covers the most common terms you might not otherwise understand.
+*Also see:*
+* [Tenchi's Glossary of most anagrams](https://tetrio.team2xh.net/?t=faq#glossary)
+* [The Tetris Wiki's universal, if not self-consiously dated, glossary](https://tetris.wiki/Glossary)
+* [The Tetris Wiki on TETR.IO Trivia](https://tetris.wiki/TETR.IO#Trivia)
+* [The Hard Drop Wiki's glossary](https://harddrop.com/wiki/Glossary)
+* [four.lol](https://four.lol/)'s search bar (for example, terms such as `tki`, `mko`, `tst`, `dpc`, and even `sd-pc` are valid searches in this site)
+* TETR.IO itself contains lots of hover text, **especially** in the CONFIG and [the TETRA CHANNEL](https://ch.tetr.io/)'s various pages
+
+## "Plonker"
+"Plonking" refers to the act of **intentionally tanking garbage lines**, sometimes *noticeably slowing down or stalling to do so*, in order to send reverse-spikes fueled by an enemy's garbage. This garbage abuse is made possible thanks to TETR.IO's "change-on-attack" garbage generation, guaranteeing each line from an individual attack generates in a singular, consistent column, as decided by RNG. A "plonker" may be vaguely defined by a given user's high VS:PPS ratio.(one staple of VS Score involves its factoring of garbage lines cleared - this is why VS score is considered over raw APM) In effect, a plonker is the opposite of a strider: **plonkers play matches slowly, pay close attention to incoming garbage, and keep a low field.**
+
+## "Strider"
+Originally a Jstris meme requiring an incredibly specific 40 LINES sprint time (one under 26.179 seconds), your inability to "be a pepegon", a versus skill which must be disproportionate to your sprint time, the ability to "hit the stride", and optionally the display of the 🇮🇲 flag on your profile;
+*a strider in today's terminology is used to vaguely define players based on their high PPS:APM ratio.* To shorten this down a little: **a strider typically plays fast and inefficient,** essentially existing only in delayless games such as TETR.IO. "stride" and "strider" are normally used interchangeably, with "striding" usually being the temporal verb to describe any player's gameplay for a given match/round/replay as fast and inefficient.
+
+## Zen Levels
+ZEN levels are usually accompanied by little symbols around TETR.IO. These symbols represent the numerical ZEN level in modified roman numerals. Here's a graphic detailing them all:
+
+![](https://cdn.discordapp.com/attachments/673303546564968566/930368624286375956/unknown.png) 
+
+Once the maximum numeral has been attained, which is unlikely to happen as [the closest player](https://ch.tetr.io/u/blb) is still 490,605 levels off of that goal, it will loop for infinity.
