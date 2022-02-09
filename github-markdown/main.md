@@ -39,7 +39,7 @@ While impeded by several limitations, "anonymous" accounts are integral to TETR.
 ### Profile Pictures
 Registered TETR.IO user accounts may set their profile pictures for free from the relevant account settings category. The attached video shows you how to access this category, available from the ingame CONFIG option: 
 
-https://cdn.discordapp.com/attachments/673303546564968566/894360081632727061/howtoprofile_pic.mp4
+https://user-images.githubusercontent.com/64891705/153128669-9fee4e10-694d-4d12-b4f0-b79e13022538.mp4
 
 #### My Profile Picture Isn't NSFW!
 TETR.IO profile picture and banner uploads are automatically scrutinized, in accordance with [rule 8](https://tetr.io/about/rules/#r8/), by an open source library, which in turn is powered by machine learning. The specific names of these projects are [nsfwjs](https://github.com/infinitered/nsfwjs) and [tensorflow](https://github.com/tensorflow/tensorflow), both of which are listed at the very top of [TETR.IO's open source acknowledgements](https://tetr.io/about/acknowledgements/). This means, at times, the automated detection process can incur a false-positive and deny you your rights to upload your otherwise safe for work imagery. There are ways around this system, but to disclose them here would be to make that information more accessible to bad actors. **Just try another image.**
@@ -113,14 +113,14 @@ Sometimes you're just trying to [squeeze some more optimization out of TETR.IO](
 ### TETR.IO->Discord Account Linking
 If you're interested in linking your Discord account to your TETR.IO account, navigate to CONFIG > ACCOUNT > CONNECTIONS, as detailed in this video: 
 
-https://cdn.discordapp.com/attachments/673303546564968566/865065775760408597/supporterlink.mp4
+https://user-images.githubusercontent.com/64891705/153129007-acd4ffbe-5695-414f-ac53-032eb6e827f1.mp4
 
 This link is currently used to grant the "Supporter" role to TETR.IO supporters, and to provide account verification for [the Character System playtester application form](https://insider-applications.osk.sh/). If you have recently purchased or been gifted supporter, you shouldn't have to wait too long before the role is automatically given to you, so long as the *@TETR.IO* bot is online. If you're having trouble linking your account, and are using TETR.IO Desktop, try linking from the website version instead, as this is less prone to error.
 
 ### Controllers
 TETR.IO includes full controller support, *even commanding dynamic vibrations for different actions,* be it from your modern browser, or from [the official TETR.IO Desktop client](https://tetr.io/about/desktop/). Just connect your controller of choice and bind it manually in the ingame config:
 
-https://cdn.discordapp.com/attachments/673303546564968566/790555690317774868/21_122535.mp4
+https://user-images.githubusercontent.com/64891705/153129098-18b408bd-3533-42c3-af68-08507e51bed8.mp4
 
 If your controller isn't working, here's a couple of different pointers to direct your attention towards:
 * First off, ensure any D/XInput redirection isn't active. **This includes software like Steam or JoyToKey.**
@@ -148,7 +148,7 @@ Are you using a laptop and getting poor performance with TETR.IO Desktop or brow
 Is your TETR.IO Desktop installation getting stuck? Here's a workaround:
 You can use a *good* archiving program, such as 7zip(<https://www.7-zip.org/download.html>), to manually extract the game's contents for a much more manual installation for now. Here's a quick video guide(really, just open the `.exe` as a compressed folder and drag stuff out!): 
 
-https://cdn.discordapp.com/attachments/673305614318960671/904141134752784434/use_7zip.mp4
+https://user-images.githubusercontent.com/64891705/153129140-d0398a14-c584-4226-b125-92ff46dcb9b0.mp4
 
 #### Installation Locations
 If you use TETR.IO Desktop, then you will find all installed files in the following folders: Use `Windows+R` and paste the following paths into the __r__un dialog that opens
@@ -170,7 +170,7 @@ To view a locally saved replay, simply drag and drop the file from your file man
 * for solo custom game setting presets, use the `.ttp` file extension
 * for TETR.IO config exports, use the `.ttc` file extension.
 
-https://cdn.discordapp.com/attachments/674421736162197515/890790418143395910/howto_import_a_tetrio_file.mp4
+https://user-images.githubusercontent.com/64891705/153129180-a8ea5a31-0eee-428d-b920-e20173ae619b.mp4
 
 If you load a `.ttrm` file, simply click on the individual rounds to watch that round's replay.
 ### Online Custom Room Replays
@@ -236,11 +236,11 @@ Optimal DAS values largely differ from player to player, so experiment around wi
 __﻿[D]﻿__AS __﻿[C]﻿__ut __﻿[D]﻿__elay(higher is slower: 0 disables the system): An experimental and complicated handling setting, DAS Cut Delay hasn't seen much use in professional play. DAS Cut Delay introduces a set of pauses to active DAS, every time one of the two following actions occur:
 1. A piece is rotated: 
 
-https://cdn.discordapp.com/attachments/673303546564968566/775479818942021672/2020-11-09_22-59-41.mp4
+https://user-images.githubusercontent.com/64891705/153129233-0d06d8c6-1965-4b86-981c-251031bad08c.mp4
 
 2. A piece is spawned: 
 
-https://cdn.discordapp.com/attachments/673303546564968566/775480550471237702/2020-11-09_23-02-29.mp4
+https://user-images.githubusercontent.com/64891705/153129261-d556937d-910c-4b80-b12d-7622f5ae7049.mp4
 
 If either of these actions occur, **﻿DAS is "paused"﻿**, or "cut" for the amount of frames DCD is configured to. It primarily targets 0ARR play, and aims to make certain finesse moves possible while keeping DAS charged, as well as reducing possible misdrops. 
 [➔ A common value for it would be around 1 or 2 frames.](https://tetr.io/about/patchnotes/#chlog_5_0_0﻿)
