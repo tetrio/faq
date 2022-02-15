@@ -37,8 +37,9 @@ While impeded by several limitations, "anonymous" accounts are integral to TETR.
 
 ## Profile Pictures
 Registered TETR.IO user accounts may set their profile pictures for free from the relevant account settings category. The attached video shows you how to access this category, available from the ingame CONFIG option: 
-
-https://user-images.githubusercontent.com/64891705/153128669-9fee4e10-694d-4d12-b4f0-b79e13022538.mp4
+<p align="center">
+<img width="678" height="579" src="https://user-images.githubusercontent.com/64891705/154015187-8578a496-a1d9-4fd2-a9d3-bb2d60b7a468.png">
+</p>
 
 ### My Profile Picture Isn't NSFW!
 TETR.IO profile picture and banner uploads are automatically scrutinized, in accordance with [rule 8](https://tetr.io/about/rules/#r8/), by an open source library, which in turn is powered by machine learning. The specific names of these projects are [nsfwjs](https://github.com/infinitered/nsfwjs) and [tensorflow](https://github.com/tensorflow/tensorflow), both of which are listed at the very top of [TETR.IO's open source acknowledgements](https://tetr.io/about/acknowledgements/). This means, at times, the automated detection process can incur a false-positive and deny you your rights to upload your otherwise safe for work imagery. There are ways around this system, but to disclose them here would be to make that information more accessible to bad actors. **Just try another image.**

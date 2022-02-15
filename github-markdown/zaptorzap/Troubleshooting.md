@@ -4,16 +4,16 @@ This section goes over some common technical help people need for TETR.IO.
 Sometimes you're just trying to [squeeze some more optimization out of TETR.IO](https://tetr.io/about/performance/ "TETR.IO's own PERFORMANCE TIPS guide"), or you're trying to use specialized control settings and you're not sure how it all works. This section here aims to help you!
 
 ## TETR.IO->Discord Account Linking
-If you're interested in linking your Discord account to your TETR.IO account, navigate to CONFIG > ACCOUNT > CONNECTIONS, as detailed in this video: 
+If you're interested in linking your Discord account to your TETR.IO account, navigate to CONFIG > ACCOUNT > CONNECTIONS, as detailed in this `.gif` file: 
 
-https://user-images.githubusercontent.com/64891705/153129007-acd4ffbe-5695-414f-ac53-032eb6e827f1.mp4
+<img width="768" height="520" src="https://user-images.githubusercontent.com/64891705/153960535-b9c6b63e-a607-45df-992c-2fc6d5f2eeb7.gif">
 
 This link is currently used to grant the "Supporter" role to TETR.IO supporters, and to provide account verification for [the Character System playtester application form](https://insider-applications.osk.sh/). If you have recently purchased or been gifted supporter, you shouldn't have to wait too long before the role is automatically given to you, so long as the *@TETR.IO* bot is online. If you're having trouble linking your account, and are using TETR.IO Desktop, try linking from the website version instead, as this is less prone to error.
 
 ## Controllers
 TETR.IO includes full controller support, *even commanding dynamic vibrations for different actions,* be it from your modern browser, or from [the official TETR.IO Desktop client](https://tetr.io/about/desktop/). Just connect your controller of choice and bind it manually in the ingame config:
 
-https://user-images.githubusercontent.com/64891705/153129098-18b408bd-3533-42c3-af68-08507e51bed8.mp4
+<img width="948" height="360" src="https://user-images.githubusercontent.com/64891705/153961020-037cf09d-6f73-4bc3-970a-eef4d19d7ced.gif">
 
 If your controller isn't working, here's a couple of different pointers to direct your attention towards:
 * First off, ensure any D/XInput redirection isn't active. **This includes software like Steam or JoyToKey.**
@@ -41,7 +41,8 @@ Are you using a laptop and getting poor performance with TETR.IO Desktop or brow
 Is your TETR.IO Desktop installation getting stuck? Here's a workaround:
 You can use a *good* archiving program, such as 7zip(<https://www.7-zip.org/download.html>), to manually extract the game's contents for a much more manual installation for now. Here's a quick video guide(really, just open the `.exe` as a compressed folder and drag stuff out!): 
 
-https://user-images.githubusercontent.com/64891705/153129140-d0398a14-c584-4226-b125-92ff46dcb9b0.mp4
+<img width="805" height="540" src="https://user-images.githubusercontent.com/64891705/153961240-40cabccf-9c68-4fab-bd29-e2091ac6746c.gif">
+
 
 ### Installation Locations
 If you use TETR.IO Desktop, then you will find all installed files in the following folders: Use `Windows+R` and paste the following paths into the **r**un dialog that opens
@@ -70,9 +71,11 @@ To view a locally saved replay, simply drag and drop the file from your file man
 * for solo custom game setting presets, use the `.ttp` file extension
 * for TETR.IO config exports, use the `.ttc` file extension.
 
-https://user-images.githubusercontent.com/64891705/153129180-a8ea5a31-0eee-428d-b920-e20173ae619b.mp4
+<img width="1075" height="549" src="https://user-images.githubusercontent.com/64891705/154011440-96a40b8c-e9e6-41ee-958d-87ee4af01a4c.gif">
+<img align="right" width="430" height="213" src="https://user-images.githubusercontent.com/64891705/154011502-f5d7fd12-13c0-4107-be51-0fa6f760f499.gif">
 
 If you load a `.ttrm` file, simply click on the individual rounds to watch that round's replay.
+
 ## Online Custom Room Replays
 Replays taken in this context rely on some unconventional requirements, so don't blame yourself if that ever-so-required "DOWNLOAD REPLAY" button doesn't show up in here. Here's some requirements off the bat:
 * The room **must** be a two player match, one versus one.

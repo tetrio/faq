@@ -4,9 +4,9 @@ This section goes over some of the less understood mechanics surrounding TETR.IO
 TETRA LEAGUE is TETR.IO's premier matchmaking system featured for free for all registered accounts above level 10. While gameplay is very straightforward, 1v1 against another player of similar skill, the exact mechanics behind what the various mechanical values are and how the system itself works are often pondered.
 *also see:*
 * Tenchi's FAQ on 
-1. [how the game decides what rank you are](https://tetrio.team2xh.net/?t=faq#decide-rank)
-2. [being unranked after playing ten placement matches](https://tetrio.team2xh.net/?t=faq#placement)
-3. [matchmaking with players far from your TR](https://tetrio.team2xh.net/?t=faq#rank-match)
+    1. [how the game decides what rank you are](https://tetrio.team2xh.net/?t=faq#decide-rank)
+    2. [being unranked after playing ten placement matches](https://tetrio.team2xh.net/?t=faq#placement)
+    3. [matchmaking with players far from your TR](https://tetrio.team2xh.net/?t=faq#rank-match)
 4. [inconsistent ranks](https://tetrio.team2xh.net/?t=faq#inconsistent-ranks)
 and likely many more
 * [The Tetris Wiki on the TETRA LEAGUE](https://tetris.wiki/TETR.IO#TETRA_LEAGUE)
@@ -39,18 +39,19 @@ Handling controls how your pieces interact with your sustained input to any of t
 
 Optimal DAS values largely differ from player to player, so experiment around with different ones! *(hint: you may test your current handling settings from the TEST button in the top right of the HANDLING section)*
 
-## ﻿DAS Cut Delay
-`[D]`﻿AS `[C]`﻿ut `﻿[D]`﻿elay(higher is slower: 0 disables the system): An experimental and complicated handling setting, DAS Cut Delay hasn't seen much use in professional play. DAS Cut Delay introduces a set of pauses to active DAS, every time one of the two following actions occur:
+## DAS Cut Delay
+`[D]`AS `[C]`ut `[D]`elay(higher is slower: 0 disables the system): An experimental and complicated handling setting, DAS Cut Delay hasn't seen much use in professional play. DAS Cut Delay introduces a set of pauses to active DAS, every time one of the two following actions occur:
 1. A piece is rotated: 
 
-https://user-images.githubusercontent.com/64891705/153129233-0d06d8c6-1965-4b86-981c-251031bad08c.mp4
+> <img width="203" height="222" src="https://user-images.githubusercontent.com/64891705/153951912-55dc0c8f-199f-412c-9c36-5fd0b5f3f30d.gif">
 
 2. A piece is spawned: 
 
-https://user-images.githubusercontent.com/64891705/153129261-d556937d-910c-4b80-b12d-7622f5ae7049.mp4
+> <img width="202" height="239" src="https://user-images.githubusercontent.com/64891705/153951952-e8c4ef71-05b3-4162-bb4b-c1409ec44b99.gif">
 
-If either of these actions occur, **﻿DAS is "paused"﻿**, or "cut" for the amount of frames DCD is configured to. It primarily targets 0ARR play, and aims to make certain finesse moves possible while keeping DAS charged, as well as reducing possible misdrops. 
-[➔ A common value for it would be around 1 or 2 frames.](https://tetr.io/about/patchnotes/#chlog_5_0_0﻿)
+If either of these actions occur, **DAS is "paused"**, or "cut" for the amount of frames DCD is configured to. It primarily targets 0ARR play, and aims to make certain finesse moves possible while keeping DAS charged, as well as reducing possible misdrops.
+
+> [➔ A common value for it would be around 1 or 2 frames.](https://tetr.io/about/patchnotes/#chlog_5_0_0)
 
 ## Soft Drop Factor
 `[S]`oft `[D]`rop `[F]`actor(higher is faster: ♾️ is instantaneous): This slider controlshow quickly your piece will soft drop, given you are holding the soft drop key. It doesn't necessarily multiply current gravity, as you can still soft drop in zero gravity.(0 times anything, even infinity, equals 0)
