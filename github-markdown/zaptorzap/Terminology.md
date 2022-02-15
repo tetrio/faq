@@ -10,11 +10,43 @@ The TETR.IO community, like any community, has several "inside phrases" other ne
 ## Ingame symbolism
 Often times, built right into the game itself, TETR.IO demonstrates forms of nondescriptive symbolism around the UI. Here's some definitions surrounding those.
 
-### Zen Levels
+### Zen levels
 <img align="right" width="256" height="794" src="https://cdn.discordapp.com/attachments/673303546564968566/930368624286375956/unknown.png">
 ZEN levels are usually accompanied by little symbols around TETR.IO. These symbols represent the numerical ZEN level in modified roman numerals. Here's a graphic detailing them all ---->
 
 Once the maximum numeral has been attained, which is unlikely to happen as [the closest player](https://ch.tetr.io/u/blb) is still 490,605 levels off of that goal, it will loop for infinity.
+
+### SOLO options
+Shortly before beginning a 40 LINES or BLITZ run, you're presented with a couple extra options to toggle to further customize your experience. These toggles mainly effect the game's visuals mechanically speaking, and there is no recommended default the *professional* players use. For brevity, the toggles regarding "finesse" have been omitted. [Please refer to this FAQ entry from Tenchi for more information regarding finesse](https://tetrio.team2xh.net/?t=faq#finesse).
+
+> *Hover text goes a long way towards avoiding potential confusion such as this. Please take note of it!*
+> <img width="537" height="219" src="https://user-images.githubusercontent.com/64891705/154115276-f5ac31e9-a3f5-453d-b1d7-69661f00b103.gif">
+
+#### PRO MODE
+This toggle is much more noticable and useful in 40L. The "extra info" shown and arranged are as follows:
+
+![image](https://user-images.githubusercontent.com/64891705/154122591-76b13039-9cc4-4d8e-b9ce-84ae4d34ada1.png)
+
+1. The amount of *remaining lines* on the board right here. Not shown if playing BLITZ.
+2. The total amount of game inputs you've used, as well as inputs per piece.
+3. Your finesse combo, a percentage of perfect pieces placed, and total faults.
+
+This toggle was implemented before advanced counter configuration was available, but you can replicate these counters that way instead. For example: if the remaining lines counter on the board is too distracting, but the extra information is helpful, or, if you would like to use these counters in a custom SOLO game, then use this:
+
+* Left counter slot 1: STOPWATCH
+* Left counter slot 2: LINES
+* Left counter slot 3: PIECES
+* Left counter slot 4: KEYS
+* Right counter slot: FINESSE
+
+#### STRIDE MODE
+This toggle impacts many of TETR.IO's animations regarding the game state's beginning, ending, and restarts. Most notable is the inclusion of "tap to retry", making retries near-instant to suit the needs of a "[[strider|Terminology#strider]]".
+
+This toggle also impacts:
+* Piece generation.
+    * Mainly, the very first piece cannot be one of the S, Z, or O tetrominoes.
+* The time it takes for you to forfeit is lowered.
+* The countdown uses two shorter steps before beginning, instead of three longer ones.
 
 ### Network icons
 Depending on the active internet connection, several network icons may flash on the left side of the screen indicating various different active issues with the current connection. Here's a chart listing them all and their descriptions:
