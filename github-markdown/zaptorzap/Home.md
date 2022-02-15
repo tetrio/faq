@@ -51,6 +51,9 @@ Please feel free to **expand all** pages to the right, or take a look at this ex
         * [[Backgrounds|Personalization#backgrounds]]
 * **[[Terminology]]**
     * *[[Ingame symbolism|Terminology#ingame-symbolism]]*
+        * [[SOLO options|Terminology#solo-options]]
+            * [["PRO MODE"|Terminology#pro-mode]]
+            * [["STRIDE MODE"|Terminology#stride-mode]]
         * [[Zen Levels|Terminology#zen-levels]] (`zenlevels`)
         * [[Network icons|Terminology#network-icons]] (`icons`)
     * *[[Common terms|Terminology#common-terms]]*
