@@ -67,7 +67,7 @@ Please feel free to **expand all** pages to the right, or take a look at this ex
         * [[Dedicated Graphics|Troubleshooting#dedicated-graphics]] (`dgpu`)
         * [[Broken Installer|Troubleshooting#broken-installer]] (`installstuck`)
         * [[Installation Locations|Troubleshooting#installation-locations]] (`installpaths`)
-    * *[[Replays|Troubleshooting#replays]]* (`ttr`/`import`)
+    * *[[Replays|Troubleshooting#replays]]* (`import`)
         * [[Online Custom Room Replays|Troubleshooting#online-custom-room-replays]]
     * *[[Mobile Support|Troubleshooting#mobile-support]]* (`mobile`)
 
