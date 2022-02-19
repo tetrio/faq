@@ -1,4 +1,4 @@
-Welcome to some of TETR.IO's Frequently Asked Questions! First pioneered with the aid of Discord user Tenchi and [his initial request for one on the official TETR.IO Discord server](https://github.com/tetrio/issues/issues/241), the various FAQs available expanded in scope drastically. 
+Welcome to some of TETR.IO's Frequently Asked Questions! First pioneered with the aid of Discord user Tenchi and [his initial request for one on the official TETR.IO Discord server](https://github.com/tetrio/issues/issues/241), the various FAQs available expanded in scope drastically.
 
 # Other Resources
 Of course, this FAQ cannot hope to answer every question on its own(although we do accept contributions, read on), so if something in here doesn't answer your question, check these other resources I, ZaptorZap, frequently link to:
@@ -11,7 +11,7 @@ And some other more general resources I'll link to even in this FAQ later on:
 * [The Hard Drop Wiki](https://harddrop.com/) beats out these two with mass alone, but mass comes at a quality cut. 
 
 # Table of Contents
-Please feel free to **expand all** pages to the right, or take a look at this extended table of contents below to get around. If you're already used to the legacy bb shorthands, I've included them in this list to get you reacquainted:
+Please feel free to **expand all** pages to the right, or take a look at this extended table of contents below to get around. If you're already used to the bb shorthands to move around, or, would like to use them with the `.f` command, I've included them in this list:
 * **[[Mechanics]]**
     * *[[TETRA LEAGUE|Mechanics#tetra-league]]*
         * [[Rating Deviation|Mechanics#rating-deviation]] (`rd`)
@@ -48,12 +48,12 @@ Please feel free to **expand all** pages to the right, or take a look at this ex
         * [[Music|Personalization#music]] (`music`)
         * [[Fonts|Personalization#fonts]] (`fonts`)
         * [[Sound Effects|Personalization#sound-effects]] (`sfx`)
-        * [[Backgrounds|Personalization#backgrounds]]
+        * [[Backgrounds|Personalization#backgrounds]] (`backgrounds`)
 * **[[Terminology]]**
     * *[[Ingame symbolism|Terminology#ingame-symbolism]]*
         * [[SOLO options|Terminology#solo-options]]
-            * [["PRO MODE"|Terminology#pro-mode]]
-            * [["STRIDE MODE"|Terminology#stride-mode]]
+            * [["PRO MODE"|Terminology#pro-mode]] (`promode`)
+            * [["STRIDE MODE"|Terminology#stride-mode]] (`stridemode`)
         * [[Zen Levels|Terminology#zen-levels]] (`zenlevels`)
         * [[Network icons|Terminology#network-icons]] (`icons`)
     * *[[Common terms|Terminology#common-terms]]*
