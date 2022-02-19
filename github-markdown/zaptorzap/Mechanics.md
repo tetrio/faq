@@ -110,7 +110,7 @@ console.log(cmd)
 Here's some pointers if you'd like to avoid the automated solutions and instead create your own:
 * [aznguy.mp4](http://aznguy.com/ "aznguy.mp4's homepage")'s list of `/set` attributes: as pinned in #tetrio on the official TETR.IO Discord server, it's also available [on Tenchi's FAQ](https://tetrio.team2xh.net/?t=faq#commands).
 * [ZaptorZap](https://github.com/ZaptorZap/tetriofaq "ZaptorZap's github profile")'s `.txt` file of complete `/set` presets: it's always nice to learn by example, so here's a five for one deal! Download it [here](https://cdn.discordapp.com/attachments/763146093655359488/917684858099232798/tetrio_multiplayer_rule_presets.txt) (if you have suggestions for new presets, feel free to direct message ZaptorZap#0405 about them!)
-As well as these resources, here's some more specific advice: note that `/set` presets **are bound by TETR.IO's 513 character chat limit**. If a `/set` preset calls for more than this limit, either split it up into two halves or try to truncate defaults settings out.
+As well as these resources, here's some more specific advice: note that `/set` presets **are bound by TETR.IO's 512 character chat limit**. If a `/set` preset calls for more than this limit, either split it up into two halves or try to truncate defaults settings out.
 
 # In general
 Here are some otherwise hard to categorize mechanics. They're often misunderstood or not understood at all.
