@@ -7,7 +7,7 @@ TETRA LEAGUE is TETR.IO's premier matchmaking system featured for free for all r
     1. [how the game decides what rank you are](https://tetrio.team2xh.net/?t=faq#decide-rank)
     2. [being unranked after playing ten placement matches](https://tetrio.team2xh.net/?t=faq#placement)
     3. [matchmaking with players far from your TR](https://tetrio.team2xh.net/?t=faq#rank-match)
-4. [inconsistent ranks](https://tetrio.team2xh.net/?t=faq#inconsistent-ranks)
+    4. [inconsistent ranks](https://tetrio.team2xh.net/?t=faq#inconsistent-ranks)
 and likely many more
 * [The Tetris Wiki on the TETRA LEAGUE](https://tetris.wiki/TETR.IO#TETRA_LEAGUE)
 
@@ -28,7 +28,9 @@ Handling controls how your pieces interact with your sustained input to any of t
 *also see:*
 * [25Pi25's YouTube video](https://www.youtube.com/watch?v=rKQZdRu6_g0 "How to properly set your TETR.IO Handling!") summarizing how to set your handling.
 * [This instinctual `.gif` file](https://cdn.discordapp.com/attachments/813901028394795078/871859207605985300/DAS_and_ARR.gif) everyone keeps sharing to which I cannot attribute to anyone at this point.
-
+* Tenchi's FAQ on the difference between TETR.IO and Jstris handling
+    * A commonly suggested workaround if changing between the two games is really simple, just do some quick addition:
+    > `TETR.IO ARR = Jstris ARR`->**`TETR.IO DAS = Jstris DAS + Jstris ARR`**
 ## Auto Repeat Rate
 `[A]`uto `[R]`epeat `[R]`ate<!-- you may take my bold, but yer never taking my bracket design language!!! -->(lower is faster: 0 is instantaneous): This slider controls how quickly pieces move around while holding the left or right movement keys. It's well known that an "optimal" ARR is 0: when ARR is this value, pieces teleport instantly upon DAS charge, allowing for extremely fast play. Good [finesse](https://tetrio.team2xh.net/?t=faq#finesse "Tenchi's FAQ on finesse") is a must-have if using this handling, however!
 
