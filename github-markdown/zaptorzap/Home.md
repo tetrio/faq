@@ -1,4 +1,4 @@
-Welcome to some of TETR.IO's Frequently Asked Questions! First pioneered with the aid of Discord user Tenchi and [his initial request for one on the official TETR.IO Discord server](https://github.com/tetrio/issues/issues/241), the various FAQs available expanded in scope drastically.
+Welcome to some of TETR.IO's Frequently Asked Questions! First pioneered with the aid of Discord user Tenchi and [his initial request for one on the official TETR.IO Discord server](https://github.com/tetrio/issues/issues/241), the various FAQs available expanded in scope drastically. 
 
 # Other Resources
 Of course, this FAQ cannot hope to answer every question on its own(although we do accept contributions, read on), so if something in here doesn't answer your question, check these other resources I, ZaptorZap, frequently link to:
@@ -12,11 +12,11 @@ And some other more general resources I'll link to even in this FAQ later on:
 
 # Table of Contents
 Please feel free to **expand all** pages to the right, or take a look at this extended table of contents below to get around. If you're already used to the bb shorthands to move around, or, would like to use them with the `.f` command, I've included them in this list:
-* **[[Mechanics]]**
+* **[[Mechanics]]** (`mechanics`)
     * *[[TETRA LEAGUE|Mechanics#tetra-league]]*
         * [[Rating Deviation|Mechanics#rating-deviation]] (`rd`)
         * [[Rank Cutoffs|Mechanics#rank-cutoffs]] (`rankcutoff`)
-    * *[[Handling|Mechanics#handling]]*
+    * *[[Handling|Mechanics#handling]]* (`handling`)
         * [[Auto Repeat Rate|Mechanics#auto-repeat-rate]] (`arr`)
         * [[Delayed Auto Shift|Mechanics#delayed-auto-shift]] (`das`)
         * [[DAS Cut Delay|Mechanics#das-cut-delay]] (`dcd`)
@@ -31,7 +31,7 @@ Please feel free to **expand all** pages to the right, or take a look at this ex
         * [[Fire|Mechanics#fire]] (`fire`)
         * [[Character System|Mechanics#character-system]] (`characters`)
         * [[Badges|Mechanics#badges]] (`secretgrade`)
-* **[[Personalization]]**
+* **[[Personalization]]** (`personalization`)
     * *[[Profile Customization|Personalization#profile-customization]]*
         * [[Registration|Personalization#registration]] (`register`)
             * [[Logging Into Your Account|Personalization#logging-into-your-account]] (`login`)
@@ -44,14 +44,14 @@ Please feel free to **expand all** pages to the right, or take a look at this ex
         * [[Built-in Backgrounds|Personalization#built-in-backgrounds]] (`custombg`)
             * [[Troubleshooting|Personalization#troubleshooting]]
         * [[Custom Skins|Personalization#custom-skins]] (`customskins`)
-    * *[[Stock Assets|Personalization#stock-assets]]*
+    * *[[Stock Assets|Personalization#stock-assets]]* (`stockassets`)
         * [[Music|Personalization#music]] (`music`)
         * [[Fonts|Personalization#fonts]] (`fonts`)
         * [[Sound Effects|Personalization#sound-effects]] (`sfx`)
         * [[Backgrounds|Personalization#backgrounds]] (`backgrounds`)
-* **[[Terminology]]**
+* **[[Terminology]]** (`terminology`)
     * *[[Ingame symbolism|Terminology#ingame-symbolism]]*
-        * [[SOLO options|Terminology#solo-options]]
+        * [[SOLO options|Terminology#solo-options]] (`soloptions`)
             * [["PRO MODE"|Terminology#pro-mode]] (`promode`)
             * [["STRIDE MODE"|Terminology#stride-mode]] (`stridemode`)
         * [[Zen Levels|Terminology#zen-levels]] (`zenlevels`)
@@ -59,7 +59,7 @@ Please feel free to **expand all** pages to the right, or take a look at this ex
     * *[[Common terms|Terminology#common-terms]]*
         * [["Plonker"|Terminology#plonker]] (`plonk`)
         * [["Strider"|Terminology#strider]] (`strider`)
-* **[[Troubleshooting]]**
+* **[[Troubleshooting]]** (`troubleshooting`)
     * *[[Configuration|Troubleshooting#configuration]]*
         * [[TETR.IO->Discord Account Linking|Troubleshooting#tetrio-discord-account-linking]] (`link`)
         * [[Controllers|Troubleshooting#controllers]] (`controller`)
