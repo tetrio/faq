@@ -92,3 +92,18 @@ That being said, there are still some ways to **play TETR.IO on phone**! Here's 
 To load TETR.IO on mobile, just visit <https://tetr.io/> on your mobile browser of choice. *That's it!* The real problem arises when you attempt to *control the game,* so there's a couple of different attacks you can use. The first would be simply connecting any conventional controller through bluetooth or usb, and binding that controller in TETR.IO's config natively.
 
 The second workaround involves using what's known as a "bookmarklet", which is basically JavaScript code you run from a bookmark, to create **onscreen touch controls**. A specialized site to generate these bookmarklets may be found [here](https://you.have.fail/ed/at/tetrio/touchcontrols/). There's included instructions in this site once you've defined your controls.
+
+# Helpfully reporting an issue
+As an alpha game, TETR.IO may have some unresearched issues floating around, and, as a member during this development stage, you're expected to report reoccurring issues. The usefulness of a report varies depending on how reproducible it is, so, single isolated WebGL crashes might not be the most high priority issue.
+
+## Ensure your issue hasn't already been reported
+There's a couple different ways players are directed to report issues. **Please read them first**, making good use of **search bars** with various different keywords related to your issue. In some cases, even single word searches can narrow down results, so don't give up so easily.
+
+You can find official repositories for issue reports here:
+* [TETR.IO issue tracker as found on Github](https://github.com/tetrio/issues/issues)
+* [The #issue-report channel](https://discord.com/channels/673303546107658242/673305614318960671) as found on [the official TETR.IO Discord server](https://l.tetr.io/)
+<details>
+<summary> As well as </summary>
+* The various methods of contact listed on https://osk.sh (e-mail and Discord messaging preferred)
+    * For **exploits or vulnerabilities only!**
+</details>
