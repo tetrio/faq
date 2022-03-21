@@ -22,10 +22,10 @@ Shortly before beginning a 40 LINES or BLITZ run, you're presented with a couple
 > *Hover text goes a long way towards avoiding potential confusion such as this. Please take note of it!*
 > <img width="537" height="219" src="https://user-images.githubusercontent.com/64891705/154115276-f5ac31e9-a3f5-453d-b1d7-69661f00b103.gif">
 
-#### "PRO MODE"
+#### PRO MODE
 This toggle is much more noticable and useful in 40L. The "extra info" shown and arranged are as follows:
 
-![image](https://user-images.githubusercontent.com/64891705/154122591-76b13039-9cc4-4d8e-b9ce-84ae4d34ada1.png)
+<img width="579" height="494" src="https://user-images.githubusercontent.com/64891705/154122591-76b13039-9cc4-4d8e-b9ce-84ae4d34ada1.png">
 
 1. The amount of *remaining lines* on the board right here. Not shown if playing BLITZ.
 2. The total amount of game inputs you've used, as well as inputs per piece.
@@ -39,7 +39,7 @@ This toggle was implemented before advanced counter configuration was available,
 * Left counter slot 4: KEYS
 * Right counter slot: FINESSE
 
-#### "STRIDE MODE"
+#### STRIDE MODE
 This toggle impacts many of TETR.IO's animations regarding the game state's beginning, ending, and restarts. Most notable is the inclusion of "tap to retry", making retries near-instant to suit the needs of a "[[strider|Terminology#strider]]".
 
 This toggle also impacts:

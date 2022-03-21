@@ -15,7 +15,7 @@ Please feel free to **expand all** pages to the right, or take a look at this ex
 * **[[Mechanics]]** (`mechanics`)
     * *[[TETRA LEAGUE|Mechanics#tetra-league]]*
         * [[Rating Deviation|Mechanics#rating-deviation]] (`rd`)
-        * [[Rank Cutoffs|Mechanics#rank-cutoffs]] (`rankcutoff`)
+        * [[Rank Cutoffs|Mechanics#rank-cutoffs]] (`rankcutoffs`)
     * *[[Handling|Mechanics#handling]]* (`handling`)
         * [[Auto Repeat Rate|Mechanics#auto-repeat-rate]] (`arr`)
         * [[Delayed Auto Shift|Mechanics#delayed-auto-shift]] (`das`)
@@ -67,7 +67,7 @@ Please feel free to **expand all** pages to the right, or take a look at this ex
         * [[Dedicated Graphics|Troubleshooting#dedicated-graphics]] (`dgpu`)
         * [[Broken Installer|Troubleshooting#broken-installer]] (`installstuck`)
         * [[Installation Locations|Troubleshooting#installation-locations]] (`installpaths`)
-    * *[[Replays|Troubleshooting#replays]]* (`import`)
+    * *[[Replays|Troubleshooting#replays]]* (`replays`)
         * [[Online Custom Room Replays|Troubleshooting#online-custom-room-replays]]
     * *[[Mobile Support|Troubleshooting#mobile-support]]* (`mobile`)
 
