@@ -40,6 +40,8 @@ Please feel free to **expand all** pages to the right, or take a look at this ex
         * [[Profile Pictures|Personalization#profile-pictures]] (`pfp`)
             * [[My Profile Picture Isn't NSFW!|Personalization#my-profile-picture-isnt-nsfw]] (`notnsfw`)
         * [[Reporting a TETR.IO User|Personalization#reporting-a-tetrio-user]] (`report`)
+            * [[Appealing an ingame ban/Getting "support"|Personalization#appealing-an-ingame-bangetting-support]] (`support`)
+        * [[Tiers of Supporter|Personalization#tiers-of-supporter]] (`supporter`)
     * *[[Custom Assets|Personalization#custom-assets]]*
         * [[Built-in Backgrounds|Personalization#built-in-backgrounds]] (`custombg`)
             * [[Troubleshooting|Personalization#troubleshooting]]
