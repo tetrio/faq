@@ -1,0 +1,7 @@
+*much* shorter version of faq entry `zspins`, just *really* plain instructions (cw= clockwise/ccw=counter clockwise)
+
+<:piece_z:731324144700096655> spin: ccw, soft drop, ccw (which is z twice w/ default controls)
+<:piece_z:731324144700096655> spin w/ wall: cw, soft drop, cw https://files.catbox.moe/yau2oj.gif
+
+<:piece_s:731324117382594570> spin: cw, soft drop, cw
+<:piece_s:731324117382594570> spin w/ wall: ccw, soft drop, cw https://files.catbox.moe/cvoofj.gif"

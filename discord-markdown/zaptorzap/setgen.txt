@@ -1,0 +1,20 @@
+Automated tools for TETR.IO's `/set` command
+
+If you're interested in harnessing the power of the ingame `/set` command for your own preset-related purposes, here's some resources to help you with that. First, we'll go over automated solutions, from least intrusive to most:
+ - <@127415620793794560>'s Autohost project includes several commands for room presets, please refer to this ingame bot's documentation @ <https://gitlab.com/Zudo/autohost/-/wikis/Get-Started>. Once you have your room configured the way you like, use the command `!savepreset <name>`  to save it as a preset. You can then load the settings in the future with `!preset <name>`, or delete them with `!delpreset <name>`. There are a handful of built-in presets that you can view by simply running `!preset`.
+ - Zutatensuppe's custom JavaScript bookmarklet: a quick how-to guide is included in <https://github.com/Zutatensuppe/tetrio-preset> and <https://www.reddit.com/r/Tetris/comments/r3o5w3/preset_tool_for_custom_multiplayer_room_settings/>
+ - <@616498515106988073>'s console solution: paste the following code into your browser's devtools, accessible by using `F12` in most scenarios(incl TETR.IO desktop), to dump your current room's properties into the console. This is a bit of a blunt solution, and it will include lots of extra definitions that would otherwise be assumed(as default settings), so only use this as an inbetween while creating `/set` presets from scratch!
+```js
+var configs = document.getElementsByClassName("room_config_item")
+var cmd = '/set '
+
+for(let i = 0; i<configs.length; i++) {
+    var v = configs[i]
+    var datIdx = v.getAttribute('data-index')
+    if(datIdx&&datIdx.match(/.{4}./)) {
+        cmd+=${datIdx}=${v.value=='on'?v.checked+0:v.value};\
+
+    }
+}
+console.log(cmd)```
+(cont. in entry `setgenmanual`)

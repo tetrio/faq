@@ -1,0 +1,5 @@
+Information on the __[D]__elayed __[A]__uto __[S]__hift handling value
+
+(this is the second in a series of handling related FAQ entries: `ARR`,**`DAS`**,`DCD`, and `SDF`)
+
+**DAS:** __[D]__elayed __[A]__uto __[S]__hift(lower is faster): This slider controls how long you hold the left or right movement keys before engaging ARR. To put it simply: DAS is how long you hold L/R before the piece goes brrrr, and ARR is how *quickly* the piece goes brrrr. Optimal DAS values largely differ from player to player, so experiment around with different ones! (hint: you may test your current handling settings from the TEST button in the top right of the HANDLING section)
