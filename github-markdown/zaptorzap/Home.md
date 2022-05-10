@@ -10,6 +10,21 @@ And some other more general resources I'll link to even in this FAQ later on:
 * [four.lol](https://four.lol/), and particularly its accurate search engine
 * [The Hard Drop Wiki](https://harddrop.com/) beats out these two with mass alone, but mass comes at a quality cut. 
 
+# Foreword/meta FAQ
+> Why link to this overdetailed wiki people *"won't read"* when an answer as simple as "check account settings" suits most [["how do i change pfp"|Personalization#profile-pictures]] questions?
+
+My primary concern is **proactive** answers—answers to questions that haven't been asked yet. These questions might not even come from the same individual you were initially answering. Yes, I've had my own lurker phase too, and we should know they exist. Show some courtesy to your lurkers, folks!
+
+Anyways, picture this: that same individual then trips TETR.IO's builtin NSFW detection, and wonders if they can get around the measure entirely. With a simple answer like yours, they'll be forced to go right back to you and ask a slightly more complicated question with many nuances. This FAQ, though? It covers that [[directly underneath instructions on how to change your profile picture|Personalization#my-profile-picture-isnt-nsfw]]. Maybe this individual will glance at the TOC on the right, and then get [[instructions for entirely unrelated background changing|Personalization#built-in-backgrounds]]—another thing they've been idly wondering about. This overarching leitmotief of attention to detail for correct answers is important to me, and across **[[over forty FAQ entries|Home#table-of-contents]]**, I don't believe I've personally had to answer many follow-up questions after `.f` gets invoked.
+
+`.f` is another large reason this FAQ is paramount to my efficiency at answering frequently asked questions on the TETR.IO discord server. That said, it's not as though the wiki's *untraversable* without it. Even saying "use ccw twice", a phrase consisting of thirteen symbols, is more lengthy and less detailed for you and them than typing out "[[.f zspins|Mechanics#zs-spins]]", which leads to a section with multiple illustrated `.gif` files. Illustrations in general are another large reason this FAQ medium is superior to inline Discord answers.
+
+So, all in all, not only is it easier for you as a question answerer to use these resources, but, more often than not, it'll have more quality thanks to well prepared media embedded within rich rendered wiki pages and it will be speedier to refer to, even if you're not using a bot. Just train your memory, and [use Firefox or Chrome's omnibox for smart auto completions](https://media.discordapp.net/attachments/674421736162197515/835709579195056138/faq.mp4).
+
+> When I say overdetailed, I *really* mean it. I can explain DAS and ARR faster than your FAQ takes to explain SDF alone. Are you going to shorten [[these sections|Mechanics#handling]] anytime soon?
+
+Yes, this is something people've brought to my attention before, and it's an issue I don't take particular offense towards. I (overtly optimistically) assume that players have already read the **ingame tooltips** which explain handling in much less depth and descriptive language, such that they need a more detailed explanation to understand the mechanics. Across the FAQ, I tend to have a "better more detailed than *not detailed enough*" mentality, although I understand that there's a certain line of verbosity I frequently cross.
+
 # Table of Contents
 Please feel free to **expand all** pages to the right, or take a look at this extended table of contents below to get around. If you're already used to the bb shorthands to move around, or, would like to use them with the `.f` command, I've included them in this list:
 * **[[Mechanics]]** (`mechanics`)
@@ -42,6 +57,7 @@ Please feel free to **expand all** pages to the right, or take a look at this ex
         * [[Reporting a TETR.IO User|Personalization#reporting-a-tetrio-user]] (`report`)
             * [[Appealing an ingame ban/Getting "support"|Personalization#appealing-an-ingame-bangetting-support]] (`support`)
         * [[Tiers of Supporter|Personalization#tiers-of-supporter]] (`supporter`)
+        * [[Who gets verified?|Personalization#who-gets-verified]] (`verified`)
     * *[[Custom Assets|Personalization#custom-assets]]*
         * [[Built-in Backgrounds|Personalization#built-in-backgrounds]] (`custombg`)
             * [[Troubleshooting|Personalization#troubleshooting]]
