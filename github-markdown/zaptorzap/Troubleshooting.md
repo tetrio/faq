@@ -87,7 +87,7 @@ Replays taken in this context rely on some unconventional requirements, so don't
 # Mobile Support
 First off, we have to break some news. [TETR.IO will never officially support mobile devices](https://discord.com/channels/673303546107658242/673305735811170305/901428890025738280)
 
-That being said, there are still some ways to **play TETR.IO on phone**! Here's one quick rule, though: it **cannot be any iOS-based Apple device.** This is **absolute**, TETR.IO simply [will not load under WebKit](https://github.com/tetrio/issues/issues/425). Otherwise, you're welcome to try with any android device, but compatibility is *not* guaranteed as these are unsupported platforms!
+That being said, there are still some ways to **play TETR.IO on phone**! Please be aware, though: **under any iOS-based Apple device,** compatibility is [experimental at best currently](https://tetr.io/about/patchnotes/#chlog_6_2_1). Otherwise, you're welcome to try with any android device, but compatibility is *not* guaranteed as these are unsupported platforms!
 
 To load TETR.IO on mobile, just visit <https://tetr.io/> on your mobile browser of choice. *That's it!* The real problem arises when you attempt to *control the game,* so there's a couple of different attacks you can use. The first would be simply connecting any conventional controller through bluetooth or usb, and binding that controller in TETR.IO's config natively.
 
