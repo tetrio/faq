@@ -55,6 +55,32 @@ If you would like to report any TETR.IO user for breaking [the TETR.IO Community
 
 As a registered user, simply click on a suspicious, rude, or otherwise problematic user's username or usercard, or, type said user's username into the ingame TETRA CHANNEL's search bar, accessible by clicking the *third* menu option, to access their "profile card". Once this card is open, simply click this arrow, and then click this report icon to begin the guided process of including details. If you report while in a room, chat logs will be automatically included. 
 
+### Appealing an ingame ban/Getting "support"
+
+**DO NOT APPEAL BANS IN THE TETR.IO DISCORD!** Your message will be ignored at best.
+
+- To contact TETR.IO support regarding an issue with your account, visit https://tetr.io/about/support/ and follow the instructions.
+- For live technical help, feel free to ask in [the #tetrio channel](https://discord.com/channels/673303546107658242/674421736162197515), where someone may be able to help you. 
+    - Please only do this **after** skimming [the FAQ topics](../Home), however!
+- If you have an issue report or a feature request, use their respective channels in [the Discord server](https://l.tetr.io/discord), or open an issue at [the TETR.IO Issue Tracker](https://github.com/tetrio/issues/issues/new/choose).
+
+## Tiers of Supporter
+
+[TETR.IO Supporter](https://l.tetr.io) tiers are determined by your amount of **total** support - including purchases for yourself, gifts you've sent to other players, and any Patreon support from the old supporter system. You can check this number by going to CONFIG > ACCOUNT.
+
+The cutoffs for each supporter tier are as follows:
+
+  -  ★ (tier 2) - 20€
+  -  ★★ (tier 3) - 80€
+  -  ★★★ (tier 4) - 250€
+
+Once you've achieved a supporter tier, you keep it forever. If your supporter expires, the supporter tier badge and name colour will be hidden, but will be reactivated if you purchase (or are gifted) more supporter. Furthermore, your name will be permanently listed in the game's credits when you reach 200€ of total support. Unlike other supporter benefits, this will remain even if your supporter expires.
+
+## Who gets verified?
+TETR.IO verification may be conferred for a variety of reasons — in general, staff verifies TETR.IO staff members (such as [OSK, developer of TETR.IO](https://ch.tetr.io/u/osk)), users who have obtained the Contributor role in the official TETR.IO Discord server (such as [UNIQMG, author of the TETR.IO PLUS modification](https://ch.tetr.io/u/uniqmg)), players who have obtained world-class achievements (such as [former 40L WR holder VINCEHD](https://ch.tetr.io/u/vincehd)), and individuals who have demonstrated major influence in the community (such as [CABOOZLED_PIE, host of the Underdogs Cup tournament series](https://ch.tetr.io/u/caboozled_pie)).
+
+Additionally, there are edge cases where notable individuals outside of the TETR.IO community (such as [BTMC, well known osu! streamer](https://ch.tetr.io/u/btmc)) may be verified, although this, along with all requests for verification, is considered on a case by case basis.
+
 # Custom Assets
 Looking to add your own backgrounds/skins to the game? Here's how to do it!
 

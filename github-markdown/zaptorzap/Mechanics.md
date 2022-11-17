@@ -19,7 +19,7 @@ RD *generally* goes down after playing a match. It is possible to *gain* RD afte
 RD accumulates at a static rate of "1 RD per day, after a week of inactivity." You can tell whether or not your RD is currently "decaying" by navigating to your TETRA CHANNEL Userpage, found at `https://ch.tetr.io/u/your-username-here` and viewing the Glicko number, looking for an arrow which points in this direction: ↗️
 
 ## Rank Cutoffs
-Interested in seeing the TETR.IO rank requirements? You may attain this information from [Tenchi's dynamic "TETR.IO STATS" project](https://tetrio.team2xh.net/?t=ranks), however, do note rank cutoffs are very volatile, and that this site only updates at a rate of once per every 6 hours, so this site does **not** host up-to-date or official information!
+Interested in seeing the TETR.IO rank requirements? You may attain this information from [Tenchi's dynamic "TETR.IO STATS" project](https://tetrio.team2xh.net/?t=ranks), however, do note rank cutoffs are very volatile, and that this site only updates at a rate of once per every 24 hours, so this site does **not** host up-to-date or official information!
 
 For some aforementioned up-to-date official information, feel free to visit your TETRA CHANNEL userpage found at `https://ch.tetr.io/u/your-username-here` and inspect the TETRA LEAGUE section. While only vaguely stated, and only shown if ranked, a "progress bar" will be shown below your stats, indicating your global placement, the placement required to reach the next rank, and the placement required to *keep your current rank.*
 

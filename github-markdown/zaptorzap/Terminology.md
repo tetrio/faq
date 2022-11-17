@@ -51,7 +51,7 @@ This toggle also impacts:
 ### Network icons
 Depending on the active internet connection, several network icons may flash on the left side of the screen indicating various different active issues with the current connection. Here's a chart listing them all and their descriptions:
 
-<img width="610" height="207" src="https://cdn.discordapp.com/attachments/674421736162197515/903649798719176795/2021-10-09_02-48-21.png">
+![image](https://user-images.githubusercontent.com/64891705/190926254-2837397b-6175-40ff-8e14-f86f25043693.png)
 
 If you would like to permanently remove these symbols, you may do so by enabling "HIDE NETWORK WARNING ICONS" under "VIDEO & INTERFACE" in the "CONFIG".
 

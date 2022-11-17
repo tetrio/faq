@@ -25,6 +25,10 @@ So, all in all, not only is it easier for you as a question answerer to use thes
 
 Yes, this is something people've brought to my attention before, and it's an issue I don't take particular offense towards. I (overtly optimistically) assume that players have already read the **ingame tooltips** which explain handling in much less depth and descriptive language, such that they need a more detailed explanation to understand the mechanics. Across the FAQ, I tend to have a "better more detailed than *not detailed enough*" mentality, although I understand that there's a certain line of verbosity I frequently cross.
 
+> Why is this whole section written in the first person?
+
+As of writing, the FAQ was a personal project of mine @ https://github.com/ZaptorZap/tetriofaq/wiki/. It has since been merged with [the official TETR.IO Github organization](https://github.com/tetrio), so I feel the need to specifically note that the opinions described here are of ZaptorZap's and not of the TETR.IO programmers.
+
 # Table of Contents
 Please feel free to **expand all** pages to the right, or take a look at this extended table of contents below to get around. If you're already used to the bb shorthands to move around, or, would like to use them with the `.f` command, I've included them in this list:
 * **[[Mechanics]]** (`mechanics`)
@@ -86,7 +90,7 @@ Please feel free to **expand all** pages to the right, or take a look at this ex
         * [[Broken Installer|Troubleshooting#broken-installer]] (`installstuck`)
         * [[Installation Locations|Troubleshooting#installation-locations]] (`installpaths`)
     * *[[Replays|Troubleshooting#replays]]* (`replays`)
-        * [[Online Custom Room Replays|Troubleshooting#online-custom-room-replays]]
+        * [[Online Custom Room Replays|Troubleshooting#online-custom-room-replays]] (`ttrm`)
     * *[[Mobile Support|Troubleshooting#mobile-support]]* (`mobile`)
 
 # Contributing
@@ -108,9 +112,11 @@ From there, your submission will go through minimal classification to try and sl
 </details>
 
 # Authors
-* This specific FAQ is spearheaded by me, ZaptorZap. (I'm ZaptorZap#0405 on there)
+* This specific FAQ is spearheaded by me, ZaptorZap. (I'm ZaptorZap#0405 on Discord)
     * I hold maintainership over every migrated bb FAQ entry in this wiki (and by extension, ownership over every question in the wiki to begin with)
 * Special thanks to 
+    * [Allustrate](https://github.com/Allustrate) forks [a very comprehensive translation of the FAQ in Simplified Chinese](https://github.com/Allustrate/tetriofaq/wiki/%E9%A6%96%E9%A1%B5).
+        * They've also [translated much of my writing from the Tetris.Wiki](https://tetris.huijiwiki.com/wiki/TETR.IO_%E5%BE%BD%E7%AB%A0). For this, I thank them very much!
     * Zudo#0800 for being the 2nd most active bb FAQ editor.
         * Some of his words might be in here already, from intermittent edits.
     * spoon for making the command to begin with

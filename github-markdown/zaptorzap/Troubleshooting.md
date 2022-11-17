@@ -4,11 +4,11 @@ This section goes over some common technical help people need for TETR.IO.
 Sometimes you're just trying to [squeeze some more optimization out of TETR.IO](https://tetr.io/about/performance/ "TETR.IO's own PERFORMANCE TIPS guide"), or you're trying to use specialized control settings and you're not sure how it all works. This section here aims to help you!
 
 ## TETR.IO->Discord Account Linking
-If you're interested in linking your Discord account to your TETR.IO account, navigate to CONFIG > ACCOUNT > CONNECTIONS, as detailed in this `.gif` file: 
+If you're interested in linking your Discord account to your TETR.IO account, navigate to CONFIG > ACCOUNT > CONNECTIONS, as detailed in this `.gif` file:
 
-<img width="768" height="520" src="https://user-images.githubusercontent.com/64891705/153960535-b9c6b63e-a607-45df-992c-2fc6d5f2eeb7.gif">
+<img width="856" height="852" src="https://user-images.githubusercontent.com/64891705/197452119-c96e6ea9-1b69-4f9f-80e6-38be2155326a.gif">
 
-This link is currently used to grant the "Supporter" role to TETR.IO supporters, and to provide account verification for [the Character System playtester application form](https://insider-applications.osk.sh/). If you have recently purchased or been gifted supporter, you shouldn't have to wait too long before the role is automatically given to you, so long as the *@TETR.IO* bot is online. If you're having trouble linking your account, and are using TETR.IO Desktop, try linking from the website version instead, as this is less prone to error.
+This link is currently displayed publicly if chosen, enabling Discord bots such as **Hiyajo Maho#2356** to find your account from Discord; used to grant the "Supporter" role to TETR.IO supporters, and used to provide account verification for [the Character System playtester application form](https://insider-applications.osk.sh/). If you have recently purchased or been gifted supporter, you shouldn't have to wait too long before the role is automatically given to you, so long as the *@TETR.IO* bot is online. If you're having trouble linking your account, and are using TETR.IO Desktop, try linking from the website version instead, as this is less prone to error.
 
 ## Controllers
 TETR.IO includes full controller support, *even commanding dynamic vibrations for different actions,* be it from your modern browser, or from [the official TETR.IO Desktop client](https://tetr.io/about/desktop/). Just connect your controller of choice and bind it manually in the ingame config:
