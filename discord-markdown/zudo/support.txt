@@ -1,5 +1,0 @@
-DO NOT APPEAL BANS HERE! Your message will be ignored at best.
-
-- To contact TETR.IO support regarding an issue with your account, visit https://tetr.io/about/support/ and follow the instructions.
-- For technical help, feel free to ask in #tetrio, where someone may be able to help you.
-- If you have an issue report or a feature request, use their respective channels, or open an issue at https://github.com/tetrio/issues/issues/new/choose.

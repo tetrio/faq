@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>ABOUT TROUBLESHOOTING - TETR.IO</title>
+	<link rel="stylesheet" type="text/css" href="res/style.css">
+	<meta charset="utf-8">
+	<style>
+		.dangerdanger {
+			background: repeating-linear-gradient(-45deg, #960E0E, #960E0E 10px, #750A0A 10px, #750A0A 20px);
+			text-align: center !important;
+			color: #FFF;
+			font-size: 1.1em;
+		}
+		.warnwarn {
+			background: repeating-linear-gradient(-45deg, #96580E, #96580E 10px, #75490A 10px, #75490A 20px);
+			text-align: center !important;
+			color: #FFF;
+		}
+
+		.vl h1, .vl h1, .vl h2 {
+			margin: 0;
+		}
+		.vl p {
+			margin: 0;
+		}
+
+		.typetag {
+			display: inline-block;
+			padding: 0.1em 0.3em;
+			border-radius: 3px;
+			box-shadow: 0px 2px 4px #0006;
+			background-color: #7782B1;
+		}
+		.typetag ~ span {
+			color: #7782B1;
+		}
+
+		.vl li b + span {
+			color: #7782B1;
+		}
+		.vl li b + span + span {
+			color: #F31E55;
+			font-weight: 900;
+		}
+
+		code {
+			font-family: 'PFW';
+		}
+
+		.warning {
+			background-color: #2A1B16;
+			color: #FFA904;
+			border-radius: 3px;
+			padding: 0.5em 1em;
+		}
+
+		.hint {
+			background-color: #162A1C;
+			color: #04FF5D;
+			border-radius: 3px;
+			padding: 0.5em 1em;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<a class="major_item pi_play" href="https://tetr.io/">PLAY</a>
+		<a class="major_item pi_ch" href="https://ch.tetr.io/">TETRA CHANNEL</a>
+		<a class="major_item pi_about active" href="https://tetr.io/about/">ABOUT</a>
+
+		<a class="major_item_r" target="_blank" title="Support TETR.IO or gift supporter status and get cool benefits!" href="https://l.tetr.io/support">ǹ</a>
+		<a class="major_item_r" target="_blank" title="View the TETR.IO issue tracker - report bugs and pitch ideas to improve TETR.IO" href="https://github.com/tetrio/issues">Ǻ</a>
+		<a class="major_item_r" target="_blank" title="Join the TETR.IO Discord - follow updates, give feedback and have fun" href="https://l.tetr.io/discord">ǻ</a>
+		<a class="major_item_r" target="_blank" title="Follow TETR.IO on Twitter - be the first to hear about updates" href="https://twitter.com/tetriogame">Ǽ</a>
+		<a class="major_item_r" target="_blank" title="Get TETR.IO Desktop" href="https://tetr.io/about/desktop">Ǿ</a>
+	</header>
+	<img id="major_logo" src="res/logo.png">
+
+<div id="toc">
+	<h1>CONTENTS</h1>
+	<a href="#performance">PERFORMANCE TIPS</a>
+	<a href="#config">CONFIGURATION</a>
+	<a href="#link" class="indent">TETR.IO ➔ DISCORD account linking</a>
+	<a href="#controllers" class="indent">controllers</a>
+	<a href="#desktop">TETR.IO DESKTOP troubleshooting</a>
+	<a href="#dgpu" class="indent">dedicated graphics</a>
+	<a href="#installstuck" class="indent">frozen installer</a>
+	<a href="#installpaths" class="indent">installation locations</a>
+	<a href="#machelp" class="indent">unable to launch on MACOS</a>
+	<a href="#replays">REPLAYS</a>
+	<a href="#ttrm" class="indent">online custom room replays</a>
+	<a href="#mobile">MOBILE SUPPORT</a>
+</div>
+
+<span class="itemlist centeralign">
+<a class="topitem" href="../">NAVIGATION:</a>
+<a class="pageitem firstpageitem" href="./personalization.html">PERSONALIZATION</a>
+<a class="pageitem" href="./mechanics.html">MECHANICS</a>
+<a class="pageitem current" href="">TROUBLESHOOTING</a>
+<a class="pageitem" href="./terminology.html">TERMINOLOGY</a>
+</span>
+
+<section id="performance">
+<h1>Performance Tips</h1>
+	<p>Compared to other browser-based games, TETR.IO tries to give you a full-fledged desktop experience. Lower-class devices might have trouble playing the game on default settings. But don't worry, there's a lot of tips on this page that may help you! They're sorted by how much you have to compromise to get good performance.</p>
+<h2>1. Use TETR.IO Desktop</h2>
+	<p>The shiny desktop client for TETR.IO applies a bunch of performance patches for you, and tends to give far, <b>FAR</b> better performance. <a class="lna" href="../desktop/">Download it here.</a></p>
+<h2>2. Try a different browser</h2>
+	<p>Chrome and Chromium-based browsers are generally the fastest browsers for games. If you're not using Chrome, try using it over Firefox, as the speed increase will be noticable. (Or, use the <a class="lna" href="../desktop/">desktop client</a> instead!)</p>
+<h2>3. Check your power savings settings</h2>
+	<p>Many laptops are by default set to battery savings modes, especially when not charging. Check to ensure your PC is set to high performance mode, and not some battery saving mode, to ensure you're not missing out on performance.</p>
+<h2>4. Ensure your browser/TETR.IO Desktop is using your GPU</h2>
+	<p>If you're on a machine with multiple GPUs (like a laptop with both an Intel integrated GPU and an NVIDIA GPU), ensure your browser/TETR.IO Desktop is using the high-performance dedicated GPU. Instructions for this differ from machine to machine, but generally you want to take a look in either the NVIDIA Control Panel or the AMD Catalyst. In Windows 10, it might also be in the PC Settings app.</p>
+<h2>5. Change your graphics settings in the Config</h2>
+	<p>This may seem obvious, but check anyway. The important options in Config are:</p>
+<ul>
+	<li><b>GRAPHICS</b> &mdash; how good the graphics look. <b>Set to MINIMAL for best performance.</b> Doing so locks some of the settings that are listed below to their optimal position - those are marked with an asterisk (*).</li>
+	<li><b>RENDER AT A LOW RESOLUTION*</b> &mdash; this causes the game to render at a lower resolution, which makes it look more blurry, but also saves a lot of processing power. <b>ENABLE for best performance.</b></li>
+	<li><b>WEBGL MODE</b> &mdash; the version of WebGL that will be used. If you are seeing unexplainable artifacts or flickering, try a lower WebGL version. <b>Set to WEBGL 2 for best performance.</b></li>
+	<li><b>ACTION TEXT*</b> &mdash; what types of on-screen text will be displayed for special moves. Text is expensive performance-wise, but also very functional... so make sure you don't need these before disabling them. <b>Set to OFF for best performance.</b></li>
+	<li><b>PARTICLE COUNT*</b> &mdash; how many particles appear on screen. <b>Set to 10% for best performance.</b></li>
+	<li><b>LESS PRECISION ON COUNTERS*</b> &mdash; if checked, ingame counters will have less decimal places. <b>ENABLE for best performance.</b></li>
+	<li><b>NO BACKGROUND IN MENUS*</b> &mdash; if checked, the background will not show up in menus. <b>ENABLE for best performance.</b></li>
+	<li><b>ALWAYS SIMPLIFY MULTIPLAYER THUMBNAILS*</b> &mdash; if checked, other players' boards will be less detailed. <b>ENABLE for best performance.</b></li>
+	<li><b>SHOW DUELS SIDE-BY-SIDE*</b> &mdash; if checked, duels will be shown in a side-by-side view. <b>DISABLE for best performance.</b></li>
+	<li><b>HIDE CHAT WHEN INGAME*</b> &mdash; if checked, chat will not be shown ingame. <b>ENABLE for best performance.</b></li>
+	<li><b>WARN ME WHEN I'M IN DANGER*</b> &mdash; if checked, the board will turn red when your stack is very high. <b>DISABLE for best performance.</b></li>
+	<li><b>STEREO*</b> &mdash; this slider decides how much things to the sides of your board will be panned to either side. <b>SET TO 0% (OFF) for best performance.</b></li>
+	<li><b>DISABLE SOUND ENTIRELY</b> &mdash; if checked, no sounds or music will ever play. This increases performance, but the drawback is obvious. <b>ENABLE for best performance.</b></li>
+</ul>
+<h2>6. Close other programs and tabs</h2>
+	<p>Make sure you don't have 4 other games open. TETR.IO should be classified as a full desktop game, not a random browser tab. Hence, please give it the breathing room it deserves to be able to utilize your processing power.</p>
+<h2>7. Make the window smaller or lower your screen resolution</h2>
+	<p>If you make the window smaller or lower your screen resolution, the game has to render less. This will increase your performance greatly.</p>
+<h2>I tried all this!!!</h2>
+	<p>If you've tried all these steps, and still cannot get TETR.IO playable, your PC may not be able to play TETR.IO. If you need extra help, open DXDiag (hit Windows+R, then type "dxdiag") and save all its data to file. Then, contact me with the DxDiag.txt it creates.</p>
+	<p>Hope this helped you!</p>
+</section>
+
+<section id="config">
+<h1>Configuration</h1>
+    <p>Sometimes you&#39;re just trying to squeeze some more optimization out of TETR.IO, or you&#39;re trying to use specialized control settings and you&#39;re not sure how it all works. This section here aims to help you!</p>
+
+<h2 id="link">TETR.IO ➔ Discord Account Linking<span class="shorthand">link</span></h2>
+    <p>If you&#39;re interested in linking your Discord account to your TETR.IO account, navigate to CONFIG &gt; ACCOUNT &gt; CONNECTIONS, as detailed in this <code>.gif</code> file:</p>
+<div class="gallery centeralign" style="margin-bottom: 1em"><img width="693" height="690" src="res/faq/troubleshooting/link-discord.gif"></div>
+<p style="width: 30%;" class="tip-blue"><img class="ii" src="res/faq/tip.png"> If you&#39;re having trouble linking your account, and are using TETR.IO Desktop, try linking from the website version instead, as this is less prone to error.</p>
+    <p>This link is currently displayed publicly if chosen, enabling Discord bots such as <strong>Hiyajo Maho#2356</strong> to find your account from Discord; used to grant the &quot;Supporter&quot; role to TETR.IO supporters, and used to provide account verification for <a class="lna" href="https://insider-applications.osk.sh/">the Character System playtester application form</a>. If you have recently purchased or been gifted supporter, you shouldn&#39;t have to wait too long before the role is automatically given to you, so long as the <em>@TETR.IO</em> bot is online.</p>
+
+<h2 id="controllers">Controllers<span class="shorthand">controllers</span></h2>
+    <p>TETR.IO includes full controller support, <em>even commanding dynamic vibrations for different actions,</em> be it from your modern browser, or from <a class="lna" href="https://tetr.io/about/desktop/">the official TETR.IO Desktop client</a>. Just connect your controller of choice. TETR.IO recognizes and pre-configures Xbox, Switch Pro Controller, and Playstation controllers. If all goes well, you'll see the correct controller displayed in the bottom right once the game is open and you have pressed a button.</p>
+    <p><b>If your controller isn't detected</b>, you may have to bind it manually in the ingame config:</p>
+<div class="gallery"><img width="948" height="360" src="res/faq/troubleshooting/controller.gif"></div>
+    <p>If your controller isn&#39;t working at all, here&#39;s a couple of different pointers to direct your attention towards:</p>
+<ul>
+    <li>First off, ensure any D/XInput redirection isn&#39;t active. <strong>This includes software like Steam or JoyToKey.</strong></li>
+    <li>Ensure the controller you&#39;re attempting to use is <strong>the only controller connected.</strong> TETR.IO only accepts input from so-called &quot;port one&quot;, though, there are plans to remedy this issue. If you had other controllers plugged in, a <strong>restart</strong> of the pc may be required.</li>
+</ul>
+    <p>If neither of these troubleshooting steps work, here&#39;s some specialized software for specific controllers:</p>
+<ul>
+    <li><strong>PS4/PS5&#39;s DualShock</strong> lineup: use <a class="lna" href="https://github.com/Ryochan7/DS4Windows/releases/tag/v3.0.18">DS4Windows</a></li>
+    <li><strong>Nintendo Switch&#39;s Joy-Con or Pro Controller</strong> controllers: use <a class="lna" href="https://github.com/Davidobot/BetterJoy/releases">BetterJoy&#39;s &quot;ShowAsXInput&quot; function</a></li>
+</ul>
+</section>
+
+<section style="padding-bottom: 11em;" id="desktop"> <!-- only solution i have to that gallery of the MacOS error going out of view... -->
+<h1>TETR.IO Desktop Specific Troubleshooting</h1>
+<figure>
+    <blockquote><p style="font-family: HUN;">TETR.IO DESKTOP IS MULTIPLE ORDERS OF MAGNITUDE FASTER THAN THE BROWSER!<br>enjoy uncapped framerates, faster startup, discord integration and more with <a class="lna" href="https://tetr.io/about/desktop/">the <strong>official</strong> desktop client</a>!</p></blockquote>
+    <figcaption>— Ingame banner ad, 2021</figcaption>
+</figure>
+
+<h3 id="dgpu">Dedicated Graphics<span class="shorthand">dgpu</span></h3>
+    <p>Are you using a laptop and getting poor performance with TETR.IO Desktop or browsers? If so, you&#39;ll want to ensure Windows is using your &quot;dedicated&quot; graphics card, as opposed to the less performant, yet more power efficient &quot;integrated&quot; graphics card Windows is likely selecting for you. You can override this autoselection by following this lengthy image guide:</p>
+<img style="width: 100%;" src="res/faq/troubleshooting/dgpu.png">
+<ul>
+    <li>If you use TETR.IO Desktop, then you will find the executable in <code>%localappdata%\\Programs\\tetrio-desktop\\resources</code></li>
+    <li>If you use Chrome, you may find it in <code>%programfiles%\\Google\\Chrome\\Application\\chrome.exe</code>, <code>%programfiles(x86)%\\Google\\Chrome\\Application\\chrome.exe</code>, or <code>%localappdata%\\Google\\Chrome\\Application\\chrome.exe</code></li>
+    <li>And, if you&#39;re a Firefox kinda guy, then you will find Firefox&#39;s executable in <code>%programfiles(x86)%\\Mozilla Firefox\\</code> or <code>%programfiles%\\Mozilla Firefox\\</code>, depending on which architecture (32 or 64 bits respectively) your computer currently has installed</li>
+</ul>
+
+<h3 id="installstuck">Frozen Installer<span class="shorthand">installstuck</span></h3>
+    <p>Is your TETR.IO Desktop installation getting stuck? Here&#39;s a workaround:
+    You can use a <em>good</em> archiving program, such as <a class="lna" href="https://www.7-zip.org/download.html">7zip</a>, to manually extract the game&#39;s contents for a much more manual installation for now. Here&#39;s a quick video guide<span class="unemphasis">(really, just open the <code>.exe</code> as a compressed folder and drag stuff out!)</span>: </p>
+<div class="gallery centeralign"><img width="805" height="540" src="res/faq/troubleshooting/manual-install.gif"></div>
+
+<h3 id="machelp">Unable to launch on macOS<span class="shorthand">machelp</span></h3>
+<div style="float: right;" class="gallery"><img width="450" height="651" src="res/faq/troubleshooting/macos-error.png"><p style="margin-top: -4em" class="description">The extra buttons are only shown when TETR.IO Desktop is right clicked or control clicked.</p></div>
+    <p>When trying to install TETR.IO Desktop on macOS, you may run into a message stating that the &quot;developer cannot be verified&quot;, preventing you from launching the game entirely. As long as you&#39;ve downloaded TETR.IO Desktop from a reputable source (i.e. the official download page at <a class="lna" href="https://tetr.io/about/desktop">https://tetr.io/about/desktop</a>), you can freely disregard this warning - simply <strong>right-click</strong> or <strong>control-click</strong> the TETR.IO application, and you will be greeted with a prompt as shown to the right.</p>
+    <p>Click <strong>Open</strong> on this prompt. From now on, you will be able to launch TETR.IO Desktop normally without any further issues!</p>
+    <p>Still running into trouble? Visit <code>System Preferences &gt; Security &amp; Privacy &gt; General</code> (macOS 12 and below) or <code>System Settings &gt; Privacy &amp; Security</code> (macOS 13), then click <strong>Open Anyway</strong> when prompted.</p>
+
+<h3 id="installpaths">Installation Locations<span class="shorthand">installpaths</span></h3>
+    <p>If you use TETR.IO Desktop, then you will find all installed files in the following folders: Use <code>Windows+R</code> and paste the following paths into the <strong>r</strong>un dialog that opens</p>
+<ul>
+    <li><code>%localappdata%\Programs\tetrio-desktop</code>
+    (The <code>.exe</code>cutable and <code>Resources</code> folder is found here)</li>
+    <li><code>%localappdata%\tetrio-desktop-updater</code>
+    (Contains a single <code>.exe</code>cutable, which is a copy of the original TETR.IO Desktop installer you installed your current version of TETR.IO Desktop with. Run this file to clear any modifications you may have on the game)</li>
+    <li><code>%appdata%\TETR.IO</code>
+    (Contains one empty folder: &quot;logs&quot;)</li>
+    <li><code>%appdata%\tetrio-desktop</code>
+    (Contains Electron related browser files. Two such examples: <code>Cache</code> and <code>Local Storage</code>)</li>
+</ul>
+</section>
+
+<section id="replays">
+<h1>Replays</h1>
+    <p>Loading replays is super easy, if not slightly obscure. It&#39;s asked so often I made this dedicated section to it, so don&#39;t fret if you&#39;re about to go &quot;that&#39;s so simple!&quot;
+    <em>(also see)</em></p>
+<ul>
+    <li>Tenchi&#39;s FAQ on</li><ul>
+        <li><a class="lna" href="https://tetrio.team2xh.net/?t=faq#replays-location">Where replays are saved</a></li>
+        <li><a class="lna" href="https://tetrio.team2xh.net/?t=faq#replays-saved">When replays are saved</a></li>
+        <li><a class="lna" href="https://tetrio.team2xh.net/?t=faq#replay-icons">Visual language within the replay timelines</a></li></ul>
+</ul>
+<hr>
+    <p>To view a locally saved replay, simply drag and drop the file from your file manager of choice into TETR.IO. If TETR.IO fails to load the replay, please ensure the replay is correctly named, specifically: </p>
+<ul>
+    <li>for solo replays of any sort, use the <code>.ttr</code> file extension</li>
+    <li>for multiplayer replays of any sort, use the <code>.ttrm</code> file extension</li>
+    <li>for solo custom game setting presets, use the <code>.ttp</code> file extension</li>
+    <li>for TETR.IO config exports, use the <code>.ttc</code> file extension.</li>
+</ul>
+<div class="gallery"><img width="806" height="411" src="res/faq/troubleshooting/import-ttr.gif"><hr>
+<img width="340" height="213" src="res/faq/troubleshooting/import-ttrm.gif"></div>
+    <p>If you load a <code>.ttrm</code> file, simply click on the individual rounds to watch that round&#39;s replay.</p>
+
+<h2 id="ttrm">Online Custom Room Replays<span class="shorthand">ttrm</span></h2>
+<p style="width: 30%;" class="tip-blue"><img class="ii" src="res/faq/tip.png"> If you speed past the results screen without saving a replay, you can use <code>/savereplay</code> in chat to save a replay of the very last game that occured!</p>
+    <p>Replays taken in this context rely on some unconventional requirements, so don&#39;t blame yourself if that ever-so-required &quot;DOWNLOAD REPLAY&quot; button doesn&#39;t show up in here. Here&#39;s some requirements off the bat:</p>
+<ul>
+    <li>The room <strong>must</strong> be a two player match, one versus one.</li>
+    <li>Your client, not theirs, <em>should</em> be using LOW graphics or higher.</li>
+    <li>If using MINIMAL, <a class="lna" href="https://tetr.io/about/patchnotes/#chlog_5_2_0">the &quot;SHOW DUELS SIDE BY SIDE&quot; option <strong>must</strong> be enabled.</a></li>
+    <li>You <strong>must</strong> persist from the start of the match, even in a FT5 (example) game, to the end of the match.</li>
+    <li>Of course, you <strong>must</strong> download the replay from the results screen. There&#39;ll be a small button to the right, under the 2nd player&#39;s spot in the list.</li>
+</ul>
+</section>
+
+<section id="mobile">
+<h1>Mobile Support</h1>
+    <p>First off, we have to break some news. TETR.IO will never officially support mobile devices.</p>
+    <figure>
+	<blockquote>It's a lot of effort, for a userbase who I am not particularly interested in reaching (.io game players are already very detached from the game, mobile gaming is even more so). I might do it in the future, but for now I do not have particular interest in the mobile gaming sphere</blockquote>
+	<blockquote>furthermore, for now I am not interested in targeting a mobile demographic. tetr.io is already enough of an "io game", don't need to literally make it a mobile game.</blockquote>
+	<blockquote>i do not plan on mobile support or an app, period<br>
+	i don't want to attract that type of audience, and the amount of ui hell needed to make it work is not worth it</blockquote>
+	<figcaption>— osk, various dates <sup><a class="lna" href="https://github.com/tetrio/issues/issues/950#issuecomment-1135885047">[1]</a> <a class="lna" href="https://github.com/tetrio/issues/issues/425#issuecomment-1020742445">[2]</a></sup></figcaption>
+    </figure>
+    <p>That being said, there are still some ways to <strong>play TETR.IO on phone</strong>! Please be aware, though: <strong>under any iOS-based Apple device,</strong> compatibility is <a class="lna" href="https://tetr.io/about/patchnotes/#chlog_6_2_1">experimental at best currently</a>. Otherwise, you&#39;re welcome to try with any android device, but compatibility is <em>not</em> guaranteed as these are unsupported platforms!</p>
+    <p>To load TETR.IO on mobile, just visit <a class="lna" href="https://tetr.io/">https://tetr.io/</a> on your mobile browser of choice. <em>That&#39;s it!</em> The real problem arises when you attempt to <em>control the game,</em> so there&#39;s a couple of different attacks you can use. The first would be simply connecting any conventional controller through bluetooth or usb, and binding that controller in TETR.IO&#39;s config natively.</p>
+    <p>The second workaround involves using what&#39;s known as a &quot;bookmarklet&quot;, which is basically JavaScript code you run from a bookmark, to create <strong>onscreen touch controls</strong>. A specialized site to generate these bookmarklets may be found <a class="lna" href="https://you.have.fail/ed/at/tetrio/touchcontrols/">here</a>. There&#39;s included instructions in this site once you&#39;ve defined your controls.</p>
+</section>
+
+<div style="margin-left: 12em;" class="disclaimer-footer">
+		© 2019—2023 osk.<br>
+		© 2021—2023 ZaptorZap, Zudo.<br>
+		TETR.IO, the TETR.IO Logo, Tetra League, osk, and the osk Logo are trademarks of osk.<br>
+		All other trademarks are the property of their respective owners, trademark fair use doctrines apply.
+</div>
+</body></html>

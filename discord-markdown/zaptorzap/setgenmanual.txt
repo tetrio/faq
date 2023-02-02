@@ -1,7 +1,0 @@
-Advice for creating one of TETR.IO's `/set` preset commands
-
-(cont. from entry `setgen`)
-Interested in building or attaining your own `/set` presets without the use of third-party tools? Here's some pointers:
- - <@616498515106988073>'s list of `/set` attributes: as pinned in <#674421736162197515>, here's a direct link: https://discord.com/channels/673303546107658242/674421736162197515/719274456706449489
- - <@452708598653517825>'s `.txt` file of complete `/set` presets: it's always nice to learn by example, so here's a five for one deal! Download it from https://cdn.discordapp.com/attachments/763146093655359488/917684858099232798/tetrio_multiplayer_rule_presets.txt (if you have suggestions for new presets, feel free to dm <@452708598653517825> about them!)
-As well as these resources, here's some more specific advice: note that `/set` presets **are bound by TETR.IO's 513 character chat limit**. If a `/set` preset calls for more than this limit, either split it up into two halves or try to truncate defaults settings out.

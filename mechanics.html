@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>ABOUT MECHANICS - TETR.IO</title>
+	<link rel="stylesheet" type="text/css" href="res/style.css">
+	<meta charset="utf-8">
+	<style>
+		.dangerdanger {
+			background: repeating-linear-gradient(-45deg, #960E0E, #960E0E 10px, #750A0A 10px, #750A0A 20px);
+			text-align: center !important;
+			color: #FFF;
+			font-size: 1.1em;
+		}
+		.warnwarn {
+			background: repeating-linear-gradient(-45deg, #96580E, #96580E 10px, #75490A 10px, #75490A 20px);
+			text-align: center !important;
+			color: #FFF;
+		}
+
+		.vl h1, .vl h2, .vl h3 {
+			margin: 0;
+		}
+		.vl p {
+			margin: 0;
+		}
+
+		.typetag {
+			display: inline-block;
+			padding: 0.1em 0.3em;
+			border-radius: 3px;
+			box-shadow: 0px 2px 4px #0006;
+			background-color: #7782B1;
+		}
+		.typetag ~ span {
+			color: #7782B1;
+		}
+
+		.vl li b + span {
+			color: #7782B1;
+		}
+		.vl li b + span + span {
+			color: #F31E55;
+			font-weight: 900;
+		}
+
+		code {
+			font-family: 'PFW';
+		}
+
+		.warning {
+			background-color: #2A1B16;
+			color: #FFA904;
+			border-radius: 3px;
+			padding: 0.5em 1em;
+		}
+
+		.hint {
+			background-color: #162A1C;
+			color: #04FF5D;
+			border-radius: 3px;
+			padding: 0.5em 1em;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<a class="major_item pi_play" href="https://tetr.io/">PLAY</a>
+		<a class="major_item pi_ch" href="https://ch.tetr.io/">TETRA CHANNEL</a>
+		<a class="major_item pi_about active" href="https://tetr.io/about/">ABOUT</a>
+
+		<a class="major_item_r" target="_blank" title="Support TETR.IO or gift supporter status and get cool benefits!" href="https://l.tetr.io/support">ǹ</a>
+		<a class="major_item_r" target="_blank" title="View the TETR.IO issue tracker - report bugs and pitch ideas to improve TETR.IO" href="https://github.com/tetrio/issues">Ǻ</a>
+		<a class="major_item_r" target="_blank" title="Join the TETR.IO Discord - follow updates, give feedback and have fun" href="https://l.tetr.io/discord">ǻ</a>
+		<a class="major_item_r" target="_blank" title="Follow TETR.IO on Twitter - be the first to hear about updates" href="https://twitter.com/tetriogame">Ǽ</a>
+		<a class="major_item_r" target="_blank" title="Get TETR.IO Desktop" href="https://tetr.io/about/desktop">Ǿ</a>
+	</header>
+	<img id="major_logo" src="res/logo.png">
+
+<div id="toc">
+	<h1>CONTENTS</h1>
+	<a href="#tetraleague">TETRA LEAGUE</a>
+	<a href="#rd" class="indent">rating deviation</a>
+	<a href="#rankcutoffs" class="indent">rank cutoffs</a>
+	<a href="#handling">HANDLING</a>
+	<a href="#arr" class="indent">auto repeat rate</a>
+	<a href="#das" class="indent">delayed auto shift</a>
+	<a href="#dcd" class="indent">DAS cut delay</a>
+	<a href="#sdf" class="indent">soft drop factor</a>
+	<a href="#sonicdrop" class="indent2">sonic drop</a>
+	<a href="#srs">SUPER ROTATION SYSTEM</a>
+	<a href="#zspins" class="indent">Z&amp;S spins</a>
+	<a href="#setcommand"><code>/set</code> COMMAND USAGE</a>
+	<a href="#setgen" class="indent">automatic solutions</a>
+	<a href="#manualset" class="indent">manual reference</a>
+	<a href="#ingeneral">IN GENERAL</a>
+	<a href="#fire" class="indent">fire</a>
+	<a href="#characters" class="indent">character system</a>
+	<a href="#secretgrade" class="indent">badges</a>
+</div>
+
+<span class="itemlist centeralign">
+<a class="topitem" href="../">NAVIGATION:</a>
+<a class="pageitem firstpageitem" href="./personalization.html">PERSONALIZATION</a>
+<a class="pageitem current" href="">MECHANICS</a>
+<a class="pageitem" href="./troubleshooting.html">TROUBLESHOOTING</a>
+<a class="pageitem" href="./terminology.html">TERMINOLOGY</a>
+</span>
+
+<section id="tetraleague">
+<h1>TETRA LEAGUE</h1>
+    <p>TETRA LEAGUE is TETR.IO's premier matchmaking system featured for free for all registered accounts above level 10. While gameplay is very straightforward, which is just 1v1ing against another player of similar skill, the exact mechanics behind what the various mechanical values are and how the system itself works are often pondered.</p>
+    <p><em>also see:</em></p>
+<ul>
+    <li>Tenchi's FAQ on
+    <ol>
+		<li><a class="lna" href="https://tetrio.team2xh.net/?t=faq#decide-rank">how the game decides what rank you are</a></li>
+		<li><a class="lna" href="https://tetrio.team2xh.net/?t=faq#placement">being unranked after playing ten placement matches</a></li>
+		<li><a class="lna" href="https://tetrio.team2xh.net/?t=faq#rank-match">matchmaking with players far from your TR</a></li>
+<li>
+    <a class="lna" href="https://tetrio.team2xh.net/?t=faq#inconsistent-ranks">inconsistent ranks</a></ol>
+</li>
+    <li>The Tetris.Wiki on <a class="lna" href="https://tetris.wiki/TETR.IO#TETRA_LEAGUE">the TETRA LEAGUE</a></li>
+</ul>
+
+<h2 id="rd">Rating Deviation<span class="shorthand">rd</span></h2>
+	<p style="width: 30%;" class="tip-blue"><img class="ii" src="res/faq/tip.png"> Rating Deviation is an extension of <a class="lna tiplink" href="https://en.wikipedia.org/wiki/Glicko_rating_system">Glicko-2</a>, which is TETRA LEAGUE's underlying rating system. Glicko is used in many games and organizations, and was originally created for chess.</p>
+	<p>RD is the number <em>after</em> the <strong>±</strong> symbol in your Glicko rating value. "RD" stands for <strong>R</strong>ating <strong>D</strong>eviation. It is a measurement of "How uncertain the Glicko-2 system is of your rating. Lower is better." <span class="unemphasis">(according to ingame hover text)</span></p>
+
+	<p>RD <em>generally</em> goes down after playing a match. It is possible to <em>gain</em> RD after a match, however. RD limits itself to a value of "60", according to osk, however, some players have  even attained 58 RD. The upper limit of RD is 349, after which, RD will be unable to decay any further.</p>
+
+	<p>RD accumulates at a static rate of "1 RD per day, after a week of inactivity." You can tell whether or not your RD is currently "decaying" by navigating to your TETRA CHANNEL Userpage, found at <code>https://ch.tetr.io/u/your-username-here</code> and viewing the Glicko number, looking for an arrow which points in this direction: <span style="color: #F22; font-family: HUN;">Ƿ</span></p>
+
+<h2 id="rankcutoffs">Rank Cutoffs<span class="shorthand">rankcutoffs</span></h2>
+	<p style="width: 25%;" class="tip-blue"><img class="ii" src="res/faq/tip.png"> The Discord bots mentioned here may be found in <a class="lna tiplink" href="https://l.tetr.io/discord">the official TETR.IO Discord</a> under the <code>#bot-spam</code> channel/<code>#bbspam</code> thread.</p>
+	<p>Interested in seeing the TETR.IO rank requirements? You can retrieve that projected information from a couple different sites and Discord bots, however, do note that rank cutoffs are volatile, and that most services can only update at a rate of once per every hour, so they do <strong>not</strong> host up-to-date or official information!</p>
+	<p>Here's a small list of places that generate rank cutoffs:</p>
+<ul>
+	<li><a class="lna" href="https://tetrio.team2xh.net/?t=ranks">Tenchi's TETR.IO STATS</a> <span class="unemphasis">(Updates infrequently)</span></li>
+	<li><a class="lna" href="https://cankyre.github.io/tetostats/">Cankyre's TetoStats</a></li>
+	<li><b style="color: #2E9BE8;">Ðimentio#0001</b>'s <em style="color: #1FD83A;">Hiyajo Maho#2356</em> <span class="unemphasis">(Computes average statistics, caches results for 1 hour. Invite Hiyajo Maho from <a class="lna tiplink" href="https://www.qcgames.org/bot">this URL</a>.)</span></li>
+	<ul>
+		<li>Send <code>>tetoranks</code> in an appropriate channel. You can specify the specific rank you'd like to see with <code>>tetoranks &lt;x></code>. <span class=unemphasis>(where &lt;x> is your desired rank's letter)</span></li>
+	</ul>
+	<li><em style="color: #FFD800;">bbEngine#8989</em> <span class="unemphasis">(Private bot. Use in the <code>#bbspam</code> thread under <code>#bot-spam</code>. Generates cutoffs using <a class="lna tiplink" href="https://gist.github.com/ZaptorZap/e8881170180f7d61b9efe71aee288861">this bash script</a>.)<span></li>
+	<ul>
+		<li>Send <code>.trall</code> to view the cutoffs of all ranks.</li>
+		<li>Send <code>.tr &lt;username></code> to view a difference from the given rank to the next or previous rank in TR.</li>
+	</ul>
+</ul>
+	<p>For some up-to-date official information, feel free to visit your TETRA CHANNEL userpage found at <code>https://ch.tetr.io/u/your-username-here</code> and inspect the TETRA LEAGUE section. While only vaguely stated, and only shown if ranked, a "progress bar" will be shown below your stats, indicating your global placement, the placement required to reach the next rank, and the placement required to <em>keep your current rank.</em></p>
+</section>
+
+<section id="handling">
+<h1>Handling</h1>
+	<p style="width: 25%;" class="tip-blue"><img class="ii" src="res/faq/tip.png"> <b>Tip:</b> you may always test your current handling settings from the <span style="font-family: HUN;">TEST</span> button in the top right of the <span style="font-family: HUN;">HANDLING</span> section!</p>
+    <p>Handling controls how your pieces interact with your sustained input to any of the movement keys. They have a dedicated section in the titular <span style="font-family: HUN;">HANDLING</span> section of the ingame <span style="font-family: HUN;">CONFIG</span>. Below are some short descriptions of these values.</p>
+    <p><em>also see:</em></p>
+<ul>
+	<li><a class="lna" href="https://www.youtube.com/watch?v=rKQZdRu6_g0" title="How to properly set your TETR.IO Handling!">25Pi25's YouTube video</a> summarizing how to set your handling.</li>
+	<li><a class="lna" href="https://cdn.discordapp.com/attachments/813901028394795078/871859207605985300/DAS_and_ARR.gif">This instinctual <code>.gif</code> file</a> everyone keeps sharing to which I cannot attribute to anyone at this point.</li>
+	<li><a class="lna" href="http://tetrio.team2xh.net/?t=faq#handling">Tenchi's FAQ on the difference between TETR.IO and Jstris handling</a>.<ul>
+		<li>A commonly suggested workaround if changing between the two games is really simple, just do some quick addition:</li>
+</ul></li></ul>
+<figcaption style="margin-top:-15px;margin-left:5em"><code>TETR.IO ARR = Jstris ARR → <strong>TETR.IO DAS = Jstris DAS + Jstris ARR</strong></code></figcaption>
+
+<h2 id="arr">Auto Repeat Rate<span class="shorthand">arr</span></h2>
+	<p><code>[A]</code>uto <code>[R]</code>epeat <code>[R]</code>ate<span class="unemphasis">(lower is faster: 0 is instantaneous)</span>: This slider controls how quickly pieces move around while holding the left or right movement keys. It's well known that an "optimal" ARR is 0: when ARR is this value, pieces teleport instantly upon DAS charge, allowing for extremely fast play. Good <a class="lna" href="https://four.lol/mid-game/finesse" title="Finesse | FOUR">finesse</a> is a must-have if using this handling, however!</p>
+
+<h2 id="das">Delayed Auto Shift<span class="shorthand">das</span></h2>
+	<p><code>[D]</code>elayed <code>[A]</code>uto <code>[S]</code>hift<span class="unemphasis">(lower is faster)</span>: This slider controls how long you hold the left or right movement keys before engaging ARR. To put it simply:</p>
+<ul>
+	<li>DAS is how long you hold L/R before the piece goes <em>brrrr</em>.</li>
+	<li>ARR is how <em>quickly</em> the piece goes <em>brrrr</em>.</li>
+</ul>
+	<p>Optimal DAS values largely differ from player to player, so experiment around with different ones!</p>
+
+<h2 id="dcd">DAS Cut Delay<span class="shorthand">dcd</span></h2>
+	<p><code>[D]</code>AS <code>[C]</code>ut <code>[D]</code>elay(higher is slower: 0 disables the system): An experimental and complicated handling setting, DAS Cut Delay hasn't seen much use in professional play. DAS Cut Delay introduces a set of pauses to active DAS, every time one of the two following actions occur:</p>
+<div style="display: grid; grid-template-columns: repeat(2, 3fr);align-items: center;" class="gallery">
+<img height="222" style="margin-right: 1em;" src="res/faq/mechanics/dcd-1.gif">
+<img height="239" style="margin-left: 1em;" src="res/faq/mechanics/dcd-2.gif">
+<p class="description" style="border-top: #0060FF solid 2px;border-right: #0060FF solid 2px;margin-top: 4px;">Whenever a piece is rotated.</p>
+<p class="description" style="border-top: #0060FF solid 2px;margin-top: 4px;">Whenever a piece is spawned.</p>
+</div>
+	<p>If either of these actions occur, <strong>DAS is "paused"</strong>, or "cut" for the amount of frames DCD is configured to. It primarily targets 0ARR play, and aims to make certain finesse moves possible while keeping DAS charged, as well as reducing possible misdrops.</p>
+
+<figure>
+	<blockquote>➔ A common value for it would be around 1 or 2 frames.</blockquote>
+	<figcaption>— <a class="lna" href="https://tetr.io/about/patchnotes/#chlog_5_0_0">TETR.IO Patchnotes</a></figcaption>
+</figure>
+
+<h2 id="sdf">Soft Drop Factor<span class="shorthand">sdf</span></h2>
+	<p><code>[S]</code>oft <code>[D]</code>rop <code>[F]</code>actor(higher is faster: ∞ is instantaneous): This slider controlshow quickly your piece will soft drop, given you are holding the soft drop key. It doesn't necessarily multiply current gravity, as you can still soft drop in zero gravity. <span class="unemphasis">(0 times anything, even infinity, equals 0)</span></p>
+	<p>An optimal value for this would be ∞, as stacks that require partial soft drops to tuck pieces in is just <em>not a good stack.</em> If this functionality is a dealbreaker for you, limiting yourself to 20X or lower, then you have bigger issues to worry about.</p>
+
+<h3 id="sonicdrop">Sonic Drop<span class="shorthand">sonicdrop</span></h3>
+	<p>To execute a "hard drop without placing the piece", such as those extremely fast T-Spins, turn this slider in the CONFIG to ∞! Then, use your soft drop key as normal: the piece will rocket down to the bottom instantly now!</p>
+<img src="res/faq/mechanics/sonicdrop.png" style="width: 100%;">
+</section>
+
+<section id="srs">
+<h1>Super Rotation System</h1>
+    <p>"SRS", or, as this anagram expands to, "<code>[S]</code>uper <code>[R]</code>otation <code>[S]</code>ystem", is the driving force behind how the game handles rotations that intersect the stack. This system has some seemingly inconsistent and unconventional behaviors, especially for certain tucks, so here's some illustrations on such spins.</p>
+    <p><em>also see:</em></p>
+<ul>
+    <li>The Tetris.Wiki on</li><ul>
+		<li><a class="lna" href="https://tetris.wiki/TETR.IO#180_Kicks">TETR.IO's 180 kicks</a></li>
+		<li><a class="lna" href="https://tetris.wiki/TETR.IO#SRS.2B">SRS+</a></li>
+		<li><a class="lna" href="https://tetris.wiki/Super_Rotation_System">SRS in general</a></li></ul>
+    <li><a class="lna" href="https://harddrop.com/wiki/SRS">The Hard Drop Wiki on SRS</a></li>
+</ul>
+
+<h2 id="zspins">ZS Spins<span class="shorthand">zspins</span></h2>
+<div style="float: right;display: grid; grid-template-columns: repeat(2, 3fr);align-items: center;" class="gallery">
+<img align="right" src="res/faq/mechanics/s-spin.gif">
+<img align="right" src="res/faq/mechanics/z-spin.gif">
+<p class="description" style="border-top: #0060FF solid 2px;border-right: #0060FF solid 2px;margin-top: 4px;">CCW, CCW<br>CW, CW</p>
+<p class="description" style="border-top: #0060FF solid 2px;margin-top: 4px;">CW, CW<br>CCW, CCW</p>
+</div>
+	<p>Z and S tucks can be confusing to new players, since they rely on impulsively developed rotation systems which carry somewhat unconventional definitions of symmetry; this system, known as SRS, is likely why you're failing to execute successful Z or S spins.</p>
+	<p><strong>To execute a wall-less Z spin</strong>, starting from the spawn position, press the <strong>counter clockwise</strong> rotation key, then soft drop and press the <strong>counter clockwise</strong> rotation key once more. If there are any walls spanning across both sides, as shown in the second half of this gif, simply reverse the rotations and <em>press the neutral <strong>clockwise</strong> rotation key twice</em>, instead.</p>
+
+	<p style="float: unset;width: 40%;" class="tip-blue"><img class="ii" src="res/faq/tip.png"> <b>Tip:</b> here's an easy way to remember this, assuming you have the default guideline controls: press the <strong>"z"</strong> key twice to <strong>z</strong> spin.</p>
+
+	<p><strong>To execute a wall-less S spin</strong>, starting from the spawn position, press the <strong>clockwise</strong> rotation key, soft drop, and press the <strong>clockwise</strong> rotation key once again. <span class="unemphasis">(Many new players default to <em>only</em> rotating clockwise, as the only feasible key to rotate is the up arrow key, next to all other movement keys. This is why S spins may appear "easier" to a new user.)</span><br />
+	Assuming two walls exists, such as the one shown in the second half of this gif, simply reverse the rotations and <em>press the opposite <strong>counter clockwise</strong> rotation key twice</em>, instead.</p>
+</section>
+
+<section id="setcommand">
+<h1><code>/set</code> Command Usage</h1>
+    <p>The ingame <code>/set</code> command has plenty of valid use case scenarios, but at the end of the day, it still is what you make out of it. That said, here's a bunch of reference to make the most out of this command, without straining your hands typing a preset out manually!</p>
+
+<h2 id="setgen">Automatic Solutions<span class="shorthand">setgen</span></h2>
+<p style="float: right; width: 30%;" class="tip-blue"><img class="ii" src="res/faq/tip.png"> TETR.IO itself contains several presets available for custom room hosts. Simply click the very first option in the <span style="font-family: HUN;">GAME</span> tab to access up to 6 presets. Unfortunately, you can't create your own presets quite yet, but the ability to do so in the future is a planned feature.</p>
+	<p>First, we'll go over automated solutions, from least intrusive to most:</p>
+<ul>
+	<li><a class="lna" href="https://craftxbox.com/" title="craftxbox's homepage">craftxbox</a>'s <a class="lna" href="https://github.com/craftxbox/Autohost/" title="Source repository -- unrecommended for casual users">Continued Autohost project</a> includes several commands for room presets. Please refer to this <a class="lna" href="https://ch.tetr.io/u/craftxbot">ingame bot</a>'s <a class="lna" href="https://gitlab.com/Zudo/autohost/-/wikis/Get-Started">documentation to get started</a>. Once you have your room configured the way you like, use the command <code>!savepreset &lt;name&gt;</code>  to save it as a preset. You can then load the settings in the future with <code>!preset &lt;name&gt;</code>, or delete them with <code>!delpreset &lt;name&gt;</code>. There are a handful of built-in presets that you can view by simply running <code>!preset</code>.</li>
+	<li><a class="lna" href="https://github.com/Zutatensuppe" title="Zutatensuppe's Github profile">Zutatensuppe</a>'s custom JavaScript bookmarklet: a quick how-to guide is included both <a class="lna" href="https://github.com/Zutatensuppe/tetrio-preset">here</a> and <a class="lna" href="https://www.reddit.com/r/Tetris/comments/r3o5w3/preset_tool_for_custom_multiplayer_room_settings/">here</a>, alongside source code for the bookmarklet itself.</li>
+	<li><a class="lna" href="http://aznguy.com/" title="aznguy.mp4's homepage">aznguy.mp4</a>'s console solution: paste <a class="lna" href="https://gist.github.com/aznguymp4/e16c2b83d54ed47294129050df1102ee">this Github Gist</a> into your browser's devtools, accessible by using <code>F12</code> in most scenarios(including TETR.IO desktop), to dump your current room's properties into the console. This is a bit of a blunt solution, and it will include lots of extra definitions that would otherwise be assumed(as default settings), so only use this as an inbetween while creating <code>/set</code> presets from scratch!</li>
+</ul>
+<h2 id="manualset">Manual reference<span class="shorthand">manualset</span></h2>
+    <p>Here's some pointers if you'd like to avoid the automated solutions and instead create your own:</p>
+<ul>
+	<li><a class="lna" href="http://aznguy.com/" title="aznguy.mp4's homepage">aznguy.mp4</a>'s list of <code>/set</code> attributes: as pinned in #tetrio on the official TETR.IO Discord server, it's also available <a class="lna" href="https://tetrio.team2xh.net/?t=faq#commands">on Tenchi's FAQ</a>.</li>
+	<li><a class="lna" href="https://github.com/ZaptorZap/tetriofaq" title="ZaptorZap's github profile">ZaptorZap</a>'s <code>.txt</code> file of complete <code>/set</code> presets: it's always nice to learn by example, so here's a five for one deal! Download it <a class="lna" href="https://cdn.discordapp.com/attachments/763146093655359488/917684858099232798/tetrio_multiplayer_rule_presets.txt">here</a> (if you have suggestions for new presets, feel free to direct message ZaptorZap#0405 about them!)</li>
+</ul>
+	<p>As well as these resources, here's some more specific advice: note that <code>/set</code> presets <strong>are bound by TETR.IO's 512 character chat limit</strong>. If a <code>/set</code> preset calls for more than this limit, either split it up into two halves or try to truncate defaults settings out.</p>
+</section>
+
+<section id="ingeneral">
+<h1>In general</h1>
+    <p>Here are some otherwise hard to categorize mechanics. They're often misunderstood or not understood at all.</p>
+
+<h2 id="fire">Fire<span class="shorthand">fire</span></h2>
+	<p>The "fire bar" effect triggers when you build up enough "fire points" to cause it. You can accumulate fire points by clearing a large spike, keeping a large back to back chain up, or, by koing people (koing people is the most effective way to build fire points.). You also steal fire points from the people you've ko'd; you can see how filled your ko'd user's fire bar was by looking at the little percentage sign next to their name. This whole system is entirely cosmetic, and can be disabled from the settings.</p>
+
+<h2 id="characters">Character System<span class="shorthand">characters</span></h2>
+	<p>First revealed in mid-November 2020 and developed since, the prototyped "Character System" is planned to be TETR.IO's "Beta" feature.</p>
+<ul>
+	<li>For Character System conversation, please check out the <em>#Official Character System Thread</em> in <a class="lna" href="https://l.tetr.io/discord">the TETR.IO Discord server</a>. It forks off from #lobby.</li>
+	<li>Otherwise, <a class="lna" href="https://docs.google.com/document/d/1gRX1lorozF2NeJqgdkGyqrqkD-dD0wjYRimNQHGPj0w/edit">this supplementary FAQ</a> created by <a class="lna" href="https://2qb.carrd.co/" title="TwoQuantumBits's webpage">TwoQuantumBits</a> may be of use.</li>
+	<li>The above links to <a class="lna" href="https://docs.google.com/spreadsheets/d/1LjoLa3cXIp9vhmNoadk2PWRyFHFnYlOfnavs3Ga2gis/edit#gid=353436719">this in-depth, but slightly less dated, unofficial documentation</a> created by <a class="lna" href="https://www.youtube.com/channel/UC9Qal7IJul-6iC3YvYZ4Q1A" title="SigmaZero's linked YouTube page">SigmaZero</a> on the system.</li>
+	<li>If you're still skeptical to the validity of these pages, <a class="lna" href="https://characters.osk.sh/">here's documentation by osk himself</a>. <strong>Please note that this documentation is wildly out of date!</strong></li>
+</ul>
+
+<h2 id="secretgrade">Badges<span class="shorthand">secretgrade</span></h2>
+	<p>Badges are simple graphics placed on a specific and registered user's userpage or player card signifying that user's achievements. If you're looking for your first badge, go for <a class="lna" href="https://tetris.wiki/TETR.IO_Badges#Secret_Grade">the "Secret Grade" badge</a>! You can attain this badge with the solo custom game mode, with gravity disabled. If you take your time, you'll likely get it first try!</p>
+</section>
+
+<div style="margin-left: 12em;" class="disclaimer-footer">
+		© 2019—2023 osk.<br>
+		© 2021—2023 ZaptorZap.<br>
+		TETR.IO, the TETR.IO Logo, Tetra League, osk, and the osk Logo are trademarks of osk.<br>
+		All other trademarks are the property of their respective owners, trademark fair use doctrines apply.
+</div>
+</body></html>

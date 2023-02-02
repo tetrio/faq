@@ -1,0 +1,5 @@
+Where to find detailed information on TETRA LEAGUE rank requirements
+
+Interested in seeing the TETR.IO rank requirements? You may attain this information from <https://tetrio.team2xh.net/?t=ranks>, however, do note rank cutoffs are very volatile, and that this site only updates at a rate of once per every 6 hours, so this site does **__not__** host up-to-date or official information!
+
+For that, feel free to visit your TETRA CHANNEL userpage found at <https://ch.tetr.io/u/your-username-here> and inspect the TETRA LEAGUE section. While only vaguely stated, and only shown if ranked, a "progress bar" will be shown below your stats, indicating your global placement, the placement required to reach the next rank, and the placement required to *keep your current rank.*

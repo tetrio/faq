@@ -5,4 +5,6 @@
 # tetriofaq
 <img align="right" width="241" height="66" src="https://user-images.githubusercontent.com/64891705/153584070-9c19640a-29ad-459f-bd12-05866fc3706a.png">
 
-Frequently Asked TETR.IO questions, as intially imported from the "bb" bot's repository of .faq output. This repository exists mostly for Github's Wiki feature, so please **[head there now](https://github.com/ZaptorZap/tetriofaq/wiki)** to get any use out of this package. If you're interested in contributing to this project, please read [this section of the FAQ](https://github.com/ZaptorZap/tetriofaq/wiki#contributing).
+Frequently Asked TETR.IO questions, as intially imported from the "bb" bot's repository of .faq output. This repository exists mostly for the Github Pages feature, so please **[head there now](https://tetrio.github.io/faq)** to get any use out of this package.
+
+You can also read the FAQ from the repository's Wiki, although this source is **deprecated** and may be out of date.

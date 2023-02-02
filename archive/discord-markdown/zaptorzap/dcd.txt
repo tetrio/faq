@@ -1,0 +1,8 @@
+Information on the __[D]__AS __[C]__ut __[D]__elay handling value
+
+(this is the third in a series of handling related FAQ entries: `﻿ARR﻿`,`﻿DAS﻿`,**`﻿DCD﻿`**, and `﻿SDF﻿`)
+﻿
+**﻿DCD:﻿** __﻿[D]﻿__AS __﻿[C]﻿__ut __﻿[D]﻿__elay(higher is slower: 0 disables the system): An experimental and complicated handling setting, DAS Cut Delay hasn't seen much use in professional play. DAS Cut Delay introduces a set of pauses to active DAS, every time one of the two following actions occur:
+1. A piece is rotated: https://discord.com/channels/673303546107658242/673303546564968566/775479821358596116
+2. A piece is spawned: https://discord.com/channels/673303546107658242/673303546564968566/775480554027089920
+If either of these actions occur, **﻿DAS is "paused"﻿**, or "cut" for the amount of frames DCD is configured to. It primarily targets 0ARR play, and aims to make certain finesse moves possible while keeping DAS charged, as well as reducing possible misdrops. (<﻿https://tetr.io/about/patchnotes/#chlog_5_0_0﻿>)➔ A common value for it would be around 1 or 2 frames.

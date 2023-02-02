@@ -1,0 +1,9 @@
+Full guide on how-to execute successful <:piece_z:731324144700096655> and <:piece_s:731324117382594570> spins
+
+<:piece_z:731324144700096655> and <:piece_s:731324117382594570> tucks can be confusing to new players, since they rely on impulsively developed rotation systems which carry somewhat unconventional definitions of symmetry; this system, known as SRS, is likely why you're failing to execute successful <:piece_z:731324144700096655> or <:piece_s:731324117382594570> spins.
+
+**To execute a wall-less <:piece_z:731324144700096655> spin**, starting from the spawn position, press the __counter clockwise__ rotation key, then soft drop and press the __counter clockwise__ rotation key once more: (here's an easy way to remember this, assuming you have the default guideline controls: press the **"z"** key twice to **z** spin) https://files.catbox.moe/yau2oj.gif
+If there is any walls spanning across both sides, as shown in the second half of this gif, simply reverse the rotations and *press the neutral __clockwise__ rotation key twice*, instead.
+
+**To execute a wall-less <:piece_s:731324117382594570> spin**, starting from the spawn position, press the __clockwise__ rotation key, soft drop, and press the __clockwise__ rotation key once again: (many new players default to *only* rotating clockwise, as the only feasible key to rotate is the up arrow key, next to all other movement keys. This is why <:piece_s:731324117382594570> spins may appear "easier" to a new user.) https://files.catbox.moe/cvoofj.gif
+Assuming two walls exists, such as the one shown in the second half of this gif, simply reverse the rotations and *press the opposite __counter clockwise__ rotation key twice*, instead.

@@ -1,3 +1,0 @@
-How-to import TETR.IO related files and their file extensions
-
-To view a locally saved replay, simply drag and drop the file from your file manager of choice into TETR.IO. If TETR.IO fails to load the replay, please ensure the replay is correctly named, specifically: for solo replays of any sort, use the `.ttr` file extension; for multiplayer replays of any sort, use the `.ttrm` file extension; for solo custom game setting presets, use the `.ttp` file extension; and for TETR.IO config exports, use the `.ttc` file extension. https://cdn.discordapp.com/attachments/674421736162197515/890790418143395910/howto_import_a_tetrio_file.mp4
