@@ -504,11 +504,12 @@ img.ii {
 	color: #0c0c0c;
 	background-color: #DEE3FC;
 	padding: 0.1em 1.5em;
+	padding-top: 0.2em;
 	margin-bottom: 0.2em;
-	clip-path: polygon(7em 0, calc(85% - 1.25em) 0, 85% 100%, 5.7em 100%);
+	clip-path: polygon(8.8em 0, calc(85% - 1.25em) 0, 85% 100%, 7.6em 100%);
 	transition: 0.2s color, 0.2s background-color;
 	font-family: HUN;
-	font-size: 200%;
+	font-size: 150%;
 	text-decoration: none;
 }
 .pageitem {
