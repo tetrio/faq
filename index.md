@@ -1,62 +1,62 @@
-* **[[Mechanics]]** (`mechanics`)
-    * *[[TETRA LEAGUE|Mechanics#tetra-league]]*
-        * [[Rating Deviation|Mechanics#rating-deviation]] (`rd`)
-        * [[Rank Cutoffs|Mechanics#rank-cutoffs]] (`rankcutoffs`)
-    * *[[Handling|Mechanics#handling]]* (`handling`)
-        * [[Auto Repeat Rate|Mechanics#auto-repeat-rate]] (`arr`)
-        * [[Delayed Auto Shift|Mechanics#delayed-auto-shift]] (`das`)
-        * [[DAS Cut Delay|Mechanics#das-cut-delay]] (`dcd`)
-        * [[Soft Drop Factor|Mechanics#soft-drop-factor]] (`sdf`)
-            * [[Sonic Drop|Mechanics#sonic-drop]] (`sonicdrop`)
-    * *[[Super Rotation System|Mechanics#super-rotation-system]]*
-        * [[ZS Spins|Mechanics#zs-spins]] (`zspins`)
-    * *[[/set Command usage|Mechanics#set-command-usage]]*
-        * [[Automatic solutions|Mechanics#automatic-solutions]] (`setgen`)
-        * [[Manual reference|Mechanics#manual-reference]] (`setgenman`)
-    * *[[In general|Mechanics#in-general]]*
-        * [[Fire|Mechanics#fire]] (`fire`)
-        * [[Character System|Mechanics#character-system]] (`characters`)
-        * [[Badges|Mechanics#badges]] (`secretgrade`)
-* **[[Personalization]]** (`personalization`)
-    * *[[Profile Customization|Personalization#profile-customization]]*
-        * [[Registration|Personalization#registration]] (`register`)
-            * [[Logging Into Your Account|Personalization#logging-into-your-account]] (`login`)
-                * [[Resetting a Password|Personalization#resetting-a-password]]
-            * [[Anonymous Registration|Personalization#anonymous-registration]] (`registeranon`)
-        * [[Profile Pictures|Personalization#profile-pictures]] (`pfp`)
-            * [[My Profile Picture Isn't NSFW!|Personalization#my-profile-picture-isnt-nsfw]] (`notnsfw`)
-        * [[Reporting a TETR.IO User|Personalization#reporting-a-tetrio-user]] (`report`)
-            * [[Appealing an ingame ban/Getting "support"|Personalization#appealing-an-ingame-bangetting-support]] (`support`)
-        * [[Tiers of Supporter|Personalization#tiers-of-supporter]] (`supporter`)
-        * [[Who gets verified?|Personalization#who-gets-verified]] (`verified`)
-    * *[[Custom Assets|Personalization#custom-assets]]*
-        * [[Built-in Backgrounds|Personalization#built-in-backgrounds]] (`custombg`)
-            * [[Troubleshooting|Personalization#troubleshooting]]
-        * [[Custom Skins|Personalization#custom-skins]] (`customskins`)
-    * *[[Stock Assets|Personalization#stock-assets]]* (`stockassets`)
-        * [[Music|Personalization#music]] (`music`)
-        * [[Fonts|Personalization#fonts]] (`fonts`)
-        * [[Sound Effects|Personalization#sound-effects]] (`sfx`)
-        * [[Backgrounds|Personalization#backgrounds]] (`backgrounds`)
-* **[[Terminology]]** (`terminology`)
-    * *[[Ingame symbolism|Terminology#ingame-symbolism]]*
-        * [[SOLO options|Terminology#solo-options]] (`soloptions`)
-            * [["PRO MODE"|Terminology#pro-mode]] (`promode`)
-            * [["STRIDE MODE"|Terminology#stride-mode]] (`stridemode`)
-        * [[Zen Levels|Terminology#zen-levels]] (`zenlevels`)
-        * [[Network icons|Terminology#network-icons]] (`icons`)
-    * *[[Common terms|Terminology#common-terms]]*
-        * [["Plonker"|Terminology#plonker]] (`plonk`)
-        * [["Strider"|Terminology#strider]] (`strider`)
-* **[[Troubleshooting]]** (`troubleshooting`)
-    * *[[Configuration|Troubleshooting#configuration]]*
-        * [[TETR.IO->Discord Account Linking|Troubleshooting#tetrio-discord-account-linking]] (`link`)
-        * [[Controllers|Troubleshooting#controllers]] (`controller`)
-    * *[[TETR.IO Desktop Specific Troubleshooting|Troubleshooting#tetrio-desktop-specific-troubleshooting]]*
-        * [[Dedicated Graphics|Troubleshooting#dedicated-graphics]] (`dgpu`)
-        * [[Broken Installer|Troubleshooting#broken-installer]] (`installstuck`)
-        * [[Installation Locations|Troubleshooting#installation-locations]] (`installpaths`)
-        * [[Unable to launch on macOS|Troubleshooting#unable-to-launch-on-macos]] (`machelp`)
-    * *[[Replays|Troubleshooting#replays]]* (`replays`)
-        * [[Online Custom Room Replays|Troubleshooting#online-custom-room-replays]] (`ttrm`)
-    * *[[Mobile Support|Troubleshooting#mobile-support]]* (`mobile`)
+* **[[mechanics]]** (`mechanics`)
+    * *[[TETRA LEAGUE|mechanics.html#tetra-league]]*
+        * [[Rating Deviation|mechanics.html#rating-deviation]] (`rd`)
+        * [[Rank Cutoffs|mechanics.html#rank-cutoffs]] (`rankcutoffs`)
+    * *[[Handling|mechanics.html#handling]]* (`handling`)
+        * [[Auto Repeat Rate|mechanics.html#auto-repeat-rate]] (`arr`)
+        * [[Delayed Auto Shift|mechanics.html#delayed-auto-shift]] (`das`)
+        * [[DAS Cut Delay|mechanics.html#das-cut-delay]] (`dcd`)
+        * [[Soft Drop Factor|mechanics.html#soft-drop-factor]] (`sdf`)
+            * [[Sonic Drop|mechanics.html#sonic-drop]] (`sonicdrop`)
+    * *[[Super Rotation System|mechanics.html#super-rotation-system]]*
+        * [[ZS Spins|mechanics.html#zs-spins]] (`zspins`)
+    * *[[/set Command usage|mechanics.html#set-command-usage]]*
+        * [[Automatic solutions|mechanics.html#automatic-solutions]] (`setgen`)
+        * [[Manual reference|mechanics.html#manual-reference]] (`setgenman`)
+    * *[[In general|mechanics.html#in-general]]*
+        * [[Fire|mechanics.html#fire]] (`fire`)
+        * [[Character System|mechanics.html#character-system]] (`characters`)
+        * [[Badges|mechanics.html#badges]] (`secretgrade`)
+* **[[personalization]]** (`personalization`)
+    * *[[Profile Customization|personalization.html#profile-customization]]*
+        * [[Registration|personalization.html#registration]] (`register`)
+            * [[Logging Into Your Account|personalization.html#logging-into-your-account]] (`login`)
+                * [[Resetting a Password|personalization.html#resetting-a-password]]
+            * [[Anonymous Registration|personalization.html#anonymous-registration]] (`registeranon`)
+        * [[Profile Pictures|personalization.html#profile-pictures]] (`pfp`)
+            * [[My Profile Picture Isn't NSFW!|personalization.html#my-profile-picture-isnt-nsfw]] (`notnsfw`)
+        * [[Reporting a TETR.IO User|personalization.html#reporting-a-tetrio-user]] (`report`)
+            * [[Appealing an ingame ban/Getting "support"|personalization.html#appealing-an-ingame-bangetting-support]] (`support`)
+        * [[Tiers of Supporter|personalization.html#tiers-of-supporter]] (`supporter`)
+        * [[Who gets verified?|personalization.html#who-gets-verified]] (`verified`)
+    * *[[Custom Assets|personalization.html#custom-assets]]*
+        * [[Built-in Backgrounds|personalization.html#built-in-backgrounds]] (`custombg`)
+            * [[Troubleshooting|personalization.html#troubleshooting]]
+        * [[Custom Skins|personalization.html#custom-skins]] (`customskins`)
+    * *[[Stock Assets|personalization.html#stock-assets]]* (`stockassets`)
+        * [[Music|personalization.html#music]] (`music`)
+        * [[Fonts|personalization.html#fonts]] (`fonts`)
+        * [[Sound Effects|personalization.html#sound-effects]] (`sfx`)
+        * [[Backgrounds|personalization.html#backgrounds]] (`backgrounds`)
+* **[[terminology]]** (`terminology`)
+    * *[[Ingame symbolism|terminology.html#ingame-symbolism]]*
+        * [[SOLO options|terminology.html#solo-options]] (`soloptions`)
+            * [["PRO MODE"|terminology.html#pro-mode]] (`promode`)
+            * [["STRIDE MODE"|terminology.html#stride-mode]] (`stridemode`)
+        * [[Zen Levels|terminology.html#zen-levels]] (`zenlevels`)
+        * [[Network icons|terminology.html#network-icons]] (`icons`)
+    * *[[Common terms|terminology.html#common-terms]]*
+        * [["Plonker"|terminology.html#plonker]] (`plonk`)
+        * [["Strider"|terminology.html#strider]] (`strider`)
+* **[[troubleshooting]]** (`troubleshooting`)
+    * *[[Configuration|troubleshooting.html#configuration]]*
+        * [[TETR.IO->Discord Account Linking|troubleshooting.html#tetrio-discord-account-linking]] (`link`)
+        * [[Controllers|troubleshooting.html#controllers]] (`controller`)
+    * *[[TETR.IO Desktop Specific Troubleshooting|troubleshooting.html#tetrio-desktop-specific-troubleshooting]]*
+        * [[Dedicated Graphics|troubleshooting.html#dedicated-graphics]] (`dgpu`)
+        * [[Broken Installer|troubleshooting.html#broken-installer]] (`installstuck`)
+        * [[Installation Locations|troubleshooting.html#installation-locations]] (`installpaths`)
+        * [[Unable to launch on macOS|troubleshooting.html#unable-to-launch-on-macos]] (`machelp`)
+    * *[[Replays|troubleshooting.html#replays]]* (`replays`)
+        * [[Online Custom Room Replays|troubleshooting.html#online-custom-room-replays]] (`ttrm`)
+    * *[[Mobile Support|troubleshooting.html#mobile-support]]* (`mobile`)
