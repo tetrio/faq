@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>ABOUT PERSONALIZATION - TETR.IO</title>
+	<link rel="stylesheet" type="text/css" href="res/style.css">
+	<meta charset="utf-8">
+	<meta name="author" content="TETR.IO's Frequently Asked Questions">
+	<meta name="description" content="Looking to personalize TETR.IO to a greater degree? Instructions on how to do just that are in this page!">
+	<meta property="og:image" content="https://repository-images.githubusercontent.com/430313654/7b437637-79c6-461a-8118-e6e921951c41">
+	<meta property="og:description" content="Looking to personalize TETR.IO to a greater degree? Instructions on how to do just that are in this page!">
+	<meta property="og:title" content="TETR.IO's Frequently Asked Questions">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:domain" value="tetrio.github.io">
+	<meta name="twitter:description" value="Looking to personalize TETR.IO to a greater degree? Instructions on how to do just that are in this page!">
+	<meta name="twitter:image" content="https://repository-images.githubusercontent.com/430313654/7b437637-79c6-461a-8118-e6e921951c41">
+	<meta name="twitter:url" value="https://tetrio.github.io/faq">
+	<style>
+		.dangerdanger {
+			background: repeating-linear-gradient(-45deg, #960E0E, #960E0E 10px, #750A0A 10px, #750A0A 20px);
+			text-align: center !important;
+			color: #FFF;
+			font-size: 1.1em;
+		}
+		.warnwarn {
+			background: repeating-linear-gradient(-45deg, #96580E, #96580E 10px, #75490A 10px, #75490A 20px);
+			text-align: center !important;
+			color: #FFF;
+		}
+
+		.vl h1, .vl h1, .vl h2 {
+			margin: 0;
+		}
+		.vl p {
+			margin: 0;
+		}
+
+		.typetag {
+			display: inline-block;
+			padding: 0.1em 0.3em;
+			border-radius: 3px;
+			box-shadow: 0px 2px 4px #0006;
+			background-color: #7782B1;
+		}
+		.typetag ~ span {
+			color: #7782B1;
+		}
+
+		.vl li b + span {
+			color: #7782B1;
+		}
+		.vl li b + span + span {
+			color: #F31E55;
+			font-weight: 900;
+		}
+
+		code {
+			font-family: 'PFW';
+		}
+
+		.warning {
+			background-color: #2A1B16;
+			color: #FFA904;
+			border-radius: 3px;
+			padding: 0.5em 1em;
+		}
+
+		.hint {
+			background-color: #162A1C;
+			color: #04FF5D;
+			border-radius: 3px;
+			padding: 0.5em 1em;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<a class="major_item pi_play" href="https://tetr.io/">PLAY</a>
+		<a class="major_item pi_ch" href="https://ch.tetr.io/">TETRA CHANNEL</a>
+		<a class="major_item pi_about active" href="https://tetr.io/about/">ABOUT</a>
+
+		<a class="major_item_r" target="_blank" title="Support TETR.IO or gift supporter status and get cool benefits!" href="https://l.tetr.io/support">ǹ</a>
+		<a class="major_item_r" target="_blank" title="View the TETR.IO issue tracker - report bugs and pitch ideas to improve TETR.IO" href="https://github.com/tetrio/issues">Ǻ</a>
+		<a class="major_item_r" target="_blank" title="Join the TETR.IO Discord - follow updates, give feedback and have fun" href="https://l.tetr.io/discord">ǻ</a>
+		<a class="major_item_r" target="_blank" title="Follow TETR.IO on Twitter - be the first to hear about updates" href="https://twitter.com/tetriogame">Ǽ</a>
+		<a class="major_item_r" target="_blank" title="Get TETR.IO Desktop" href="https://tetr.io/about/desktop">Ǿ</a>
+	</header>
+	<img id="major_logo" src="res/logo.png">
+
+<div id="toc">
+	<h1>CONTENTS</h1>
+	<a href="#user-accounts">USER ACCOUNTS</a>
+	<a href="#register" class="indent">registration</a>
+	<a href="#login" class="indent2">logging into your account</a>
+	<a href="#passreset" class="indent3">resetting a password</a>
+	<a href="#registeranon" class="indent2">anonymous registration</a>
+	<a href="#pfp" class="indent">profile pictures</a>
+	<a href="#notnsfw" class="indent2">my profile picture isn't NSFW!</a>
+	<a href="#report" class="indent">reporting a TETR.IO user</a>
+	<a href="#appeal" class="indent2">appealing an ingame ban</a>
+	<a href="#supporter" class="indent">tiers of supporter</a>
+	<a href="#verified" class="indent">who gets verified?</a>
+	<a href="#adding-resources">ADDING RESOURCES</a>
+	<a href="#custombg" class="indent">built-in background customization</a>
+	<a href="#bg-troubleshoot" class="indent2">background troubleshooting</a>
+	<a href="#customskins" class="indent">custom skins</a>
+	<a href="#stock-resources">STOCK RESOURCES</a>
+	<a href="#music" class="indent">music</a>
+	<a href="#fonts" class="indent">fonts</a>
+	<a href="#sfx" class="indent">sound effects</a>
+	<a href="#backgrounds" class="indent">backgrounds</a>
+</div>
+
+<span class="itemlist centeralign">
+<a class="topitem" href=".">HOME</a>
+<a class="pageitem current firstpageitem" href="">PERSONALIZATION</a>
+<a class="pageitem" href="./mechanics.html">MECHANICS</a>
+<a class="pageitem" href="./troubleshooting.html">TROUBLESHOOTING</a>
+<a class="pageitem" href="./terminology.html">TERMINOLOGY</a>
+</span>
+
+<section id="#user-accounts">
+<div class="gallery" style="float: right;"><img width="369" height="450" src="res/faq/personalization/register.png"><p class="description">Annotated instructions for registration.</p><hr><img width="369" height="332" src="res/faq/personalization/login.png"><p class="description">Annotated instructions for logging into one's account.</p><hr><img width="369" height="320" src="res/faq/personalization/registeranon.png"><p class="description">Annotated instructions for the registration of an "anonymous" account.</p></div>
+<h1 id="profile-customization">User Accounts</h1>
+    <p>TETR.IO users are represented by ingame accounts, like in any other online service. <em>Registered</em> users can customize their ingame appearance through a variety of ways, both paid and unpaid. Here&#39;s some common missteps people fall in regarding customization/general usage:</p>
+
+<h2 id="register">Registration<span class="shorthand">register</h2>
+    <p>Welcome to TETR.IO! While you can play with a far less involved <a class="lna" href="#registeranon">&quot;anonymous&quot; account</a>, a fully registered account is your only ticket into the TETRA LEAGUE, saved 40 LINES and BLITZ records, access to a customizable profile card and userpage<span class="unemphasis">(such as <a class="lna" href="#pfp">profile pictures</a>)</span>, and more!</p>
+    <p><strong>To create a TETR.IO account</strong>, first, navigate to <a class="lna" href="https://tetr.io/">https://tetr.io/</a>. You will be greeted with the registration dialog immediately, provided you aren&#39;t already logged in(1). From here,</p>
+<ol>
+    <li>Enter your chosen username(1.1) and click the JOIN button(1.2). </li>
+        <li><strong>If the username is taken, you will be prompted for its password(2)</strong>: in this case, back out and choose another username(2.1). </li>
+        <li>If the username is unoccupied, you will be prompted to either &quot;STAY ANONYMOUS&quot; or &quot;REGISTER&quot;(3). </li>
+    <li>After selecting REGISTER, you will be asked to supply an optional email, as well as the password you will lock your account with(4).</li>
+</ol>
+    <p>Please note that you are only allowed one registered account as per the alt policy found at <a class="lna" href="https://tetr.io/about/rules/">https://tetr.io/about/rules/</a>! Choose your name wisely: future name changes are only available with the purchase of TETR.IO supporter.</p>
+
+<h3 id="login">Logging Into Your Account<span class="shorthand">login</span></h3>
+    <p>Logging into your registered account is easy, if not slightly obscure. The registration form doubles as a login questionnaire, so, if you know your username and password, just follow these steps!</p>
+<ol>
+    <li>When prompted to &quot;ENTER A USERNAME TO JOIN&quot;(1), enter in your registered account&#39;s username(1.1) and choose JOIN(1.2).</li>
+    <li>You&#39;ll see a section(2) asking for your password at this stage(2.1), enter that in and click LOGIN(2.2). That&#39;s it!</li>
+</ol>
+
+<h4 id="passreset">Resetting a Password<span class="shorthand">passreset</span></h4>
+    <p>If you&#39;ve forgotten your password, click I FORGOT(2.3). You&#39;ll be brought to an extra question asking you for the email tied to this account(3). Ensure you enter your email <strong>exactly as you entered it while registering!</strong> Case sensitivity doesn&#39;t matter, but do try a couple different emails before throwing in the &quot;i musta not entered an email&quot; hat!</p>
+<h3 id="registeranon">Anonymous Registration<span class="shorthand">registeranon</span></h3>
+    <p>While impeded by several limitations, &quot;anonymous&quot; accounts are integral to TETR.IO&#39;s original concept of being &quot;about as easy to join as a standard .IO game&quot;. They&#39;re also normally exempt from <a class="lna" href="https://tetr.io/about/rules/#altpolicy">the alt policy</a>, so you could have an secondary anonymous account as a registered user for controller play, for instance. All you need to make one is a <em>single</em> click on the JOIN button, if you don&#39;t mind having a non-descriptive username. Anonymous accounts <em>can</em> have customized usernames however, provided the username isn&#39;t already used by a registered account:</p>
+<ol>
+    <li>Simply enter a username(1.1) into the prompt you see while not logged into <a class="lna" href="https://tetr.io/">https://tetr.io/</a>(1), then click JOIN(1.2).</li>
+    <li><strong>If the username you chose is already in use,</strong> you&#39;ll be prompted for whoever owns that account&#39;s password(2). Please proceed to back out of this login attempt(2.1).</li>
+    <li>If the chosen username is free, simply click STAY ANONYMOUS to keep the username in an anonymous state(3)!</li>
+</ol>
+<h2 id="pfp">Profile Pictures<span class="shorthand">pfp</span></h2>
+    <p>Registered TETR.IO user accounts may set their profile pictures for free from the relevant account settings category. The attached image shows you how to access this category, available from the ingame CONFIG option:</p>
+<img class="centeralign gallery" style="margin-top: 0em" width="678" height="579" src="res/faq/personalization/changepfp.png">
+
+<h3 id="notnsfw">My Profile Picture Isn&#39;t NSFW!<span class="shorthand">notnsfw</span></h3>
+    <p>TETR.IO profile picture and banner uploads are automatically scrutinized, in accordance with <a class="lna" href="https://tetr.io/about/rules/#r8/">rule 8</a>, by an open source library, which in turn is powered by machine learning. The specific names of these projects are <code><a class="lna" href="https://github.com/infinitered/nsfwjs">NSFWJS</a></code> and <code><a class="lna" href="https://github.com/tensorflow/tensorflow">TensorFlow</a></code>, both of which are listed at the very top of <a class="lna" href="https://tetr.io/about/acknowledgements/">TETR.IO&#39;s open source acknowledgements</a>.</p>
+<p style="width: 21em;" class="tip-blue"><img class="ii" src="res/faq/tip.png"> <em>Do note that TETR.IO uses a different version of <code>NSFWJS</code> than what is on the linked website.</em></p>
+    <p>This means, at times, the automated detection process can incur a false-positive and deny you your rights to upload your otherwise safe for work imagery. There are ways around this system, but to disclose them here would be to make that information more accessible to bad actors. <strong>Just try another image.</strong>
+    Also see:</p>
+
+<figure>
+    <blockquote><p>Humans are amazing at visual identification. NSFW tries to error more on the side of things being dirty than clean. It&#39;s part of what makes failures on NSFW JS entertaining as well as practical.</p></blockquote>
+    <figcaption>— <a class="lna" href="https://nsfwjs.com/">https://nsfwjs.com/</a><figcaption>
+</figure>
+
+
+<h2 id="report">Reporting a TETR.IO User<span class="shorthand">report</span></h2>
+<div class="gallery" style="float: right;"><img width="335" height="114" src="res/faq/personalization/report.png"><p class="description">A closeup of an example player card. The <em>"Report user"</em> button is accessed after selecting <em>"More options..."</em>.</p></div>
+    <p>If you would like to report any TETR.IO user for breaking <a class="lna" href="https://tetr.io/about/rules/">the TETR.IO Community Rules</a>, please use the ingame reporting systems instead of, say, public Discord channels!</p>
+    <p>As a registered user, simply click on a suspicious, rude, or otherwise problematic user&#39;s username or usercard, or, type said user&#39;s username into the ingame TETRA CHANNEL&#39;s search bar, accessible by clicking the <em>third</em> menu option, to access their &quot;profile card&quot;. Once this card is open, simply click the arrow, and then click the report icon to begin the guided process of including details. If you report while in a room, chat logs will be automatically included. </p>
+
+<h3 id="appeal">Appealing an ingame ban<span class="shorthand">appeal</span></h3>
+    <p style="float: unset;width: 40%;" class="warning-red"><img class="ii" src="res/faq/warning.png"> <strong>DO NOT APPEAL BANS IN THE TETR.IO DISCORD!</strong><br>Your message will be ignored at best.</p>
+
+<ul>
+    <li>To contact TETR.IO support regarding an issue with your account, visit <a class="lna" href="https://tetr.io/about/support/">https://tetr.io/about/support/</a> and follow the instructions.</li>
+    <li>For live technical help, feel free to ask in <a class="lna" href="https://discord.com/channels/673303546107658242/674421736162197515">the #tetrio channel</a>, where someone may be able to help you. <ul>
+        <li>Please only do this <strong>after</strong> skimming <a class="lna" href="../Home">the FAQ topics</a>, however!</li>
+</ul>
+</li>
+    <li>If you have an issue report or a feature request, use their respective channels in <a class="lna" href="https://l.tetr.io/discord">the Discord server</a>, or open an issue at <a class="lna" href="https://github.com/tetrio/issues/issues/new/choose">the TETR.IO Issue Tracker</a>.</li>
+</ul>
+
+<h2 id="supporter">Tiers of Supporter<span class="shorthand">supporter</span></h2>
+    <p><a class="lna" href="https://l.tetr.io">TETR.IO Supporter</a> tiers are determined by your amount of <strong>total</strong> support - including purchases for yourself, gifts you&#39;ve sent to other players, and any Patreon support from the old supporter system. You can check this number by going to CONFIG &gt; ACCOUNT.</p>
+    <p>The cutoffs for each supporter tier are as follows:</p>
+<ul style="font-family: PFW">
+    <li style="color: #e0520d;">€0 &nbsp;&nbsp;| Tier 1</li>
+    <li style="color: #f07a13;">€20 &nbsp;| ★ (Tier 2)</li>
+    <li style="color: #faac38;">€80 &nbsp;| ★★ (Tier 3)</li>
+    <li style="color: #f8cf35;">€250 | ★★★ (Tier 4)</li>
+</ul>
+    <p>Once you&#39;ve achieved a supporter tier, you keep it forever. If your supporter expires, the supporter tier badge and name colour will be hidden, but will be reactivated if you purchase (or are gifted) more supporter. Furthermore, your name will be permanently listed in the game&#39;s credits when you reach 200€ of total support. Unlike other supporter benefits, this will remain even if your supporter expires.</p>
+
+<h2 id="verified">Who gets verified?<span class="shorthand">verified</span></h2>
+    <p>TETR.IO verification may be conferred for a variety of reasons — in general, staff verifies TETR.IO staff members <span class="unemphasis">(such as <a class="lna" href="https://ch.tetr.io/u/osk">OSK, developer of TETR.IO</a>)</span>, users who have obtained the Contributor role in the official TETR.IO Discord server <span class="unemphasis">(such as <a class="lna" href="https://ch.tetr.io/u/uniqmg">UNIQMG, author of the TETR.IO PLUS modification</a>)</span>, players who have obtained world-class achievements <span class="unemphasis">(such as <a class="lna" href="https://ch.tetr.io/u/vincehd">former 40L WR holder VINCEHD</a>)</span>, and individuals who have demonstrated major influence in the community <span class="unemphasis">(such as <a class="lna" href="https://ch.tetr.io/u/caboozled_pie">CABOOZLED_PIE, host of the Underdogs Cup tournament series</a>)</span>.</p>
+    <p>Additionally, there are edge cases where notable individuals outside of the TETR.IO community <span class="unemphasis">(such as <a class="lna" href="https://ch.tetr.io/u/btmc">BTMC, well known osu! streamer</a>)</span> may be verified, although this, along with all requests for verification, is considered on a case by case basis.</p>
+</section>
+
+<section id="adding-resources">
+<h1>Adding Resources</h1>
+    <p>Looking to add your own backgrounds/skins to the game? Here&#39;s how to do it!</p>
+
+<h2 id="custombg">Built-in Background Customization<span class="shorthand">custombg</span></h2>
+<p style="width: 40%;" class="tip-blue"><img class="ii" src="res/faq/tip.png"> Other image hosting sites such as <a class="lna tiplink" href="https://imgur.com/upload">Imgur</a> work too, of course, but for years now, catbox.moe has been largely unintrusive for this purpose.</p>
+    <p><strong>Q:</strong> How do I set a custom background?</p>
+    <p><strong>A:</strong> Assuming you have a local file on your computer you&#39;d like to use, just upload that file to <strong><a class="lna" href="https://catbox.moe/">catbox.moe</a></strong>. As of writing, it&#39;s free for use and simply works with TETR.IO&#39;s CORS header-requirements. </p>
+
+<h3 id="bg-troubleshoot">Background Troubleshooting<span class="bg-troubleshoot"></span></h3>
+    <p>If your image is already hosted on the net<em>(Catbox included)</em>, and you have a <em>(nonfunctional ingame)</em> link to use with TETR.IO&#39;s ingame background option, consider debugging that link with <a class="lna" href="https://you.have.fail/ed/at/tetrio/backgrounds/">this interactive checker</a>.</p>
+    <p>If this site is showing that the link <em>should work</em>, please proceed to hard-reload the game with <strong>CTRL+F5</strong> <em>(yes, even on the desktop client)</em>. After this point, navigate into a SOLO 40 LINES match to confirm the background loading.</p>
+<img class="centeralign gallery" src="res/faq/personalization/backgroundinfo.png" />
+
+<h2 id="customskins">Custom Skins<span class="shorthand">customskins</span></h2>
+<p style="width: 40%;" class="warning-red"><img class="ii" src="res/faq/warning.png"> <strong>YOU WAIVE YOUR RIGHT TO REPORT TETR.IO ISSUES WITH EXTERNAL ADDONS INSTALLED!</strong> Issue reports with addons such as TETR.IO PLUS installed, <u>even if not caused by the interference of external addons</u>, will be considered invalid and promptly removed. In extreme cases, platform bans on Discord and Github will be considered if you fail to understand these terms even after repeated removal.</p>
+    <p>TETR.IO doesn't officially support custom skins, but there are addons that implement custom skins with the leeway of being manually installed on the user's system. One such addon is called TETR.IO PLUS, and there's more information at <a class= "lna" href="https://gitlab.com/UniQMG/tetrio-plus/-/wikis/home">the open source TETR.IO PLUS GitLab wiki</a>.</p>
+
+<p>Once you have the addon installed, you may find this list of unaffiliated sites hosting graphics pertaining to the use of TETR.IO PLUS useful:</p>
+<ul>
+    <li><a class="lna" href="https://you.have.fail/ed/at/tetrioplus/">you.have.fail/ed/at/tetrioplus</a> repository of skins</li>
+    <li><a class="lna" href="https://tetrio.team2xh.net/?t=skins">Curated gallery on Tenchi&#39;s site</a></li>
+    <li><a class="lna" href="https://docs.google.com/spreadsheets/d/1xO8DTORacMmSJAQicpJscob7WUkOVuaNH0wzkR_X194/edit#gid=1212216734">Jstris Customization Database</a></li>
+</ul>
+<figcaption>As all outlined in <a class="lna" href="https://gitlab.com/UniQMG/tetrio-plus/-/wikis/finding-content">this TETR.IO PLUS wiki page dedicated to finding content</a>.</figcaption>
+<p style="width: 90%;float: unset;" class="tip-blue centeralign"><img class="ii" src="res/faq/tip.png"> Interested in influencing TETR.IO's future? Feel free to comment on <a class="lna tiplink" href="https://github.com/tetrio/issues/issues/359">this pinned TETR.IO Github issue</a> with opinions for the future of ingame customization!</p>
+</section>
+
+<section id="stock-resources">
+<h1>Stock Resources</h1>
+    <p>Looking to get a copy of TETR.IO&#39;s default assets? Here&#39;s some sources!</p>
+
+<h2 id="music">Music<span class="shorthand">music</span></h2>
+    <p>TETR.IO&#39;s soundtrack is currently entirely provided by various musicians under the royalty free <a class="lna" href="https://www.hurtrecord.com/"><em>HURT RECORD</em> label</a>—that is to say, each soundtrack <em>should</em> be stream-safe, provided you show the onscreen watermark centered near the bottom, displaying the currently playing song during the very start of gameplay. <em>Refer to <a class="lna" href="https://www.hurtrecord.com/about/terms.html">HURT RECORD&#39;s terms of service</a> for specific terms of use.</em></p>
+    <p>Interested in listening to or downloading the soundtrack for personal use? There&#39;s <a class="lna" href="https://www.youtube.com/playlist?list=PLaFmyK0hSlVD_a98eL1BcGMOTblz8kQ0h">a YouTube mirror here</a> as well as <a class="lna" href="https://docs.google.com/spreadsheets/d/1R_tpfLo_qUfNG2vQG3uqQ5fbjT01VefZVgB7RH2lOzM/edit">an up-to-date Google Sheets list here</a>, <em>both provided by EricICX.</em></p>
+
+<h2 id="fonts">Fonts<span class="shorthand">fonts</span></h2>
+<div class="gallery" style="float: right;"><img width="378" height="375" src="https://cdn.discordapp.com/attachments/674421736162197515/914184675071770664/unknown.png">Authored by osk, here's a small sheet illustrating TETR.IO's fonts.</div>
+    <p>Here&#39;s a list of all of TETR.IO&#39;s fonts, as well as where you can download them and install them. Just right click these files in the File Explorer to do that.</p>
+<ul>
+    <li>HUN-din: <a class="lna" href="https://tetr.io/res/font/hun2.ttf?v=9">https://tetr.io/res/font/hun2.ttf?v=9</a></li>
+    <li>ProFontWindows: <a class="lna" href="https://tetr.io/res/font/pfw.ttf">https://tetr.io/res/font/pfw.ttf</a></li>
+    <li>Config: <a class="lna" href="https://tetr.io/res/font/cr.ttf">https://tetr.io/res/font/cr.ttf</a></li>
+    <li>Franklin Gothic already comes with Windows, though you&#39;re specifically looking for Franklin Gothic Medium.</li>
+</ul>
+
+<h2 id="sound-effects">Sound Effects<span class="shorthand">sound-effects</span></h2>
+    <p>All of TETR.IO&#39;s sound effects are stored in a single &quot;sound effect atlas&quot; found <a class="lna" href="https://tetr.io/sfx/tetrio.ogg">here</a>. There&#39;s an issue with this file though; all sound effects are split only by time and not by file names, so it&#39;s likely this file isn&#39;t the one you want. If you would like a copy of all of the TETR.IO sounds split up, <em>albeit with an ever so slightly lower quality,</em> please download <a class="lna" href="https://cdn.discordapp.com/attachments/673303546564968566/919778936475508776/tetrio-sound-effects.zip">this <code>.zip</code> file</a>, sourced from <a class="lna" href="https://you.have.fail/ed/" title="UniQMG&#39;s homepage">UniQMG</a>&#39;s <a class="lna" href="https://gitlab.com/-/snippets/2032731">&quot;sound effects extractor&quot;</a>.</p>
+
+<h2 id="backgrounds">Backgrounds<span class="shorthand">backgrounds</span></h2>
+    <p>The backgrounds, similar to TETR.IO&#39;s music, is all royalty free and hails from <a class="lna" href="https://unsplash.com/">Unsplash</a>. You can likely get extremely similar photographs for free here and use them as your background in TETR.IO itself, if the stock ones are getting tiresome.</p>
+    <p>If you just wanted to download the default backgrounds, check out <a class="lna" href="https://docs.google.com/spreadsheets/d/1-uSNuUEFBQz6vCHOxR4gWRshWM5KQ4ZvH0xWjtMz4Yg/edit">this Google Sheets list, created by @booyah#6473</a>, which covers backgrounds from three phases of TETR.IO&#39;s lifespan so far!</p>
+</section>
+
+<div style="margin-left: 12em;" class="disclaimer-footer">
+		© 2019—2023 osk.<br>
+		© 2021—2023 ZaptorZap, Zudo, deep4amthoughts.<br>
+		TETR.IO, the TETR.IO Logo, Tetra League, osk, and the osk Logo are trademarks of osk.<br>
+		All other trademarks are the property of their respective owners, trademark fair use doctrines apply.</div>
+</body></html>
