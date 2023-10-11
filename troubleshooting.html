@@ -93,8 +93,9 @@
 	<a href="#link" class="indent">TETR.IO ➔ DISCORD account linking</a>
 	<a href="#controllers" class="indent">controllers</a>
 	<a href="#desktop">TETR.IO DESKTOP troubleshooting</a>
-	<a href="#dgpu" class="indent">dedicated graphics</a>
 	<a href="#installstuck" class="indent">frozen installer</a>
+	<a href="#dgpu" class="indent">dedicated graphics</a>
+	<a href="#backgroundcap" class="indent">unexpected very low, consistent framerate limit with NVIDIA</a>
 	<a href="#installpaths" class="indent">installation locations</a>
 	<a href="#machelp" class="indent">unable to launch on MACOS</a>
 	<a href="#replays">REPLAYS</a>
@@ -179,8 +180,12 @@
     <blockquote><p style="font-family: HUN;">TETR.IO DESKTOP IS MULTIPLE ORDERS OF MAGNITUDE FASTER THAN THE BROWSER!<br>enjoy uncapped framerates, faster startup, discord integration and more with <a class="lna" href="https://tetr.io/about/desktop/">the <strong>official</strong> desktop client</a>!</p></blockquote>
     <figcaption>— Ingame banner ad, 2021</figcaption>
 </figure>
+<h2 id="installstuck">Frozen Installer<span class="shorthand">installstuck</span></h2>
+    <p>Is your TETR.IO Desktop installation getting stuck? Here&#39;s a workaround:
+    You can use a <em>good</em> archiving program, such as <a class="lna" href="https://www.7-zip.org/download.html">7zip</a>, to manually extract the game&#39;s contents for a much more manual installation for now. Here&#39;s a quick video guide<span class="unemphasis">(really, just open the <code>.exe</code> as a compressed folder and drag stuff out!)</span>: </p>
+<div class="gallery centeralign"><img width="805" height="540" src="res/faq/troubleshooting/manual-install.gif"></div>
 
-<h3 id="dgpu">Dedicated Graphics<span class="shorthand">dgpu</span></h3>
+<h2 id="dgpu">Dedicated Graphics<span class="shorthand">dgpu</span></h2>
     <p>Are you using a laptop and getting poor performance with TETR.IO Desktop or browsers? If so, you&#39;ll want to ensure Windows is using your &quot;dedicated&quot; graphics card, as opposed to the less performant, yet more power efficient &quot;integrated&quot; graphics card Windows is likely selecting for you. You can override this autoselection by following this lengthy image guide:</p>
 <img style="width: 100%;" src="res/faq/troubleshooting/dgpu.png">
 <ul>
@@ -189,18 +194,25 @@
     <li>And, if you&#39;re a Firefox kinda guy, then you will find Firefox&#39;s executable in <code>%programfiles(x86)%\\Mozilla Firefox\\</code> or <code>%programfiles%\\Mozilla Firefox\\</code>, depending on which architecture (32 or 64 bits respectively) your computer currently has installed</li>
 </ul>
 
-<h3 id="installstuck">Frozen Installer<span class="shorthand">installstuck</span></h3>
-    <p>Is your TETR.IO Desktop installation getting stuck? Here&#39;s a workaround:
-    You can use a <em>good</em> archiving program, such as <a class="lna" href="https://www.7-zip.org/download.html">7zip</a>, to manually extract the game&#39;s contents for a much more manual installation for now. Here&#39;s a quick video guide<span class="unemphasis">(really, just open the <code>.exe</code> as a compressed folder and drag stuff out!)</span>: </p>
-<div class="gallery centeralign"><img width="805" height="540" src="res/faq/troubleshooting/manual-install.gif"></div>
+<h2 id="backgroundcap">Unexpected very low, consistent framerate limit with NVIDIA<span class="shorthand">backgroundcap</span></h2>
+	<p>NVIDIA detects TETR.IO Desktop, through and through, as a “Background Application”, leading to an artifical framerate limit being imposed on your game. You can make an exception of this behavior through the NVIDIA Control Panel, accessible from your desktop:</p>
+	<div class="gallery centeralign" style="margin-top:-0.5em"><img width="588" height="539" src="res/faq/troubleshooting/nv-control-panel.png"></div>
+	<ol>
+		<li>Right click on the desktop. The context menu should include a link to the NVIDIA Control Panel. If it does not, you may also find it by querying Windows Search. Hit the Windows key and type "NVIDIA Control Panel" to find it.</li>
+		<li>Under "3D Settings", click "Manage 3D settings".</li>
+		<li>Focus on the "Program Settings" tab.</li>
+		<li>Select TETR.IO Desktop as the program to customize. If it's not included on the dropdown list, click "Add" and supply the following file path: <code>%localappdata%\Programs\tetrio-desktop\TETR.IO.exe</code>.</li>
+		<li>Scroll to the "<b>Background Application Max Frame Rate</b>" option.</li>
+		<li>Click on the dropdown, and ensure this option is set to <b>Off</b>.</li>
+	</ol>
 
-<h3 id="machelp">Unable to launch on macOS<span class="shorthand">machelp</span></h3>
+<h2 id="machelp">Unable to launch on macOS<span class="shorthand">machelp</span></h2>
 <div style="float: right;" class="gallery"><img width="450" height="651" src="res/faq/troubleshooting/macos-error.png"><p style="margin-top: -4em" class="description">The extra buttons are only shown when TETR.IO Desktop is right clicked or control clicked.</p></div>
     <p>When trying to install TETR.IO Desktop on macOS, you may run into a message stating that the &quot;developer cannot be verified&quot;, preventing you from launching the game entirely. As long as you&#39;ve downloaded TETR.IO Desktop from a reputable source (i.e. the official download page at <a class="lna" href="https://tetr.io/about/desktop">https://tetr.io/about/desktop</a>), you can freely disregard this warning - simply <strong>right-click</strong> or <strong>control-click</strong> the TETR.IO application, and you will be greeted with a prompt as shown to the right.</p>
     <p>Click <strong>Open</strong> on this prompt. From now on, you will be able to launch TETR.IO Desktop normally without any further issues!</p>
     <p>Still running into trouble? Visit <code>System Preferences &gt; Security &amp; Privacy &gt; General</code> (macOS 12 and below) or <code>System Settings &gt; Privacy &amp; Security</code> (macOS 13), then click <strong>Open Anyway</strong> when prompted.</p>
 
-<h3 id="installpaths">Installation Locations<span class="shorthand">installpaths</span></h3>
+<h2 id="installpaths">Installation Locations<span class="shorthand">installpaths</span></h2>
     <p>If you use TETR.IO Desktop, then you will find all installed files in the following folders: Use <code>Windows+R</code> and paste the following paths into the <strong>r</strong>un dialog that opens</p>
 <ul>
     <li><code>%localappdata%\Programs\tetrio-desktop</code>
